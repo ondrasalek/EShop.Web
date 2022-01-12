@@ -1,0 +1,128 @@
+@using Salek.EShop.Web.Models.Extensions
+@model Salek.EShop.Web.Models.Entity.Order
+
+@{
+    Layout = null;
+    ViewData["Title"] = "Invoice";
+}
+<html lang="cs">
+    <title>@ViewData["Title"] #@Model.ID - Salek EShop</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+</html>
+<body style="
+    margin: 2rem;
+    padding: 10px;
+    border: #555555 solid 1px;
+">
+    <h1 class="text-center">@ViewData["Title"]</h1>
+    <br />
+    <section class="container-fluid ">
+        <div id="ui-view" data-select2-id="ui-view">
+            <div>
+                <div class="card">
+                    <div class="card-header">Invoice
+                        <strong>#@Model.ID</strong>
+                        <a class="btn btn-sm btn-secondary float-right mr-1 d-print-none" href="#" onclick="window.print();" data-abc="true">
+                            <i class="fa fa-print"></i> Print</a>
+                        <a class="btn btn-sm btn-info float-right mr-1 d-print-none" href="#" data-abc="true">
+                            @* TODO SAVING*@
+                            <i class="fa fa-save"></i> Save
+                        </a>
+                        <a class="btn btn-sm btn-warning float-right mr-1 d-print-none" href="mailto: @Model.User.Email" data-abc="true">
+                            <i class="fa fa-save"></i> Send to email</a>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-4">
+                            <div class="col-sm-4">
+                                <h6 class="mb-3">From:</h6>
+                                <div>
+                                    <strong>Salek EShop</strong>
+                                </div>
+                                <div>Address: </div>
+                                <div>Email: admin@admin.cz</div>
+                                <div>Phone: </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <h6 class="mb-3">To:</h6>
+                                <strong>@Model.User.FirstName @Model.User.LastName</strong>
+                                <div>Email: @Model.User.Email</div>
+                                <div>Phone: @Model.User.PhoneNumber</div>
+                            </div>
+                            <div class="col-sm-4">
+                                <h6 class="mb-3">Details:</h6>
+                                <div>Invoice
+                                    <strong>#@Model.ID</strong>
+                                </div>
+                                <div>Date: @Model.DateTimeCreated</div>
+                                <div>Account: @Model.User.UserName</div>
+                            </div>
+                        </div>
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>#</th> @* TODO *@
+                                <th>@nameof(ProductItem.Name)</th>
+                                <th>@nameof(ProductItem.Description)</th>
+                                <th>@nameof(OrderItem.Amount)</th>
+                                <th>@nameof(OrderItem.Price)</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            @{
+                                foreach (var item in Model.OrderItems)
+                                {
+ 
+                                     <tr> 
+                                         <td>#</td> 
+                                         <td class="">@item.Product.Name</td> 
+                                         <td class="">@item.Product.Description</td> 
+                                         <td>@item.Amount</td> 
+                                         <td>
+                                             @{
+                                                 double price = @item.Price;
+                                                 string priceS = "Price";
+                                                 if (Context.Session.IsAvailable && Context.Session.Keys.Contains(priceS))
+                                                 {
+                                                     price = Context.Session.GetDouble(priceS).GetValueOrDefault();
+                                                 }
+                                                 @price.ToString("C2")
+                                             }
+                                         </td> 
+                                     </tr> 
+                                 } 
+                             } 
+                            </tbody>
+                        </table>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-5 ml-auto">
+                                <table class="table table-clear">
+                                    <tbody>
+                                    <tr>
+                                        <td class="left">
+                                            <strong>Total Price</strong>
+                                        </td>
+                                        <td class="right">
+                                            @{
+                                                double priceNum = Model.TotalPrice;
+                                                string totalPrice = "TotalPrice";
+                                                if (Context.Session.IsAvailable && Context.Session.Keys.Contains(totalPrice))
+                                                {
+                                                    priceNum = Context.Session.GetDouble(totalPrice).GetValueOrDefault();
+                                                }
+                                                <strong>@priceNum.ToString("C2")</strong>
+                                            }
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div >Thanks for Buying this items from us.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>

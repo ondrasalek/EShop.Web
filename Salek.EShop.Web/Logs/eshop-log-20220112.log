@@ -1,0 +1,737 @@
+2022-01-12T07:47:57.9258370+01:00  [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:47:58.7183210+01:00  [INF] Executed DbCommand ("81"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Salek.EShop'" (0723d8ff)
+2022-01-12T07:47:59.1247920+01:00  [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-12T07:47:59.1372360+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-12T07:47:59.4368460+01:00  [INF] Executed DbCommand ("31"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:47:59.5592610+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-12T07:47:59.6036290+01:00  [INF] Executed DbCommand ("13"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:47:59.6182880+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-12T07:47:59.6291410+01:00  [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:47:59.6296660+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-12T07:47:59.6931930+01:00  [INF] User profile is available. Using '"/Users/osalek/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest. (a162847e)
+2022-01-12T07:47:59.7406140+01:00  [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:47:59.8941990+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:48:00.2133420+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2022-01-12T07:48:00.2134220+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-01-12T07:48:00.2136280+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-01-12T07:48:00.2136690+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-01-12T07:48:00.2136930+01:00  [INF] Content root path: "/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web" (b5d60022)
+2022-01-12T07:48:10.4397250+01:00 0HMELITVKE3VP:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - - (ca22a1cb)
+2022-01-12T07:48:10.5078930+01:00 0HMELITVKE3VP:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 307 0 - 86.0609ms (791a596a)
+2022-01-12T07:48:10.5212030+01:00 0HMELITVKE3VQ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - - (ca22a1cb)
+2022-01-12T07:48:10.5222400+01:00 0HMELITVKE3VQ:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 307 0 - 0.9454ms (791a596a)
+2022-01-12T07:48:11.4410030+01:00 0HMELITVKE3VR:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-12T07:48:12.0560430+01:00 0HMELITVKE3VR:00000002 [INF] Executing endpoint '"Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:48:12.1787470+01:00 0HMELITVKE3VR:00000002 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Salek.EShop.Web.Controllers.HomeController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:48:12.1974700+01:00 0HMELITVKE3VR:00000002 [INF] Index viewed (84b92a55)
+2022-01-12T07:48:12.2112610+01:00 0HMELITVKE3VR:00000002 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:48:12.2866510+01:00 0HMELITVKE3VR:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`Id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-12T07:48:12.3671310+01:00 0HMELITVKE3VR:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-12T07:48:12.4578280+01:00 0HMELITVKE3VS:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-12T07:48:12.4603030+01:00 0HMELITVKE3VS:00000002 [INF] Executing endpoint '"Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:48:12.4611360+01:00 0HMELITVKE3VS:00000002 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Salek.EShop.Web.Controllers.HomeController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:48:12.4684900+01:00 0HMELITVKE3VS:00000002 [INF] Index viewed (84b92a55)
+2022-01-12T07:48:12.7013060+01:00 0HMELITVKE3VS:00000002 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:48:12.7106880+01:00 0HMELITVKE3VS:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`Id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-12T07:48:12.7159090+01:00 0HMELITVKE3VS:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-12T07:48:12.7433860+01:00 0HMELITVKE3VR:00000002 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-12T07:48:12.7435040+01:00 0HMELITVKE3VS:00000002 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-12T07:48:12.9712540+01:00 0HMELITVKE3VS:00000002 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:48:12.9712760+01:00 0HMELITVKE3VR:00000002 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:48:13.3000610+01:00 0HMELITVKE3VS:00000002 [INF] Executed ViewResult - view "Index" executed in 556.3175ms. (f66409e9)
+2022-01-12T07:48:13.3006350+01:00 0HMELITVKE3VR:00000002 [INF] Executed ViewResult - view "Index" executed in 576.8957ms. (f66409e9)
+2022-01-12T07:48:13.3024790+01:00 0HMELITVKE3VR:00000002 [INF] Executed action "Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)" in 1121.2418ms (afa2e885)
+2022-01-12T07:48:13.3030270+01:00 0HMELITVKE3VR:00000002 [INF] Executed endpoint '"Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:48:13.3030430+01:00 0HMELITVKE3VS:00000002 [INF] Executed action "Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)" in 839.3933ms (afa2e885)
+2022-01-12T07:48:13.3031400+01:00 0HMELITVKE3VS:00000002 [INF] Executed endpoint '"Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:48:13.3293470+01:00 0HMELITVKE3VS:00000002 [INF] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 871.4568ms (791a596a)
+2022-01-12T07:48:13.3319180+01:00 0HMELITVKE3VR:00000002 [INF] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 1888.7576ms (791a596a)
+2022-01-12T07:48:13.4452160+01:00 0HMELITVKE3VS:00000003 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - (ca22a1cb)
+2022-01-12T07:48:13.4660300+01:00 0HMELITVKE3VS:00000003 [INF] The file "/lib/bootstrap/dist/css/bootstrap.min.css" was not modified (f1f8d725)
+2022-01-12T07:48:13.4693270+01:00 0HMELITVKE3VS:00000003 [INF] Request finished HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 24.0587ms (791a596a)
+2022-01-12T07:48:13.4737650+01:00 0HMELITVKE3VS:00000004 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/site.css - - (ca22a1cb)
+2022-01-12T07:48:13.5376270+01:00 0HMELITVKE3VS:00000004 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/wwwroot/css/site.css"' (27b0a520)
+2022-01-12T07:48:13.5400470+01:00 0HMELITVKE3VS:00000004 [INF] Request finished HTTP/1.1 GET https://localhost:5001/css/site.css - - - 200 1940 text/css 66.2873ms (791a596a)
+2022-01-12T07:48:13.5437330+01:00 0HMELITVKE3VU:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/shop_homepage.css - - (ca22a1cb)
+2022-01-12T07:48:13.5442470+01:00 0HMELITVKE3VU:00000002 [INF] The file "/css/shop_homepage.css" was not modified (f1f8d725)
+2022-01-12T07:48:13.5448490+01:00 0HMELITVKE3VU:00000002 [INF] Request finished HTTP/1.1 GET https://localhost:5001/css/shop_homepage.css - - - 304 - text/css 1.0904ms (791a596a)
+2022-01-12T07:48:13.6081520+01:00 0HMELITVKE3VS:00000005 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/vanilla-tilt.js - - (ca22a1cb)
+2022-01-12T07:48:13.6129920+01:00 0HMELITVKE3VU:00000003 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - - (ca22a1cb)
+2022-01-12T07:48:13.6134380+01:00 0HMELITVKE3VS:00000005 [INF] Sending file. Request path: '"/js/vanilla-tilt.js"'. Physical path: '"/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/wwwroot/js/vanilla-tilt.js"' (27b0a520)
+2022-01-12T07:48:13.6135550+01:00 0HMELITVKE3VU:00000003 [INF] The file "/lib/jquery/dist/jquery.min.js" was not modified (f1f8d725)
+2022-01-12T07:48:13.6137020+01:00 0HMELITVKE3VS:00000005 [INF] Request finished HTTP/1.1 GET https://localhost:5001/js/vanilla-tilt.js - - - 200 15576 application/javascript 5.5918ms (791a596a)
+2022-01-12T07:48:13.6138750+01:00 0HMELITVKE3VU:00000003 [INF] Request finished HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 0.9158ms (791a596a)
+2022-01-12T07:48:13.6671920+01:00 0HMELITVKE3VS:00000006 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - (ca22a1cb)
+2022-01-12T07:48:13.6677000+01:00 0HMELITVKE3VS:00000006 [INF] The file "/lib/bootstrap/dist/js/bootstrap.bundle.min.js" was not modified (f1f8d725)
+2022-01-12T07:48:13.6681920+01:00 0HMELITVKE3VS:00000006 [INF] Request finished HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 0.8374ms (791a596a)
+2022-01-12T07:48:13.6746910+01:00 0HMELITVKE3VS:00000007 [INF] Request starting HTTP/1.1 GET https://localhost:5001/img/carousel/image3.jpg - - (ca22a1cb)
+2022-01-12T07:48:13.6757080+01:00 0HMELITVKE3VU:00000004 [INF] Request starting HTTP/1.1 GET https://localhost:5001/js/Product.js - - (ca22a1cb)
+2022-01-12T07:48:13.6767740+01:00 0HMELITVKE3VU:00000004 [INF] Sending file. Request path: '"/js/Product.js"'. Physical path: '"/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/wwwroot/js/Product.js"' (27b0a520)
+2022-01-12T07:48:13.6771060+01:00 0HMELITVKE3VU:00000004 [INF] Request finished HTTP/1.1 GET https://localhost:5001/js/Product.js - - - 200 743 application/javascript 1.2870ms (791a596a)
+2022-01-12T07:48:13.6950220+01:00 0HMELITVKE3VU:00000005 [INF] Request starting HTTP/1.1 GET https://localhost:5001/img/product/Rombas9.jpeg - - (ca22a1cb)
+2022-01-12T07:48:13.6992520+01:00 0HMELITVKE3VU:00000005 [INF] Sending file. Request path: '"/img/product/Rombas9.jpeg"'. Physical path: '"/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/wwwroot/img/product/Rombas9.jpeg"' (27b0a520)
+2022-01-12T07:48:13.6995670+01:00 0HMELITVKE3VU:00000005 [INF] Request finished HTTP/1.1 GET https://localhost:5001/img/product/Rombas9.jpeg - - - 200 42787 image/jpeg 4.5293ms (791a596a)
+2022-01-12T07:48:13.7040560+01:00 0HMELITVKE3VT:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/img/product/ETA Raggio.jpeg - - (ca22a1cb)
+2022-01-12T07:48:13.7068970+01:00 0HMELITVKE3VT:00000002 [INF] Sending file. Request path: '"/img/product/ETA Raggio.jpeg"'. Physical path: '"/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/wwwroot/img/product/ETA Raggio.jpeg"' (27b0a520)
+2022-01-12T07:48:13.7076060+01:00 0HMELITVKE3VT:00000002 [INF] Request finished HTTP/1.1 GET https://localhost:5001/img/product/ETA Raggio.jpeg - - - 200 43846 image/jpeg 3.5998ms (791a596a)
+2022-01-12T07:48:13.7195290+01:00 0HMELITVKE3VU:00000006 [INF] Request starting HTTP/1.1 GET https://localhost:5001/img/product/Roborock tyčový vysavač H7.jpeg - - (ca22a1cb)
+2022-01-12T07:48:13.7211940+01:00 0HMELITVKE3VU:00000006 [INF] Sending file. Request path: '"/img/product/Roborock tyčový vysavač H7.jpeg"'. Physical path: '"/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/wwwroot/img/product/Roborock tyčový vysavač H7.jpeg"' (27b0a520)
+2022-01-12T07:48:13.7215520+01:00 0HMELITVKE3VU:00000006 [INF] Request finished HTTP/1.1 GET https://localhost:5001/img/product/Roborock tyčový vysavač H7.jpeg - - - 200 54326 image/jpeg 1.9699ms (791a596a)
+2022-01-12T07:48:13.7286780+01:00 0HMELITVKE3VT:00000003 [INF] Request starting HTTP/1.1 GET https://localhost:5001/img/product/Xiaomi Roidmi EVE Plus .jpeg - - (ca22a1cb)
+2022-01-12T07:48:13.7306040+01:00 0HMELITVKE3VT:00000003 [INF] Sending file. Request path: '"/img/product/Xiaomi Roidmi EVE Plus .jpeg"'. Physical path: '"/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/wwwroot/img/product/Xiaomi Roidmi EVE Plus .jpeg"' (27b0a520)
+2022-01-12T07:48:13.7308870+01:00 0HMELITVKE3VT:00000003 [INF] Request finished HTTP/1.1 GET https://localhost:5001/img/product/Xiaomi Roidmi EVE Plus .jpeg - - - 200 48767 image/jpeg 2.2284ms (791a596a)
+2022-01-12T07:48:13.7337460+01:00 0HMELITVKE3VS:00000007 [INF] Sending file. Request path: '"/img/carousel/image3.jpg"'. Physical path: '"/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/wwwroot/img/carousel/image3.jpg"' (27b0a520)
+2022-01-12T07:48:13.7339940+01:00 0HMELITVKE3VS:00000007 [INF] Request finished HTTP/1.1 GET https://localhost:5001/img/carousel/image3.jpg - - - 200 809849 image/jpeg 59.3051ms (791a596a)
+2022-01-12T07:48:13.7454220+01:00 0HMELITVKE3VU:00000007 [INF] Request starting HTTP/1.1 GET https://localhost:5001/img/product/Roborock S7 White.jpeg - - (ca22a1cb)
+2022-01-12T07:48:13.7470550+01:00 0HMELITVKE3VU:00000007 [INF] Sending file. Request path: '"/img/product/Roborock S7 White.jpeg"'. Physical path: '"/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/wwwroot/img/product/Roborock S7 White.jpeg"' (27b0a520)
+2022-01-12T07:48:13.7474270+01:00 0HMELITVKE3VU:00000007 [INF] Request finished HTTP/1.1 GET https://localhost:5001/img/product/Roborock S7 White.jpeg - - - 200 36494 image/jpeg 2.0320ms (791a596a)
+2022-01-12T07:48:13.7561260+01:00 0HMELITVKE3VT:00000004 [INF] Request starting HTTP/1.1 GET https://localhost:5001/img/product/Concept VR1000.jpeg - - (ca22a1cb)
+2022-01-12T07:48:13.7583810+01:00 0HMELITVKE3VT:00000004 [INF] Sending file. Request path: '"/img/product/Concept VR1000.jpeg"'. Physical path: '"/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/wwwroot/img/product/Concept VR1000.jpeg"' (27b0a520)
+2022-01-12T07:48:13.7586530+01:00 0HMELITVKE3VT:00000004 [INF] Request finished HTTP/1.1 GET https://localhost:5001/img/product/Concept VR1000.jpeg - - - 200 43955 image/jpeg 2.5872ms (791a596a)
+2022-01-12T07:48:13.9426060+01:00 0HMELITVKE3VS:00000008 [INF] Request starting HTTP/1.1 GET https://localhost:5001/img/parallax.png - - (ca22a1cb)
+2022-01-12T07:48:13.9973130+01:00 0HMELITVKE3VS:00000008 [INF] Sending file. Request path: '"/img/parallax.png"'. Physical path: '"/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/wwwroot/img/parallax.png"' (27b0a520)
+2022-01-12T07:48:13.9976530+01:00 0HMELITVKE3VS:00000008 [INF] Request finished HTTP/1.1 GET https://localhost:5001/img/parallax.png - - - 200 4202061 image/png 55.0961ms (791a596a)
+2022-01-12T07:48:14.3968900+01:00 0HMELITVKE3VS:00000009 [INF] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico - - (ca22a1cb)
+2022-01-12T07:48:14.3972710+01:00 0HMELITVKE3VS:00000009 [INF] The file "/favicon.ico" was not modified (f1f8d725)
+2022-01-12T07:48:14.3975590+01:00 0HMELITVKE3VS:00000009 [INF] Request finished HTTP/1.1 GET https://localhost:5001/favicon.ico - - - 304 - image/x-icon 0.7303ms (791a596a)
+2022-01-12T07:48:19.9458530+01:00 0HMELITVKE3VS:0000000A [INF] Request starting HTTP/1.1 GET https://localhost:5001/Security/Account/Login - - (ca22a1cb)
+2022-01-12T07:48:19.9539380+01:00 0HMELITVKE3VS:0000000A [INF] Executing endpoint '"Salek.EShop.Web.Areas.Security.Controllers.AccountController.Login (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:48:19.9576280+01:00 0HMELITVKE3VS:0000000A [INF] Route matched with "{area = \"Security\", action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "Salek.EShop.Web.Areas.Security.Controllers.AccountController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:48:19.9646210+01:00 0HMELITVKE3VS:0000000A [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2022-01-12T07:48:20.0239510+01:00 0HMELITVKE3VS:0000000A [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:48:20.0291390+01:00 0HMELITVKE3VS:0000000A [INF] Executed ViewResult - view "Login" executed in 66.4302ms. (f66409e9)
+2022-01-12T07:48:20.0292400+01:00 0HMELITVKE3VS:0000000A [INF] Executed action "Salek.EShop.Web.Areas.Security.Controllers.AccountController.Login (Salek.EShop.Web)" in 71.5169ms (afa2e885)
+2022-01-12T07:48:20.0293450+01:00 0HMELITVKE3VS:0000000A [INF] Executed endpoint '"Salek.EShop.Web.Areas.Security.Controllers.AccountController.Login (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:48:20.0297750+01:00 0HMELITVKE3VS:0000000A [INF] Request finished HTTP/1.1 GET https://localhost:5001/Security/Account/Login - - - 200 - text/html;+charset=utf-8 83.9466ms (791a596a)
+2022-01-12T07:48:23.8456690+01:00 0HMELITVKE3VS:0000000B [INF] Request starting HTTP/1.1 POST https://localhost:5001/Security/Account/Login application/x-www-form-urlencoded 216 (ca22a1cb)
+2022-01-12T07:48:23.8497320+01:00 0HMELITVKE3VS:0000000B [INF] Executing endpoint '"Salek.EShop.Web.Areas.Security.Controllers.AccountController.Login (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:48:23.8790500+01:00 0HMELITVKE3VS:0000000B [INF] Route matched with "{area = \"Security\", action = \"Login\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Salek.EShop.Web.Models.ViewModels.LoginViewModel)" on controller "Salek.EShop.Web.Areas.Security.Controllers.AccountController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:48:23.9253690+01:00 0HMELITVKE3VS:0000000B [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:48:23.9276600+01:00 0HMELITVKE3VS:0000000B [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:48:23.9430010+01:00 0HMELITVKE3VS:0000000B [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2022-01-12T07:48:23.9453310+01:00 0HMELITVKE3VS:0000000B [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:48:23.9457140+01:00 0HMELITVKE3VS:0000000B [INF] Executed ViewResult - view "Login" executed in 2.7849ms. (f66409e9)
+2022-01-12T07:48:23.9477040+01:00 0HMELITVKE3VS:0000000B [INF] Executed action "Salek.EShop.Web.Areas.Security.Controllers.AccountController.Login (Salek.EShop.Web)" in 68.5385ms (afa2e885)
+2022-01-12T07:48:23.9488770+01:00 0HMELITVKE3VS:0000000B [INF] Executed endpoint '"Salek.EShop.Web.Areas.Security.Controllers.AccountController.Login (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:48:23.9523900+01:00 0HMELITVKE3VS:0000000B [INF] Request finished HTTP/1.1 POST https://localhost:5001/Security/Account/Login application/x-www-form-urlencoded 216 - 200 - text/html;+charset=utf-8 106.7433ms (791a596a)
+2022-01-12T07:48:30.2617300+01:00 0HMELITVKE3VS:0000000C [INF] Request starting HTTP/1.1 POST https://localhost:5001/Security/Account/Login application/x-www-form-urlencoded 210 (ca22a1cb)
+2022-01-12T07:48:30.2622280+01:00 0HMELITVKE3VS:0000000C [INF] Executing endpoint '"Salek.EShop.Web.Areas.Security.Controllers.AccountController.Login (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:48:30.2623960+01:00 0HMELITVKE3VS:0000000C [INF] Route matched with "{area = \"Security\", action = \"Login\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Salek.EShop.Web.Models.ViewModels.LoginViewModel)" on controller "Salek.EShop.Web.Areas.Security.Controllers.AccountController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:48:30.2791020+01:00 0HMELITVKE3VS:0000000C [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:48:30.2811630+01:00 0HMELITVKE3VS:0000000C [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:48:30.4357550+01:00 0HMELITVKE3VS:0000000C [INF] Executed DbCommand ("3"ms) [Parameters=["@__user_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`ClaimType`, `u`.`ClaimValue`, `u`.`UserId`
+FROM `UserClaims` AS `u`
+WHERE `u`.`UserId` = @__user_Id_0" (0723d8ff)
+2022-01-12T07:48:30.4725670+01:00 0HMELITVKE3VS:0000000C [INF] Executed DbCommand ("2"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Name`
+FROM `UserRoles` AS `u`
+INNER JOIN `Roles` AS `r` ON `u`.`RoleId` = `r`.`Id`
+WHERE `u`.`UserId` = @__userId_0" (0723d8ff)
+2022-01-12T07:48:30.4765970+01:00 0HMELITVKE3VS:0000000C [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:48:30.4852820+01:00 0HMELITVKE3VS:0000000C [INF] Executed DbCommand ("1"ms) [Parameters=["@__role_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`ClaimType`, `r`.`ClaimValue`
+FROM `RoleClaims` AS `r`
+WHERE `r`.`RoleId` = @__role_Id_0" (0723d8ff)
+2022-01-12T07:48:30.4871680+01:00 0HMELITVKE3VS:0000000C [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:48:30.4892390+01:00 0HMELITVKE3VS:0000000C [INF] Executed DbCommand ("0"ms) [Parameters=["@__role_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`ClaimType`, `r`.`ClaimValue`
+FROM `RoleClaims` AS `r`
+WHERE `r`.`RoleId` = @__role_Id_0" (0723d8ff)
+2022-01-12T07:48:30.4905090+01:00 0HMELITVKE3VS:0000000C [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:48:30.4917680+01:00 0HMELITVKE3VS:0000000C [INF] Executed DbCommand ("0"ms) [Parameters=["@__role_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`ClaimType`, `r`.`ClaimValue`
+FROM `RoleClaims` AS `r`
+WHERE `r`.`RoleId` = @__role_Id_0" (0723d8ff)
+2022-01-12T07:48:30.5069630+01:00 0HMELITVKE3VS:0000000C [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2022-01-12T07:48:30.5123170+01:00 0HMELITVKE3VS:0000000C [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2022-01-12T07:48:30.5126010+01:00 0HMELITVKE3VS:0000000C [INF] Executed action "Salek.EShop.Web.Areas.Security.Controllers.AccountController.Login (Salek.EShop.Web)" in 249.8588ms (afa2e885)
+2022-01-12T07:48:30.5126770+01:00 0HMELITVKE3VS:0000000C [INF] Executed endpoint '"Salek.EShop.Web.Areas.Security.Controllers.AccountController.Login (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:48:30.5130640+01:00 0HMELITVKE3VS:0000000C [INF] Request finished HTTP/1.1 POST https://localhost:5001/Security/Account/Login application/x-www-form-urlencoded 210 - 302 0 - 251.1664ms (791a596a)
+2022-01-12T07:48:30.5179290+01:00 0HMELITVKE3VS:0000000D [INF] Request starting HTTP/1.1 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-12T07:48:30.5216830+01:00 0HMELITVKE3VS:0000000D [INF] Executing endpoint '"Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:48:30.5218140+01:00 0HMELITVKE3VS:0000000D [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Salek.EShop.Web.Controllers.HomeController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:48:30.5219030+01:00 0HMELITVKE3VS:0000000D [INF] Index viewed (84b92a55)
+2022-01-12T07:48:30.5222400+01:00 0HMELITVKE3VS:0000000D [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:48:30.5234410+01:00 0HMELITVKE3VS:0000000D [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`Id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-12T07:48:30.5245660+01:00 0HMELITVKE3VS:0000000D [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-12T07:48:30.5249230+01:00 0HMELITVKE3VS:0000000D [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-12T07:48:30.5259340+01:00 0HMELITVKE3VS:0000000D [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:48:30.5344870+01:00 0HMELITVKE3VS:0000000D [INF] Executed ViewResult - view "Index" executed in 9.5114ms. (f66409e9)
+2022-01-12T07:48:30.5346080+01:00 0HMELITVKE3VS:0000000D [INF] Executed action "Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)" in 12.7309ms (afa2e885)
+2022-01-12T07:48:30.5346390+01:00 0HMELITVKE3VS:0000000D [INF] Executed endpoint '"Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:48:30.5347790+01:00 0HMELITVKE3VS:0000000D [INF] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 16.8384ms (791a596a)
+2022-01-12T07:48:35.1862900+01:00 0HMELITVKE3VS:0000000E [INF] Request starting HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrders - - (ca22a1cb)
+2022-01-12T07:48:35.2019920+01:00 0HMELITVKE3VS:0000000E [INF] Authorization was successful. (0d575a54)
+2022-01-12T07:48:35.2031990+01:00 0HMELITVKE3VS:0000000E [INF] Executing endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:48:35.2092870+01:00 0HMELITVKE3VS:0000000E [INF] Route matched with "{area = \"Customer\", action = \"Index\", controller = \"CustomerOrders\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:48:35.2196560+01:00 0HMELITVKE3VS:0000000E [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:48:35.2462480+01:00 0HMELITVKE3VS:0000000E [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:48:35.3735420+01:00 0HMELITVKE3VS:0000000E [INF] Executed DbCommand ("15"ms) [Parameters=["@__currentUser_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `o`.`ID`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`, `t`.`ID`, `t`.`Amount`, `t`.`OrderID`, `t`.`Price`, `t`.`ProductID`, `t`.`Id0`, `t`.`Description`, `t`.`ImageAlt`, `t`.`ImageSource`, `t`.`Name`, `t`.`Price0`
+FROM `Order` AS `o`
+INNER JOIN `Users` AS `u` ON `o`.`UserId` = `u`.`Id`
+LEFT JOIN (
+    SELECT `o0`.`ID`, `o0`.`Amount`, `o0`.`OrderID`, `o0`.`Price`, `o0`.`ProductID`, `p`.`Id` AS `Id0`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `ProductItem` AS `p` ON `o0`.`ProductID` = `p`.`Id`
+) AS `t` ON `o`.`ID` = `t`.`OrderID`
+WHERE `o`.`UserId` = @__currentUser_Id_0
+ORDER BY `o`.`ID`, `u`.`Id`, `t`.`ID`, `t`.`Id0`" (0723d8ff)
+2022-01-12T07:48:35.4600530+01:00 0HMELITVKE3VS:0000000E [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-12T07:48:35.4794630+01:00 0HMELITVKE3VS:0000000E [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:48:35.4802900+01:00 0HMELITVKE3VS:0000000E [INF] Executed ViewResult - view "Index" executed in 22.2776ms. (f66409e9)
+2022-01-12T07:48:35.4805060+01:00 0HMELITVKE3VS:0000000E [INF] Executed action "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Salek.EShop.Web)" in 271.1234ms (afa2e885)
+2022-01-12T07:48:35.4806580+01:00 0HMELITVKE3VS:0000000E [INF] Executed endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:48:35.4837900+01:00 0HMELITVKE3VS:0000000E [INF] Request finished HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrders - - - 200 - text/html;+charset=utf-8 297.5358ms (791a596a)
+2022-01-12T07:48:48.1277860+01:00 0HMELITVKE3VS:0000000F [INF] Request starting HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrders - - (ca22a1cb)
+2022-01-12T07:48:48.1323230+01:00 0HMELITVKE3VS:0000000F [INF] Authorization was successful. (0d575a54)
+2022-01-12T07:48:48.1324720+01:00 0HMELITVKE3VS:0000000F [INF] Executing endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:48:48.1327230+01:00 0HMELITVKE3VS:0000000F [INF] Route matched with "{area = \"Customer\", action = \"Index\", controller = \"CustomerOrders\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:48:48.1332570+01:00 0HMELITVKE3VS:0000000F [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:48:48.1368780+01:00 0HMELITVKE3VS:0000000F [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:48:48.1404240+01:00 0HMELITVKE3VS:0000000F [INF] Executed DbCommand ("2"ms) [Parameters=["@__currentUser_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `o`.`ID`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`, `t`.`ID`, `t`.`Amount`, `t`.`OrderID`, `t`.`Price`, `t`.`ProductID`, `t`.`Id0`, `t`.`Description`, `t`.`ImageAlt`, `t`.`ImageSource`, `t`.`Name`, `t`.`Price0`
+FROM `Order` AS `o`
+INNER JOIN `Users` AS `u` ON `o`.`UserId` = `u`.`Id`
+LEFT JOIN (
+    SELECT `o0`.`ID`, `o0`.`Amount`, `o0`.`OrderID`, `o0`.`Price`, `o0`.`ProductID`, `p`.`Id` AS `Id0`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `ProductItem` AS `p` ON `o0`.`ProductID` = `p`.`Id`
+) AS `t` ON `o`.`ID` = `t`.`OrderID`
+WHERE `o`.`UserId` = @__currentUser_Id_0
+ORDER BY `o`.`ID`, `u`.`Id`, `t`.`ID`, `t`.`Id0`" (0723d8ff)
+2022-01-12T07:48:48.1416690+01:00 0HMELITVKE3VS:0000000F [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-12T07:48:48.1426190+01:00 0HMELITVKE3VS:0000000F [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:48:48.1430330+01:00 0HMELITVKE3VS:0000000F [INF] Executed ViewResult - view "Index" executed in 1.421ms. (f66409e9)
+2022-01-12T07:48:48.1431410+01:00 0HMELITVKE3VS:0000000F [INF] Executed action "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Salek.EShop.Web)" in 10.3665ms (afa2e885)
+2022-01-12T07:48:48.1432280+01:00 0HMELITVKE3VS:0000000F [INF] Executed endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:48:48.1434510+01:00 0HMELITVKE3VS:0000000F [INF] Request finished HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrders - - - 200 - text/html;+charset=utf-8 15.6700ms (791a596a)
+2022-01-12T07:50:37.7610040+01:00  [INF] Application is shutting down... (90f52c38)
+2022-01-12T07:50:50.7797010+01:00  [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:50:51.5169590+01:00  [INF] Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Salek.EShop'" (0723d8ff)
+2022-01-12T07:50:51.8459100+01:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-12T07:50:51.8578210+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-12T07:50:52.4581870+01:00  [INF] Executed DbCommand ("37"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:50:52.5995610+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-12T07:50:52.6605830+01:00  [INF] Executed DbCommand ("14"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:50:52.6787910+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-12T07:50:52.6885480+01:00  [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:50:52.6890190+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-12T07:50:52.7313570+01:00  [INF] User profile is available. Using '"/Users/osalek/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest. (a162847e)
+2022-01-12T07:50:52.7807450+01:00  [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:50:53.0771220+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:50:53.3509480+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2022-01-12T07:50:53.3510420+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-01-12T07:50:53.3512620+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-01-12T07:50:53.3513260+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-01-12T07:50:53.3513570+01:00  [INF] Content root path: "/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web" (b5d60022)
+2022-01-12T07:50:54.1545450+01:00 0HMELIVGF9L5R:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Admin/Users - - (ca22a1cb)
+2022-01-12T07:50:54.2625790+01:00 0HMELIVGF9L5R:00000002 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.UsersController.Index (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:50:54.2945350+01:00 0HMELIVGF9L5R:00000002 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Salek.EShop.Web.Areas.Admin.Controllers.UsersController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:50:54.3090430+01:00 0HMELIVGF9L5R:00000002 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:50:54.3235850+01:00 0HMELIVGF9L5R:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`" (0723d8ff)
+2022-01-12T07:50:54.3605360+01:00 0HMELIVGF9L5R:00000002 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-12T07:50:54.5576550+01:00 0HMELIVGF9L5R:00000002 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:50:54.6884760+01:00 0HMELIVGF9L5R:00000002 [INF] Executed ViewResult - view "Index" executed in 328.5116ms. (f66409e9)
+2022-01-12T07:50:54.6913450+01:00 0HMELIVGF9L5R:00000002 [INF] Executed action "Salek.EShop.Web.Areas.Admin.Controllers.UsersController.Index (Salek.EShop.Web)" in 396.0016ms (afa2e885)
+2022-01-12T07:50:54.6931610+01:00 0HMELIVGF9L5R:00000002 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.UsersController.Index (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:50:54.7155710+01:00 0HMELIVGF9L5R:00000002 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Admin/Users - - - 200 - text/html;+charset=utf-8 564.6132ms (791a596a)
+2022-01-12T07:51:01.0405790+01:00 0HMELIVGF9L5R:00000003 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Admin/Product/Select - - (ca22a1cb)
+2022-01-12T07:51:01.0629590+01:00 0HMELIVGF9L5R:00000003 [INF] Authorization was successful. (0d575a54)
+2022-01-12T07:51:01.0645760+01:00 0HMELIVGF9L5R:00000003 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:51:01.0671640+01:00 0HMELIVGF9L5R:00000003 [INF] Route matched with "{area = \"Admin\", action = \"Select\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Select()" on controller "Salek.EShop.Web.Areas.Admin.Controllers.ProductController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:51:01.1059070+01:00 0HMELIVGF9L5R:00000003 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:51:01.1150290+01:00 0HMELIVGF9L5R:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-12T07:51:01.1384590+01:00 0HMELIVGF9L5R:00000003 [INF] Executing ViewResult, running view "Select". (c83d0e25)
+2022-01-12T07:51:01.1460340+01:00 0HMELIVGF9L5R:00000003 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:51:01.1543820+01:00 0HMELIVGF9L5R:00000003 [INF] Executed ViewResult - view "Select" executed in 17.0373ms. (f66409e9)
+2022-01-12T07:51:01.1545510+01:00 0HMELIVGF9L5R:00000003 [INF] Executed action "Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)" in 87.2685ms (afa2e885)
+2022-01-12T07:51:01.1546360+01:00 0HMELIVGF9L5R:00000003 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:51:01.1549770+01:00 0HMELIVGF9L5R:00000003 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Admin/Product/Select - - - 200 - text/html;+charset=utf-8 114.5256ms (791a596a)
+2022-01-12T07:51:22.1612080+01:00 0HMELIVGF9L5R:00000004 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrders - - (ca22a1cb)
+2022-01-12T07:51:22.1846140+01:00 0HMELIVGF9L5R:00000004 [INF] Authorization was successful. (0d575a54)
+2022-01-12T07:51:22.1848290+01:00 0HMELIVGF9L5R:00000004 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:51:22.1905930+01:00 0HMELIVGF9L5R:00000004 [INF] Route matched with "{area = \"Customer\", action = \"Index\", controller = \"CustomerOrders\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:51:22.1989140+01:00 0HMELIVGF9L5R:00000004 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:51:22.2352820+01:00 0HMELIVGF9L5R:00000004 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:51:22.4028270+01:00 0HMELIVGF9L5R:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=["@__currentUser_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `o`.`ID`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`, `t`.`ID`, `t`.`Amount`, `t`.`OrderID`, `t`.`Price`, `t`.`ProductID`, `t`.`Id0`, `t`.`Description`, `t`.`ImageAlt`, `t`.`ImageSource`, `t`.`Name`, `t`.`Price0`
+FROM `Order` AS `o`
+INNER JOIN `Users` AS `u` ON `o`.`UserId` = `u`.`Id`
+LEFT JOIN (
+    SELECT `o0`.`ID`, `o0`.`Amount`, `o0`.`OrderID`, `o0`.`Price`, `o0`.`ProductID`, `p`.`Id` AS `Id0`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `ProductItem` AS `p` ON `o0`.`ProductID` = `p`.`Id`
+) AS `t` ON `o`.`ID` = `t`.`OrderID`
+WHERE `o`.`UserId` = @__currentUser_Id_0
+ORDER BY `o`.`ID`, `u`.`Id`, `t`.`ID`, `t`.`Id0`" (0723d8ff)
+2022-01-12T07:51:22.5380930+01:00 0HMELIVGF9L5R:00000004 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-12T07:51:22.5690810+01:00 0HMELIVGF9L5R:00000004 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:51:22.5696820+01:00 0HMELIVGF9L5R:00000004 [INF] Executed ViewResult - view "Index" executed in 34.7486ms. (f66409e9)
+2022-01-12T07:51:22.5698910+01:00 0HMELIVGF9L5R:00000004 [INF] Executed action "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Salek.EShop.Web)" in 379.2028ms (afa2e885)
+2022-01-12T07:51:22.5699800+01:00 0HMELIVGF9L5R:00000004 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:51:22.5739230+01:00 0HMELIVGF9L5R:00000004 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrders - - - 200 - text/html;+charset=utf-8 412.5925ms (791a596a)
+2022-01-12T07:51:25.0159620+01:00 0HMELIVGF9L5R:00000005 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrders/Invoice/1 - - (ca22a1cb)
+2022-01-12T07:51:25.0205810+01:00 0HMELIVGF9L5R:00000005 [INF] Authorization was successful. (0d575a54)
+2022-01-12T07:51:25.0209900+01:00 0HMELIVGF9L5R:00000005 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Invoice (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:51:25.0407960+01:00 0HMELIVGF9L5R:00000005 [INF] Route matched with "{area = \"Customer\", action = \"Invoice\", controller = \"CustomerOrders\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Invoice(Int32)" on controller "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:51:25.0592130+01:00 0HMELIVGF9L5R:00000005 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:51:25.0843410+01:00 0HMELIVGF9L5R:00000005 [INF] Executed DbCommand ("4"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `t`.`ID`, `t`.`DateTimeCreated`, `t`.`OrderNumber`, `t`.`TotalPrice`, `t`.`UserId`, `t`.`Id0`, `t`.`AccessFailedCount`, `t`.`ConcurrencyStamp`, `t`.`Email`, `t`.`EmailConfirmed`, `t`.`FirstName`, `t`.`LastName`, `t`.`LockoutEnabled`, `t`.`LockoutEnd`, `t`.`NormalizedEmail`, `t`.`NormalizedUserName`, `t`.`PasswordHash`, `t`.`PhoneNumber`, `t`.`PhoneNumberConfirmed`, `t`.`SecurityStamp`, `t`.`TwoFactorEnabled`, `t`.`UserName`, `t0`.`ID`, `t0`.`Amount`, `t0`.`OrderID`, `t0`.`Price`, `t0`.`ProductID`, `t0`.`Id0`, `t0`.`Description`, `t0`.`ImageAlt`, `t0`.`ImageSource`, `t0`.`Name`, `t0`.`Price0`
+FROM (
+    SELECT `o`.`ID`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `u`.`Id` AS `Id0`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+    FROM `Order` AS `o`
+    INNER JOIN `Users` AS `u` ON `o`.`UserId` = `u`.`Id`
+    WHERE `o`.`ID` = @__id_0
+    LIMIT 1
+) AS `t`
+LEFT JOIN (
+    SELECT `o0`.`ID`, `o0`.`Amount`, `o0`.`OrderID`, `o0`.`Price`, `o0`.`ProductID`, `p`.`Id` AS `Id0`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `ProductItem` AS `p` ON `o0`.`ProductID` = `p`.`Id`
+) AS `t0` ON `t`.`ID` = `t0`.`OrderID`
+ORDER BY `t`.`ID`, `t`.`Id0`, `t0`.`ID`, `t0`.`Id0`" (0723d8ff)
+2022-01-12T07:51:25.0858300+01:00 0HMELIVGF9L5R:00000005 [INF] Executing ViewResult, running view "Invoice". (c83d0e25)
+2022-01-12T07:51:25.0936410+01:00 0HMELIVGF9L5R:00000005 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:51:25.0939270+01:00 0HMELIVGF9L5R:00000005 [INF] Executed ViewResult - view "Invoice" executed in 9.0602ms. (f66409e9)
+2022-01-12T07:51:25.0939840+01:00 0HMELIVGF9L5R:00000005 [INF] Executed action "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Invoice (Salek.EShop.Web)" in 53.124ms (afa2e885)
+2022-01-12T07:51:25.0940510+01:00 0HMELIVGF9L5R:00000005 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Invoice (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:51:25.0941920+01:00 0HMELIVGF9L5R:00000005 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrders/Invoice/1 - - - 200 - text/html;+charset=utf-8 78.2559ms (791a596a)
+2022-01-12T07:51:53.9129180+01:00 0HMELIVGF9L5R:00000006 [INF] Request starting HTTP/1.1 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-12T07:51:53.9138860+01:00 0HMELIVGF9L5R:00000006 [INF] Executing endpoint '"Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:51:53.9158270+01:00 0HMELIVGF9L5R:00000006 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Salek.EShop.Web.Controllers.HomeController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:51:53.9172620+01:00 0HMELIVGF9L5R:00000006 [INF] Index viewed (84b92a55)
+2022-01-12T07:51:53.9185890+01:00 0HMELIVGF9L5R:00000006 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:51:53.9258640+01:00 0HMELIVGF9L5R:00000006 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`Id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-12T07:51:53.9576040+01:00 0HMELIVGF9L5R:00000006 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-12T07:51:53.9592770+01:00 0HMELIVGF9L5R:00000006 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-12T07:51:53.9724780+01:00 0HMELIVGF9L5R:00000006 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:51:53.9849260+01:00 0HMELIVGF9L5R:00000006 [INF] Executed ViewResult - view "Index" executed in 26.5731ms. (f66409e9)
+2022-01-12T07:51:53.9850210+01:00 0HMELIVGF9L5R:00000006 [INF] Executed action "Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)" in 69.1292ms (afa2e885)
+2022-01-12T07:51:53.9850590+01:00 0HMELIVGF9L5R:00000006 [INF] Executed endpoint '"Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:51:53.9852700+01:00 0HMELIVGF9L5R:00000006 [INF] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 72.3891ms (791a596a)
+2022-01-12T07:52:42.3273880+01:00 0HMELIVGF9L5R:00000007 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Product/Detail/4 - - (ca22a1cb)
+2022-01-12T07:52:42.3284870+01:00 0HMELIVGF9L5R:00000007 [INF] Executing endpoint '"Salek.EShop.Web.Controllers.ProductController.Detail (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:52:42.3317060+01:00 0HMELIVGF9L5R:00000007 [INF] Route matched with "{action = \"Detail\", controller = \"Product\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(Int32)" on controller "Salek.EShop.Web.Controllers.ProductController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:52:42.3353850+01:00 0HMELIVGF9L5R:00000007 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:52:42.3435220+01:00 0HMELIVGF9L5R:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`
+WHERE `p`.`Id` = @__id_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:52:42.3460030+01:00 0HMELIVGF9L5R:00000007 [INF] Executing ViewResult, running view "Detail". (c83d0e25)
+2022-01-12T07:52:42.3517420+01:00 0HMELIVGF9L5R:00000007 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:52:42.3612450+01:00 0HMELIVGF9L5R:00000007 [INF] Executed ViewResult - view "Detail" executed in 17.3614ms. (f66409e9)
+2022-01-12T07:52:42.3613780+01:00 0HMELIVGF9L5R:00000007 [INF] Executed action "Salek.EShop.Web.Controllers.ProductController.Detail (Salek.EShop.Web)" in 29.5835ms (afa2e885)
+2022-01-12T07:52:42.3614280+01:00 0HMELIVGF9L5R:00000007 [INF] Executed endpoint '"Salek.EShop.Web.Controllers.ProductController.Detail (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:52:42.3615780+01:00 0HMELIVGF9L5R:00000007 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Product/Detail/4 - - - 200 - text/html;+charset=utf-8 34.3003ms (791a596a)
+2022-01-12T07:52:50.7126400+01:00 0HMELIVGF9L5R:00000008 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Admin/Carousel/Select - - (ca22a1cb)
+2022-01-12T07:52:50.7137510+01:00 0HMELIVGF9L5R:00000008 [INF] Authorization was successful. (0d575a54)
+2022-01-12T07:52:50.7138460+01:00 0HMELIVGF9L5R:00000008 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.CarouselController.Select (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:52:50.7160190+01:00 0HMELIVGF9L5R:00000008 [INF] Route matched with "{area = \"Admin\", action = \"Select\", controller = \"Carousel\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Select()" on controller "Salek.EShop.Web.Areas.Admin.Controllers.CarouselController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:52:50.7176510+01:00 0HMELIVGF9L5R:00000008 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:52:50.7193470+01:00 0HMELIVGF9L5R:00000008 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`Id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-12T07:52:50.7213680+01:00 0HMELIVGF9L5R:00000008 [INF] Executing ViewResult, running view "Select". (c83d0e25)
+2022-01-12T07:52:50.7369830+01:00 0HMELIVGF9L5R:00000008 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:52:50.7409320+01:00 0HMELIVGF9L5R:00000008 [INF] Executed ViewResult - view "Select" executed in 21.0562ms. (f66409e9)
+2022-01-12T07:52:50.7410370+01:00 0HMELIVGF9L5R:00000008 [INF] Executed action "Salek.EShop.Web.Areas.Admin.Controllers.CarouselController.Select (Salek.EShop.Web)" in 24.9466ms (afa2e885)
+2022-01-12T07:52:50.7410770+01:00 0HMELIVGF9L5R:00000008 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.CarouselController.Select (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:52:50.7412980+01:00 0HMELIVGF9L5R:00000008 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Admin/Carousel/Select - - - 200 - text/html;+charset=utf-8 28.6384ms (791a596a)
+2022-01-12T07:53:02.4397150+01:00 0HMELIVGF9L5R:00000009 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Admin/Product/Select - - (ca22a1cb)
+2022-01-12T07:53:02.4424620+01:00 0HMELIVGF9L5R:00000009 [INF] Authorization was successful. (0d575a54)
+2022-01-12T07:53:02.4425760+01:00 0HMELIVGF9L5R:00000009 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:53:02.4428040+01:00 0HMELIVGF9L5R:00000009 [INF] Route matched with "{area = \"Admin\", action = \"Select\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Select()" on controller "Salek.EShop.Web.Areas.Admin.Controllers.ProductController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:53:02.4432180+01:00 0HMELIVGF9L5R:00000009 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:53:02.4448140+01:00 0HMELIVGF9L5R:00000009 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-12T07:53:02.4451350+01:00 0HMELIVGF9L5R:00000009 [INF] Executing ViewResult, running view "Select". (c83d0e25)
+2022-01-12T07:53:02.4454920+01:00 0HMELIVGF9L5R:00000009 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:53:02.4468020+01:00 0HMELIVGF9L5R:00000009 [INF] Executed ViewResult - view "Select" executed in 1.6793ms. (f66409e9)
+2022-01-12T07:53:02.4468960+01:00 0HMELIVGF9L5R:00000009 [INF] Executed action "Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)" in 4.0448ms (afa2e885)
+2022-01-12T07:53:02.4469740+01:00 0HMELIVGF9L5R:00000009 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:53:02.4472940+01:00 0HMELIVGF9L5R:00000009 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Admin/Product/Select - - - 200 - text/html;+charset=utf-8 7.5417ms (791a596a)
+2022-01-12T07:54:51.1647790+01:00  [INF] Application is shutting down... (90f52c38)
+2022-01-12T07:54:59.8801230+01:00  [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:55:00.3458810+01:00  [INF] Executed DbCommand ("18"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Salek.EShop'" (0723d8ff)
+2022-01-12T07:55:00.6291500+01:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-12T07:55:00.6389340+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-12T07:55:00.8656170+01:00  [INF] Executed DbCommand ("34"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:55:00.9772560+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-12T07:55:01.0039530+01:00  [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:55:01.0048380+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-12T07:55:01.0101420+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:55:01.0104770+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-12T07:55:01.0947680+01:00  [INF] User profile is available. Using '"/Users/osalek/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest. (a162847e)
+2022-01-12T07:55:01.2233960+01:00  [INF] Executed DbCommand ("11"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:55:01.4967840+01:00  [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:55:01.9124800+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2022-01-12T07:55:01.9125690+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-01-12T07:55:01.9127440+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-01-12T07:55:01.9128120+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-01-12T07:55:01.9128570+01:00  [INF] Content root path: "/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web" (b5d60022)
+2022-01-12T07:55:02.2148070+01:00 0HMELJ1QCRT43:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Admin/Product/Select - - (ca22a1cb)
+2022-01-12T07:55:02.3472080+01:00 0HMELJ1QCRT43:00000002 [INF] Authorization was successful. (0d575a54)
+2022-01-12T07:55:02.3487480+01:00 0HMELJ1QCRT43:00000002 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:55:02.3866550+01:00 0HMELJ1QCRT43:00000002 [INF] Route matched with "{area = \"Admin\", action = \"Select\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Select()" on controller "Salek.EShop.Web.Areas.Admin.Controllers.ProductController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:55:02.3931890+01:00 0HMELJ1QCRT43:00000002 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:55:02.4113210+01:00 0HMELJ1QCRT44:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Admin/Product/Select - - (ca22a1cb)
+2022-01-12T07:55:02.4163510+01:00 0HMELJ1QCRT43:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-12T07:55:02.4221550+01:00 0HMELJ1QCRT44:00000002 [INF] Authorization was successful. (0d575a54)
+2022-01-12T07:55:02.4223530+01:00 0HMELJ1QCRT44:00000002 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:55:02.4227740+01:00 0HMELJ1QCRT44:00000002 [INF] Route matched with "{area = \"Admin\", action = \"Select\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Select()" on controller "Salek.EShop.Web.Areas.Admin.Controllers.ProductController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:55:02.5128470+01:00 0HMELJ1QCRT44:00000002 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:55:02.5173650+01:00 0HMELJ1QCRT44:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-12T07:55:02.5343550+01:00 0HMELJ1QCRT44:00000002 [INF] Executing ViewResult, running view "Select". (c83d0e25)
+2022-01-12T07:55:02.5344560+01:00 0HMELJ1QCRT43:00000002 [INF] Executing ViewResult, running view "Select". (c83d0e25)
+2022-01-12T07:55:02.6486420+01:00 0HMELJ1QCRT43:00000002 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:55:02.6486420+01:00 0HMELJ1QCRT44:00000002 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:55:02.8734480+01:00 0HMELJ1QCRT44:00000002 [INF] Executed ViewResult - view "Select" executed in 347.7348ms. (f66409e9)
+2022-01-12T07:55:02.8735060+01:00 0HMELJ1QCRT43:00000002 [INF] Executed ViewResult - view "Select" executed in 344.2471ms. (f66409e9)
+2022-01-12T07:55:02.8741940+01:00 0HMELJ1QCRT44:00000002 [INF] Executed action "Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)" in 450.9596ms (afa2e885)
+2022-01-12T07:55:02.8741910+01:00 0HMELJ1QCRT43:00000002 [INF] Executed action "Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)" in 486.7351ms (afa2e885)
+2022-01-12T07:55:02.8754690+01:00 0HMELJ1QCRT44:00000002 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:55:02.8755150+01:00 0HMELJ1QCRT43:00000002 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:55:02.8881670+01:00 0HMELJ1QCRT44:00000002 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Admin/Product/Select - - - 200 - text/html;+charset=utf-8 476.3457ms (791a596a)
+2022-01-12T07:55:02.8882970+01:00 0HMELJ1QCRT43:00000002 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Admin/Product/Select - - - 200 - text/html;+charset=utf-8 678.4221ms (791a596a)
+2022-01-12T07:55:19.1073330+01:00 0HMELJ1QCRT44:00000003 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Admin/Product/Select - - (ca22a1cb)
+2022-01-12T07:55:19.1504590+01:00 0HMELJ1QCRT44:00000003 [INF] Authorization was successful. (0d575a54)
+2022-01-12T07:55:19.1515900+01:00 0HMELJ1QCRT44:00000003 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:55:19.1520800+01:00 0HMELJ1QCRT44:00000003 [INF] Route matched with "{area = \"Admin\", action = \"Select\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Select()" on controller "Salek.EShop.Web.Areas.Admin.Controllers.ProductController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:55:19.1533010+01:00 0HMELJ1QCRT44:00000003 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:55:19.1575640+01:00 0HMELJ1QCRT44:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-12T07:55:19.1593550+01:00 0HMELJ1QCRT44:00000003 [INF] Executing ViewResult, running view "Select". (c83d0e25)
+2022-01-12T07:55:19.1629090+01:00 0HMELJ1QCRT44:00000003 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:55:19.1746050+01:00 0HMELJ1QCRT44:00000003 [INF] Executed ViewResult - view "Select" executed in 15.6739ms. (f66409e9)
+2022-01-12T07:55:19.1751190+01:00 0HMELJ1QCRT44:00000003 [INF] Executed action "Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)" in 22.8593ms (afa2e885)
+2022-01-12T07:55:19.1752790+01:00 0HMELJ1QCRT44:00000003 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:55:19.1761950+01:00 0HMELJ1QCRT44:00000003 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Admin/Product/Select - - - 200 - text/html;+charset=utf-8 68.8517ms (791a596a)
+2022-01-12T07:55:22.1923440+01:00  [INF] Application is shutting down... (90f52c38)
+2022-01-12T07:55:30.2990710+01:00  [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:55:30.7967420+01:00  [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Salek.EShop'" (0723d8ff)
+2022-01-12T07:55:31.4412800+01:00  [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-12T07:55:31.4643070+01:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-12T07:55:31.7907650+01:00  [INF] Executed DbCommand ("29"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:55:31.8920450+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-12T07:55:31.9642000+01:00  [INF] Executed DbCommand ("31"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:55:31.9904810+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-12T07:55:31.9990880+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:55:31.9995960+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-12T07:55:32.0551440+01:00  [INF] User profile is available. Using '"/Users/osalek/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest. (a162847e)
+2022-01-12T07:55:32.0931540+01:00  [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:55:32.2210350+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:55:32.4433420+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2022-01-12T07:55:32.4434220+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-01-12T07:55:32.4436700+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-01-12T07:55:32.4437190+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-01-12T07:55:32.4437520+01:00  [INF] Content root path: "/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web" (b5d60022)
+2022-01-12T07:55:32.7865930+01:00 0HMELJ23GA9ER:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Admin/Product/Select - - (ca22a1cb)
+2022-01-12T07:55:32.9073790+01:00 0HMELJ23GA9ER:00000002 [INF] Authorization was successful. (0d575a54)
+2022-01-12T07:55:32.9094910+01:00 0HMELJ23GA9ER:00000002 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:55:32.9365640+01:00 0HMELJ23GA9ER:00000002 [INF] Route matched with "{area = \"Admin\", action = \"Select\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Select()" on controller "Salek.EShop.Web.Areas.Admin.Controllers.ProductController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:55:32.9410900+01:00 0HMELJ23GA9ER:00000002 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:55:32.9563740+01:00 0HMELJ23GA9ER:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-12T07:55:33.0224650+01:00 0HMELJ23GA9ER:00000002 [INF] Executing ViewResult, running view "Select". (c83d0e25)
+2022-01-12T07:55:33.1371510+01:00 0HMELJ23GA9ER:00000002 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:55:33.3321690+01:00 0HMELJ23GA9ER:00000002 [INF] Executed ViewResult - view "Select" executed in 311.1314ms. (f66409e9)
+2022-01-12T07:55:33.3329080+01:00 0HMELJ23GA9ER:00000002 [INF] Executed action "Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)" in 395.5893ms (afa2e885)
+2022-01-12T07:55:33.3342220+01:00 0HMELJ23GA9ER:00000002 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:55:33.3448780+01:00 0HMELJ23GA9ER:00000002 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Admin/Product/Select - - - 200 - text/html;+charset=utf-8 564.5918ms (791a596a)
+2022-01-12T07:55:52.3533070+01:00  [INF] Application is shutting down... (90f52c38)
+2022-01-12T07:56:01.1538070+01:00  [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:56:01.6621180+01:00  [INF] Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Salek.EShop'" (0723d8ff)
+2022-01-12T07:56:02.0169080+01:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-12T07:56:02.0262460+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-12T07:56:02.3232360+01:00  [INF] Executed DbCommand ("43"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:56:02.7287710+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-12T07:56:02.7735160+01:00  [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:56:02.7744410+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-12T07:56:02.7811450+01:00  [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:56:02.7816140+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-12T07:56:02.8345340+01:00  [INF] User profile is available. Using '"/Users/osalek/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest. (a162847e)
+2022-01-12T07:56:02.8722630+01:00  [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:56:03.0193400+01:00  [INF] Executed DbCommand ("5"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:56:03.3040840+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2022-01-12T07:56:03.3041530+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-01-12T07:56:03.3044340+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-01-12T07:56:03.3045180+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-01-12T07:56:03.3045720+01:00  [INF] Content root path: "/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web" (b5d60022)
+2022-01-12T07:56:03.5680010+01:00 0HMELJ2CLTTCL:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Admin/Product/Select - - (ca22a1cb)
+2022-01-12T07:56:03.6832890+01:00 0HMELJ2CLTTCL:00000002 [INF] Authorization was successful. (0d575a54)
+2022-01-12T07:56:03.6849060+01:00 0HMELJ2CLTTCL:00000002 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:56:03.7138880+01:00 0HMELJ2CLTTCL:00000002 [INF] Route matched with "{area = \"Admin\", action = \"Select\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Select()" on controller "Salek.EShop.Web.Areas.Admin.Controllers.ProductController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:56:03.7198990+01:00 0HMELJ2CLTTCL:00000002 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:56:03.7388670+01:00 0HMELJ2CLTTCL:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-12T07:56:03.8180080+01:00 0HMELJ2CLTTCL:00000002 [INF] Executing ViewResult, running view "Select". (c83d0e25)
+2022-01-12T07:56:03.9459080+01:00 0HMELJ2CLTTCL:00000002 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:56:03.9659590+01:00 0HMELJ2CLTTCM:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Admin/Product/Select - - (ca22a1cb)
+2022-01-12T07:56:03.9757710+01:00 0HMELJ2CLTTCM:00000002 [INF] Authorization was successful. (0d575a54)
+2022-01-12T07:56:03.9760190+01:00 0HMELJ2CLTTCM:00000002 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:56:03.9764420+01:00 0HMELJ2CLTTCM:00000002 [INF] Route matched with "{area = \"Admin\", action = \"Select\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Select()" on controller "Salek.EShop.Web.Areas.Admin.Controllers.ProductController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:56:04.0462980+01:00 0HMELJ2CLTTCM:00000002 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:56:04.0506420+01:00 0HMELJ2CLTTCM:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-12T07:56:04.0516750+01:00 0HMELJ2CLTTCM:00000002 [INF] Executing ViewResult, running view "Select". (c83d0e25)
+2022-01-12T07:56:04.0537850+01:00 0HMELJ2CLTTCM:00000002 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:56:04.1874280+01:00 0HMELJ2CLTTCM:00000002 [INF] Executed ViewResult - view "Select" executed in 129.6899ms. (f66409e9)
+2022-01-12T07:56:04.1874740+01:00 0HMELJ2CLTTCL:00000002 [INF] Executed ViewResult - view "Select" executed in 372.9963ms. (f66409e9)
+2022-01-12T07:56:04.1881300+01:00 0HMELJ2CLTTCL:00000002 [INF] Executed action "Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)" in 473.462ms (afa2e885)
+2022-01-12T07:56:04.1881260+01:00 0HMELJ2CLTTCM:00000002 [INF] Executed action "Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)" in 211.251ms (afa2e885)
+2022-01-12T07:56:04.1892730+01:00 0HMELJ2CLTTCL:00000002 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:56:04.1893080+01:00 0HMELJ2CLTTCM:00000002 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Admin.Controllers.ProductController.Select (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:56:04.2010520+01:00 0HMELJ2CLTTCL:00000002 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Admin/Product/Select - - - 200 - text/html;+charset=utf-8 637.9895ms (791a596a)
+2022-01-12T07:56:04.2010520+01:00 0HMELJ2CLTTCM:00000002 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Admin/Product/Select - - - 200 - text/html;+charset=utf-8 234.6137ms (791a596a)
+2022-01-12T07:56:11.3814330+01:00 0HMELJ2CLTTCM:00000003 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrders - - (ca22a1cb)
+2022-01-12T07:56:11.4049120+01:00 0HMELJ2CLTTCM:00000003 [INF] Authorization was successful. (0d575a54)
+2022-01-12T07:56:11.4053090+01:00 0HMELJ2CLTTCM:00000003 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:56:11.4122220+01:00 0HMELJ2CLTTCM:00000003 [INF] Route matched with "{area = \"Customer\", action = \"Index\", controller = \"CustomerOrders\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:56:11.4217800+01:00 0HMELJ2CLTTCM:00000003 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:56:11.4593230+01:00 0HMELJ2CLTTCM:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-12T07:56:11.6368120+01:00 0HMELJ2CLTTCM:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__currentUser_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `o`.`ID`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`, `t`.`ID`, `t`.`Amount`, `t`.`OrderID`, `t`.`Price`, `t`.`ProductID`, `t`.`Id0`, `t`.`Description`, `t`.`ImageAlt`, `t`.`ImageSource`, `t`.`Name`, `t`.`Price0`
+FROM `Order` AS `o`
+INNER JOIN `Users` AS `u` ON `o`.`UserId` = `u`.`Id`
+LEFT JOIN (
+    SELECT `o0`.`ID`, `o0`.`Amount`, `o0`.`OrderID`, `o0`.`Price`, `o0`.`ProductID`, `p`.`Id` AS `Id0`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `ProductItem` AS `p` ON `o0`.`ProductID` = `p`.`Id`
+) AS `t` ON `o`.`ID` = `t`.`OrderID`
+WHERE `o`.`UserId` = @__currentUser_Id_0
+ORDER BY `o`.`ID`, `u`.`Id`, `t`.`ID`, `t`.`Id0`" (0723d8ff)
+2022-01-12T07:56:11.7167130+01:00 0HMELJ2CLTTCM:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-12T07:56:11.7348770+01:00 0HMELJ2CLTTCM:00000003 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:56:11.7353820+01:00 0HMELJ2CLTTCM:00000003 [INF] Executed ViewResult - view "Index" executed in 20.244ms. (f66409e9)
+2022-01-12T07:56:11.7383110+01:00 0HMELJ2CLTTCM:00000003 [INF] Executed action "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Salek.EShop.Web)" in 325.9728ms (afa2e885)
+2022-01-12T07:56:11.7396600+01:00 0HMELJ2CLTTCM:00000003 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:56:11.7496600+01:00 0HMELJ2CLTTCM:00000003 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrders - - - 200 - text/html;+charset=utf-8 368.3324ms (791a596a)
+2022-01-12T07:56:14.5923710+01:00 0HMELJ2CLTTCM:00000004 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrders/Invoice/1 - - (ca22a1cb)
+2022-01-12T07:56:14.5954510+01:00 0HMELJ2CLTTCM:00000004 [INF] Authorization was successful. (0d575a54)
+2022-01-12T07:56:14.5959800+01:00 0HMELJ2CLTTCM:00000004 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Invoice (Salek.EShop.Web)"' (500cc934)
+2022-01-12T07:56:14.6153790+01:00 0HMELJ2CLTTCM:00000004 [INF] Route matched with "{area = \"Customer\", action = \"Invoice\", controller = \"CustomerOrders\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Invoice(Int32)" on controller "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-12T07:56:14.6357520+01:00 0HMELJ2CLTTCM:00000004 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-12T07:56:14.6581080+01:00 0HMELJ2CLTTCM:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `t`.`ID`, `t`.`DateTimeCreated`, `t`.`OrderNumber`, `t`.`TotalPrice`, `t`.`UserId`, `t`.`Id0`, `t`.`AccessFailedCount`, `t`.`ConcurrencyStamp`, `t`.`Email`, `t`.`EmailConfirmed`, `t`.`FirstName`, `t`.`LastName`, `t`.`LockoutEnabled`, `t`.`LockoutEnd`, `t`.`NormalizedEmail`, `t`.`NormalizedUserName`, `t`.`PasswordHash`, `t`.`PhoneNumber`, `t`.`PhoneNumberConfirmed`, `t`.`SecurityStamp`, `t`.`TwoFactorEnabled`, `t`.`UserName`, `t0`.`ID`, `t0`.`Amount`, `t0`.`OrderID`, `t0`.`Price`, `t0`.`ProductID`, `t0`.`Id0`, `t0`.`Description`, `t0`.`ImageAlt`, `t0`.`ImageSource`, `t0`.`Name`, `t0`.`Price0`
+FROM (
+    SELECT `o`.`ID`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `u`.`Id` AS `Id0`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+    FROM `Order` AS `o`
+    INNER JOIN `Users` AS `u` ON `o`.`UserId` = `u`.`Id`
+    WHERE `o`.`ID` = @__id_0
+    LIMIT 1
+) AS `t`
+LEFT JOIN (
+    SELECT `o0`.`ID`, `o0`.`Amount`, `o0`.`OrderID`, `o0`.`Price`, `o0`.`ProductID`, `p`.`Id` AS `Id0`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `ProductItem` AS `p` ON `o0`.`ProductID` = `p`.`Id`
+) AS `t0` ON `t`.`ID` = `t0`.`OrderID`
+ORDER BY `t`.`ID`, `t`.`Id0`, `t0`.`ID`, `t0`.`Id0`" (0723d8ff)
+2022-01-12T07:56:14.6595340+01:00 0HMELJ2CLTTCM:00000004 [INF] Executing ViewResult, running view "Invoice". (c83d0e25)
+2022-01-12T07:56:14.6680590+01:00 0HMELJ2CLTTCM:00000004 [INF] Accessing expired session, Key:"6ff28333-f5ec-1ef2-5698-bcb42f4cfef7" (08c5a9e7)
+2022-01-12T07:56:14.6683120+01:00 0HMELJ2CLTTCM:00000004 [INF] Executed ViewResult - view "Invoice" executed in 9.6855ms. (f66409e9)
+2022-01-12T07:56:14.6683650+01:00 0HMELJ2CLTTCM:00000004 [INF] Executed action "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Invoice (Salek.EShop.Web)" in 52.911ms (afa2e885)
+2022-01-12T07:56:14.6683940+01:00 0HMELJ2CLTTCM:00000004 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Invoice (Salek.EShop.Web)"' (99874f2b)
+2022-01-12T07:56:14.6685180+01:00 0HMELJ2CLTTCM:00000004 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrders/Invoice/1 - - - 200 - text/html;+charset=utf-8 76.1881ms (791a596a)

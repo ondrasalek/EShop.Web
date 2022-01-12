@@ -1,0 +1,39 @@
+﻿@using Salek.EShop.Web.Areas.Admin.Controllers
+@model ProductItem
+
+@{
+    if (!String.IsNullOrWhiteSpace(ViewBag.Action))
+    {
+    <form asp-action="@ViewBag.Action" method="post" enctype="multipart/form-data">
+        @{
+            if (ViewBag.Action == nameof(ProductController.Edit))
+            {
+                <input type="hidden" asp-for="Id" class="form-control" />
+            }
+        }
+
+        <div class="form-group">
+            <label asp-for="Name">Name</label>
+            <input asp-for="Name" type="text" class="form-control" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+            <label asp-for="Description">Description</label>
+            <textarea asp-for="Description" class="form-control" rows="3" placeholder="Enter Description"></textarea>
+        </div>
+        <div class="form-group">
+            <label asp-for="Price">Price</label>
+            <input asp-for="Price" type="number" class="form-control" placeholder="Enter Description" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Image">Image Source</label>
+            <input asp-for="Image" class="form-control-file" accept="image/*" placeholder="Enter Image Source">
+        </div>
+        <div class="form-group">
+            <label asp-for="ImageAlt">Image Alt</label>
+            <input asp-for="ImageAlt" type="text" class="form-control" placeholder="Enter Image Alt">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    }
+}
+

@@ -1,0 +1,14 @@
+﻿@using Salek.EShop.Web.Areas.Admin.Controllers
+@model ProductItem
+@{
+    ViewData["Title"] = "Product Edit";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>This page edits a Product Item for admin.</p>
+
+@{
+    ViewBag.Action = nameof(ProductController.Edit);
+}
+
+<partial name="CreateEditForm" model="Model" />
