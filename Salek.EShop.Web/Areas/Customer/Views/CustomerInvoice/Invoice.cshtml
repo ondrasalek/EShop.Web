@@ -64,9 +64,9 @@
                                 <tr>
                                     @{i++;}
                                     <td>@i</td>
-                                    <td >@item.Product.Name</td>
+                                    <td>@item.Product.Name</td>
                                     @* <td class="">@item.Product.Description</td> *@
-                                    <td >@item.Amount</td>
+                                    <td>@item.Amount</td>
                                     @{
                                         double price = item.Product.Price;
                                         string priceS = "Price";
@@ -74,7 +74,7 @@
                                         {
                                             price = Context.Session.GetDouble(priceS).GetValueOrDefault();
                                         }
-                                        <td >@price.ToString("C2")</td>
+                                        <td>@price.ToString("C2")</td>
                                     }
                                     @{
                                         double priceTog = item.Price;

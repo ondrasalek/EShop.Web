@@ -21,7 +21,6 @@
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Migrations\MySql" />
-    <Folder Include="wwwroot\content" />
   </ItemGroup>
 
 </Project>

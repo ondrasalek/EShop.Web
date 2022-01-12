@@ -2,7 +2,6 @@ using System;
 using System.Linq;
 using System.Net;
 using System.Net.Mail;
-using System.Net.Mime;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -22,14 +21,30 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
         {
             EshopDbContext = eshopDbContext;
         }
+        
         public static async Task MailSender(Order order)
         {
+            
             var currentUser = order.User;
             var adminMail = "robotseshop@gmail.com";
             var adminMailPass = "Admin1#admin";
             
-            var subject = $"Your order was succesful - Invoice #{order.ID}";
-            var body = "Thank you for ordering from Robots.Eshop";
+            var subject = $"Your order was successful - Invoice #{order.ID}";
+            
+            var body = $@"
+<html lang=""en"">
+<head>
+    <link rel=""stylesheet"" href=""https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"" integrity=""sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"" crossorigin=""anonymous"">
+</head>
+<body>
+<div class=""card"">
+                       <div class=""card-header"">Hello {order.User.FirstName} {order.User.LastName}.<div>
+                       <div class=""card-body"">Your order war successful, you can find your Invoice #{order.ID} at our website in section My Orders</div>
+                       <div  class=""card-footer"">Thank you for ordering from Robots.Eshop</div>
+</div>
+</body>
+</html>
+";
             
             var server = "smtp.gmail.com";
             var port = 587;
@@ -39,16 +54,7 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
             MailMessage mail = new MailMessage(from, to);
             mail.Subject = subject;
             mail.Body = body;
-            try
-            {
-                var filename = "invoice.pdf";
-                Attachment data = new Attachment(filename, MediaTypeNames.Application.Octet);
-                mail.Attachments.Add(data);
-            }
-            catch
-            {
-                Console.WriteLine("Cant Find file");
-            }
+            mail.IsBodyHtml = true;
             
             SmtpClient client = new SmtpClient(server, port)
             {
@@ -72,7 +78,8 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
                 .Include(o=>o.OrderItems)
                 .ThenInclude(oi => oi.Product)
                 .FirstOrDefault(o => o.ID == id);
-            return await (foundItem != null ? Task.FromResult<IActionResult>(View(foundItem)) : Task.FromResult<IActionResult>(NotFound()));
+            
+             return await (foundItem != null ? Task.FromResult<IActionResult>(View(foundItem)) : Task.FromResult<IActionResult>(NotFound()));
         }
     }
 }
