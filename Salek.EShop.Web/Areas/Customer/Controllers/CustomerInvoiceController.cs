@@ -2,6 +2,7 @@ using System;
 using System.Linq;
 using System.Net;
 using System.Net.Mail;
+using System.Net.Mime;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -17,7 +18,10 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
     public class CustomerInvoiceController : Controller
     {
         EShopDbContext EshopDbContext;
-
+        public CustomerInvoiceController( EShopDbContext eshopDbContext)
+        {
+            EshopDbContext = eshopDbContext;
+        }
         public static async Task MailSender(Order order)
         {
             var currentUser = order.User;
@@ -25,12 +29,7 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
             var adminMailPass = "Admin1#admin";
             
             var subject = $"Your order was succesful - Invoice #{order.ID}";
-            var body = "Thank you for ordering from Robots.Eshop" +
-                       ("");
-            
-            
-            var filename = $"/Customer/CustomerOrders/Invoice/{order.ID}";
-            // Attachment data = new Attachment(filename, MediaTypeNames.Application.Octet);
+            var body = "Thank you for ordering from Robots.Eshop";
             
             var server = "smtp.gmail.com";
             var port = 587;
@@ -40,7 +39,16 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
             MailMessage mail = new MailMessage(from, to);
             mail.Subject = subject;
             mail.Body = body;
-            // message.Attachments.Add(data);
+            try
+            {
+                var filename = "invoice.pdf";
+                Attachment data = new Attachment(filename, MediaTypeNames.Application.Octet);
+                mail.Attachments.Add(data);
+            }
+            catch
+            {
+                Console.WriteLine("Cant Find file");
+            }
             
             SmtpClient client = new SmtpClient(server, port)
             {
@@ -57,15 +65,14 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
                 Console.WriteLine(e.ToString());
             }
         }
-        
-        public Task<IActionResult> Invoice(int id)
+        public async Task<IActionResult> Invoice(int id)
         {
             var foundItem =  EshopDbContext.Orders
                 .Include(o=>o.User)
                 .Include(o=>o.OrderItems)
                 .ThenInclude(oi => oi.Product)
                 .FirstOrDefault(o => o.ID == id);
-            return foundItem != null ? Task.FromResult<IActionResult>(View(foundItem)) : Task.FromResult<IActionResult>(NotFound());
+            return await (foundItem != null ? Task.FromResult<IActionResult>(View(foundItem)) : Task.FromResult<IActionResult>(NotFound()));
         }
     }
 }

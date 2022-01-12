@@ -3,9 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Mail;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 using Salek.EShop.Web.Models.ApplicationServices.Abstraction;
 using Salek.EShop.Web.Models.Database;
 using Salek.EShop.Web.Models.Entity;
@@ -21,10 +19,10 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
         ISecurityApplicationService iSecure;
         EShopDbContext EshopDbContext;
 
-        public CustomerOrdersController(ISecurityApplicationService iSecure, EShopDbContext eshopDBContext)
+        public CustomerOrdersController(ISecurityApplicationService iSecure, EShopDbContext eshopDbContext)
         {
             this.iSecure = iSecure;
-            EshopDbContext = eshopDBContext;
+            EshopDbContext = eshopDbContext;
         }
 
         public async Task<IActionResult> Index()
@@ -43,7 +41,6 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
                     return View(userOrders);
                 }
             }
-
             return NotFound();
         }
     }
