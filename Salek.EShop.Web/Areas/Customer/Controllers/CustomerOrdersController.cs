@@ -60,6 +60,7 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
             else
             {
                 return NotFound();
-            }        }
+            }        
+        }
     }
 }
