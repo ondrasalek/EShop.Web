@@ -27,12 +27,13 @@
                     <td class="col-sm-3">@item.DateTimeCreated</td>
                     <td class="col-sm-3">@item.User.UserName</td>
                 </tr>
-                
             </table>
-            <a class="btn btn-outline-info" type="button" 
-               asp-controller="CustomerOrders" asp-action="Invoice" asp-route-Id="@item.ID">
-                Open Invoice
-            </a>
+            <div class="float-right">
+                <a class="btn btn-info" type="button" 
+                   asp-controller="CustomerInvoice" asp-action="Invoice" asp-route-Id="@item.ID">
+                    Open Invoice #@item.ID
+                </a>
+            </div>
             <details>
                 <summary>Details</summary>
                 <div id="order_items_@item.ID">

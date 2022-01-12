@@ -13,30 +13,28 @@
             <div class="card">
                 <div class="card-header">
                     @filename
-                    <a class="btn btn-sm btn-secondary float-right mr-1 d-print-none" 
-                       href="#" onclick="window.print();" data-abc="true">
-                        Print / Save
-                    </a>
-                    <a class="btn btn-sm btn-warning float-right mr-1 d-print-none" type="button" 
-                    >
-                        Send Invoice to email
-                    </a>
+                    <div class="float-right d-print-none">
+                        <a class="btn btn-sm btn-secondary " 
+                           href="#" onclick="window.print();" data-abc="true">
+                            Print / Save
+                        </a>
+                    </div>
                 </div>
                 <div class="card-body">
                     <div class="row mb-4">
                         <div class="col-sm-4">
                             <h6 class="mb-3">From:</h6>
                             <div>
-                                <strong>Salek EShop</strong>
+                                <strong>Robots.EShop</strong>
                             </div>
-                            <div>Address: </div>
-                            <div>Email: <a href="mailto:admin@salekeshop.cz">admin@salekeshop.cz</a></div>
-                            <div>Phone: </div>
+                            <div>Address: ...</div>
+                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                            <div>Phone: ...</div>
                         </div>
                         <div class="col-sm-4">
                             <h6 class="mb-3">To:</h6>
                             <strong>@Model.User.FirstName @Model.User.LastName</strong>
-                            <div>Address: @Model.User.</div>
+                            <div>Address: ...</div>
                             <div>Email: @Model.User.Email</div>
                             <div>Phone: @Model.User.PhoneNumber</div>
                         </div>

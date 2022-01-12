@@ -19,17 +19,14 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
     {
         const string totalPriceString = "TotalPrice";
         const string orderItemsString = "OrderItems";
-
-
+        
         ISecurityApplicationService iSecure;
         EShopDbContext EshopDbContext;
-        public CustomerOrderNotCartController(ISecurityApplicationService iSecure, EShopDbContext eshopDBContext)
+        public CustomerOrderNotCartController(ISecurityApplicationService iSecure, EShopDbContext eshopDbContext)
         {
             this.iSecure = iSecure;
-            EshopDbContext = eshopDBContext;
+            EshopDbContext = eshopDbContext;
         }
-
-
         [HttpPost]
         public double AddOrderItemsToSession(int? productId)
         {
@@ -38,8 +35,7 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
             {
                 totalPrice = HttpContext.Session.GetDouble(totalPriceString).GetValueOrDefault();
             }
-
-
+            
             ProductItem product = EshopDbContext.ProductItems.Where(prod => prod.Id == productId).FirstOrDefault();
 
             if (product != null)
@@ -54,15 +50,13 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
 
                 if (HttpContext.Session.IsAvailable)
                 {
-
                     List<OrderItem> orderItems = HttpContext.Session.GetObject<List<OrderItem>>(orderItemsString);
                     OrderItem orderItemInSession = null;
                     if (orderItems != null)
                         orderItemInSession = orderItems.Find(oi => oi.ProductID == orderItem.ProductID);
                     else
                         orderItems = new List<OrderItem>();
-
-
+                    
                     if (orderItemInSession != null)
                     {
                         ++orderItemInSession.Amount;
@@ -72,26 +66,20 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
                     {
                         orderItems.Add(orderItem);
                     }
-
-
+                    
                     HttpContext.Session.SetObject(orderItemsString, orderItems);
 
                     totalPrice += orderItem.Product.Price;
                     HttpContext.Session.SetDouble(totalPriceString, totalPrice);
                 }
             }
-
-
             return totalPrice;
         }
-
-
+        
         public async Task<IActionResult> ApproveOrderInSession()
         {
             if (HttpContext.Session.IsAvailable)
             {
-
-
                 double totalPrice = 0;
                 List<OrderItem> orderItems = HttpContext.Session.GetObject<List<OrderItem>>(orderItemsString);
                 if (orderItems != null)
@@ -101,10 +89,7 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
                         totalPrice += orderItem.Product.Price * orderItem.Amount;
                         orderItem.Product = null; //zde musime nullovat referenci na produkt, jinak by doslo o pokus jej znovu vlozit do databaze
                     }
-
-
                     User currentUser = await iSecure.GetCurrentUser(User);
-
                     Order order = new Order()
                     {
                         OrderNumber = Convert.ToBase64String(Guid.NewGuid().ToByteArray()),
@@ -112,25 +97,20 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
                         OrderItems = orderItems,
                         UserId = currentUser.Id
                     };
-
-
-
+                    
                     //We can add just the order; order items will be added automatically.
                     await EshopDbContext.AddAsync(order);
                     await EshopDbContext.SaveChangesAsync();
 
-
-
+                    await CustomerInvoiceController.MailSender(order);
+                    
                     HttpContext.Session.Remove(orderItemsString);
                     HttpContext.Session.Remove(totalPriceString);
-
+                    
                     return RedirectToAction(nameof(CustomerOrdersController.Index), nameof(CustomerOrdersController).Replace("Controller", ""), new { Area = nameof(Customer) });
-
                 }
             }
-
             return RedirectToAction(nameof(HomeController.Index), nameof(HomeController).Replace("Controller", ""), new { Area = "" });
-
         }
     }
 }
