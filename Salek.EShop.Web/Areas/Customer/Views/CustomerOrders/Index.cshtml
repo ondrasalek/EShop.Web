@@ -29,11 +29,10 @@
                 </tr>
                 
             </table>
-            <a 
-                class="btn btn-outline-info" type="button" asp-controller="CustomerOrders" asp-action="Invoice" asp-route-Id="@item.ID">
-                Generate Invoice
+            <a class="btn btn-outline-info" type="button" 
+               asp-controller="CustomerOrders" asp-action="Invoice" asp-route-Id="@item.ID">
+                Open Invoice
             </a>
-
             <details>
                 <summary>Details</summary>
                 <div id="order_items_@item.ID">
