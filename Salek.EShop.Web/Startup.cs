@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
+
 using Salek.EShop.Web.Models.ApplicationServices.Abstraction;
 using Salek.EShop.Web.Models.ApplicationServices.Implementation;
 using Salek.EShop.Web.Models.Database;
@@ -29,7 +30,8 @@ namespace Salek.EShop.Web
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
+        {    
+
             services.AddDbContext<EShopDbContext>(options => 
                 options.UseMySql(
                     Configuration.GetConnectionString("MySqlConnectionString"),
@@ -78,7 +80,6 @@ namespace Salek.EShop.Web
                 // Make the session cookie essential
                 options.Cookie.IsEssential = true;
             });
-
             services.AddControllersWithViews();
         }
 

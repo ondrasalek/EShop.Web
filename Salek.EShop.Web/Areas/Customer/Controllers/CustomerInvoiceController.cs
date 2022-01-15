@@ -17,13 +17,40 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
     public class CustomerInvoiceController : Controller
     {
         EShopDbContext EshopDbContext;
-        public CustomerInvoiceController( EShopDbContext eshopDbContext)
+
+        public CustomerInvoiceController(EShopDbContext eshopDbContext)
         {
             EshopDbContext = eshopDbContext;
         }
         
+        //TODO RenderPDF()
+        private static void RenderInvoiceFile()
+        {
+            var htmlPage = @"
+<html>
+<head>
+</head>
+<body>
+                <table class=""table table-clear"">
+                <tbody>
+                <tr>
+                <td class=""left"">
+                <strong>Total Price</strong>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+</body>
+</html>
+                ";
+            var renderer = new IronPdf.ChromePdfRenderer();
+            renderer.RenderHtmlAsPdf(htmlPage).SaveAs("invoice.pdf");
+
+            Console.WriteLine("Invoice Rendered");
+        }
         public static async Task MailSender(Order order)
         {
+            RenderInvoiceFile();
             
             var currentUser = order.User;
             var adminMail = "robotseshop@gmail.com";
@@ -40,12 +67,11 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
 <div class=""card"">
                        <div class=""card-header"">Hello {order.User.FirstName} {order.User.LastName}.<div>
                        <div class=""card-body"">Your order war successful, you can find your Invoice #{order.ID} at our website in section My Orders</div>
-                       <div  class=""card-footer"">Thank you for ordering from Robots.Eshop</div>
+                       <div class=""card-footer"">Thank you for ordering from Robots.Eshop</div>
 </div>
 </body>
 </html>
 ";
-            
             var server = "smtp.gmail.com";
             var port = 587;
             
@@ -55,6 +81,7 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
             mail.Subject = subject;
             mail.Body = body;
             mail.IsBodyHtml = true;
+            mail.Attachments.Add(new Attachment("invoice.pdf")); //TODO
             
             SmtpClient client = new SmtpClient(server, port)
             {
@@ -71,15 +98,20 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
                 Console.WriteLine(e.ToString());
             }
         }
+        
         public async Task<IActionResult> Invoice(int id)
         {
-            var foundItem =  EshopDbContext.Orders
+            var foundItem = EshopDbContext.Orders
                 .Include(o=>o.User)
                 .Include(o=>o.OrderItems)
                 .ThenInclude(oi => oi.Product)
                 .FirstOrDefault(o => o.ID == id);
-            
-             return await (foundItem != null ? Task.FromResult<IActionResult>(View(foundItem)) : Task.FromResult<IActionResult>(NotFound()));
+
+            if (foundItem != null)
+            {
+                return View(foundItem);
+            }
+            return NotFound();
         }
     }
 }

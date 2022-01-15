@@ -1,0 +1,784 @@
+11:28:36 (0x70001089f000): ~ Chrome renderer v2021.12.0.4391~
+11:28:36 (0x70001089f000): Initializing Cef proxy controller
+11:28:36 (0x70001089f000): CefProxy()
+11:28:36 (0x70001089f000): CefInterface()
+11:28:36 (0x70001089f000): Assigning Cef proxy controller events...
+11:28:36 (0x70001089f000): Assigning Cef proxy controller stream provider...
+11:28:36 (0x70001089f000): Successful first-time initialization of Chrome renderer
+11:28:36 (0x70001089f000): Initializing Cef proxy controller
+11:28:36 (0x70001089f000): Using subprocess path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess'
+11:28:36 (0x70001089f000): Using framework path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+11:28:36 (0x70001089f000): Using resources path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+11:28:36 (0x70001089f000): Process os_name: 'macos'
+11:28:36 (0x70001089f000): gpu_mode: '0'
+11:28:36 (0x70001089f000): Launching Main process ' --browser-subprocess-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:28:36 (0x70001089f000): Process os_name: 'macos'
+11:28:36 (0x70001089f000): gpu_mode: '0'
+11:28:36 (0x70001089f000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,14669680328539426330,17200830754773548042,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:28:36 (0x70001089f000): Cef context initialized
+11:28:36 (0x70001089f000): Registering custom scheme for rendering raw html
+11:28:36 (0x70001089f000): Cef initialization succeeded
+11:28:36 (0x70001089f000): Generating PDF from HTML '<h1>Html with CSS and Images</h1>'
+11:28:36 (0x70001089f000): BROWSER SETTINGS:
+View Width: 1024
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+11:28:36 (0x70001089f000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 1
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 25
+Margin Right: 25
+Margin Bottom: 25
+Margin Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0
+Autosize PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+11:28:36 (0x7000173d8000): Creating new browser
+11:28:36 (0x7000173d8000): Waited for 0s to create a browser
+11:28:36 (0x70001089f000): Process os_name: 'macos'
+11:28:36 (0x70001089f000): gpu_mode: '0'
+11:28:36 (0x70001089f000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,14669680328539426330,17200830754773548042,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:28:36 (0x70001089f000): Created browser 1
+11:28:36 (0x70001089f000): Processing job for content '<h1>Html with CSS and Images</h1>'
+11:28:36 (0x70001089f000): Process os_name: 'macos'
+11:28:36 (0x70001089f000): gpu_mode: '0'
+11:28:36 (0x70001089f000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:28:36 (0x70001089f000): Process os_name: 'macos'
+11:28:36 (0x70001089f000): gpu_mode: '0'
+11:28:36 (0x70001089f000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:28:36 (0x7000133c0000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+11:28:36 (0x7000133c0000): Resolved resource request using default handler
+11:28:36 (0x7000133c0000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+11:28:36 (0x70001089f000): Browser process received message: 'OnBrowserCreated'
+11:28:36 (0x70001089f000): Received message from render process with values '' (0)
+11:28:36 (0x70001089f000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+11:28:36 (0x70001089f000): Browser 1 status: 
+11:28:36 (0x70001089f000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+11:28:36 (0x70001089f000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+11:28:36 (0x70001089f000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+11:28:36 (0x70001089f000): Finished dev tools method on browser 1 (message ID: 1)
+11:28:36 (0x70001089f000): Sending DOM-visit process message for browser 1 (job ID: 0)
+11:28:36 (0x70001089f000): Browser process received message: 'OnDomVisited'
+11:28:36 (0x70001089f000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+11:28:36 (0x70001089f000): Printing from browser to '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfAXTVl5'
+11:28:36 (0x70001089f000): Received browser print callback for path '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfAXTVl5' (1)
+11:28:36 (0x70001089f000): Print finished for browser 1(success: 1)
+11:28:36 (0x70001089f000): No document title found
+11:28:36 (0x70001089f000): Retrieve Html title: 
+11:28:36 (0x70001089f000): Generating form fields
+11:28:36 (0x70001089f000): Adding default font for form fields
+11:28:37 (0x70001089f000): Initializing forms for page 0
+11:28:37 (0x70001089f000): Retrieving document bytes
+11:28:37 (0x70001089f000): Pdf document factory is generating bytes using document pointer 0x600003b4d520
+11:28:37 (0x70001089f000): Pdf document factory succesfully generated bytes 0x600003b4d520
+11:28:37 (0x70001089f000): Successfully generated 11015 bytes from Pdf document factory writer
+11:28:37 (0x70001089f000): Closing browser 1
+11:28:37 (0x70001089f000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+11:28:37 (0x70001089f000): Destroying browser (id:1)
+11:28:37 (0x70001089f000): Finished job 0
+11:28:37 (0x70001089f000): Job group finished
+11:28:37 (0x70001089f000): Job group 0 finished
+11:28:37 (0x70001089f000): CefProxyController::QuitMessageLoop()
+11:28:37 (0x70001089f000): CefMessagePumpStd::Quit()
+11:28:37 (0x70001089f000): CefMessagePumpStd::DoQuit()
+11:28:37 (0x70001089f000): Retrieving 11015 bytes from job 0
+11:32:46 (0x700005490000): ~ Chrome renderer v2021.12.0.4391~
+11:32:46 (0x700005490000): Initializing Cef proxy controller
+11:32:46 (0x700005490000): CefProxy()
+11:32:46 (0x700005490000): CefInterface()
+11:32:46 (0x700005490000): Assigning Cef proxy controller events...
+11:32:46 (0x700005490000): Assigning Cef proxy controller stream provider...
+11:32:46 (0x700005490000): Successful first-time initialization of Chrome renderer
+11:32:46 (0x700005490000): Initializing Cef proxy controller
+11:32:46 (0x700005490000): Using subprocess path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess'
+11:32:46 (0x700005490000): Using framework path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+11:32:46 (0x700005490000): Using resources path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+11:32:46 (0x700005490000): Process os_name: 'macos'
+11:32:46 (0x700005490000): gpu_mode: '0'
+11:32:46 (0x700005490000): Launching Main process ' --browser-subprocess-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:32:47 (0x700005490000): Process os_name: 'macos'
+11:32:47 (0x700005490000): gpu_mode: '0'
+11:32:47 (0x700005490000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,11734229266490925994,1435400416904108322,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:32:47 (0x700005490000): Cef context initialized
+11:32:47 (0x700005490000): Registering custom scheme for rendering raw html
+11:32:47 (0x700005490000): Cef initialization succeeded
+11:32:47 (0x700005490000): Generating PDF from HTML '
+<html>
+<head>
+</head>
+<body>
+                <table class="table table-clear">
+                <tbody>
+                <tr>
+                <td class="left">
+                <strong>Total Price</strong>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+</body>
+</html>
+                '
+11:32:47 (0x700005490000): BROWSER SETTINGS:
+View Width: 1024
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+11:32:47 (0x700005490000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 1
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 25
+Margin Right: 25
+Margin Bottom: 25
+Margin Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0
+Autosize PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+11:32:47 (0x70000cc67000): Creating new browser
+11:32:47 (0x70000cc67000): Waited for 0s to create a browser
+11:32:47 (0x700005490000): Process os_name: 'macos'
+11:32:47 (0x700005490000): gpu_mode: '0'
+11:32:47 (0x700005490000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,11734229266490925994,1435400416904108322,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:32:47 (0x700005490000): Created browser 1
+11:32:47 (0x700005490000): Processing job for content '
+<html>
+<head>
+</head>
+<body>
+                <table class="table table-clear">
+                <tbody>
+                <tr>
+                <td class="left">
+                <strong>Total Price</strong>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+</body>
+</html>
+                '
+11:32:47 (0x700005490000): Process os_name: 'macos'
+11:32:47 (0x700005490000): gpu_mode: '0'
+11:32:47 (0x700005490000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:32:47 (0x700005490000): Process os_name: 'macos'
+11:32:47 (0x700005490000): gpu_mode: '0'
+11:32:47 (0x700005490000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:32:47 (0x700008346000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+11:32:47 (0x700008346000): Resolved resource request using default handler
+11:32:47 (0x700008346000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+11:32:47 (0x700005490000): Browser process received message: 'OnBrowserCreated'
+11:32:47 (0x700005490000): Received message from render process with values '' (0)
+11:32:47 (0x700005490000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+11:32:47 (0x700005490000): Browser 1 status: 
+11:32:47 (0x700005490000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+11:32:47 (0x700005490000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+11:32:47 (0x700005490000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+11:32:47 (0x700005490000): Finished dev tools method on browser 1 (message ID: 1)
+11:32:47 (0x700005490000): Sending DOM-visit process message for browser 1 (job ID: 0)
+11:32:47 (0x700005490000): Browser process received message: 'OnDomVisited'
+11:32:47 (0x700005490000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+11:32:47 (0x700005490000): Printing from browser to '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfzXKisx'
+11:32:47 (0x700005490000): Received browser print callback for path '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfzXKisx' (1)
+11:32:47 (0x700005490000): Print finished for browser 1(success: 1)
+11:32:47 (0x700005490000): No document title found
+11:32:47 (0x700005490000): Retrieve Html title: 
+11:32:47 (0x700005490000): Generating form fields
+11:32:47 (0x700005490000): Adding default font for form fields
+11:32:47 (0x700005490000): Initializing forms for page 0
+11:32:47 (0x700005490000): Retrieving document bytes
+11:32:47 (0x700005490000): Pdf document factory is generating bytes using document pointer 0x600003955930
+11:32:47 (0x700005490000): Pdf document factory succesfully generated bytes 0x600003955930
+11:32:47 (0x700005490000): Successfully generated 8604 bytes from Pdf document factory writer
+11:32:47 (0x700005490000): Closing browser 1
+11:32:47 (0x700005490000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+11:32:47 (0x700005490000): Destroying browser (id:1)
+11:32:47 (0x700005490000): Finished job 0
+11:32:47 (0x700005490000): Job group finished
+11:32:47 (0x700005490000): Job group 0 finished
+11:32:47 (0x700005490000): CefProxyController::QuitMessageLoop()
+11:32:47 (0x700005490000): CefMessagePumpStd::Quit()
+11:32:47 (0x700005490000): CefMessagePumpStd::DoQuit()
+11:32:47 (0x700005490000): Retrieving 8604 bytes from job 0
+11:33:26 (0x70000b001000): ~ Chrome renderer v2021.12.0.4391~
+11:33:26 (0x70000b001000): Initializing Cef proxy controller
+11:33:26 (0x70000b001000): CefProxy()
+11:33:26 (0x70000b001000): CefInterface()
+11:33:26 (0x70000b001000): Assigning Cef proxy controller events...
+11:33:26 (0x70000b001000): Assigning Cef proxy controller stream provider...
+11:33:26 (0x70000b001000): Successful first-time initialization of Chrome renderer
+11:33:26 (0x70000b001000): Initializing Cef proxy controller
+11:33:26 (0x70000b001000): Using subprocess path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess'
+11:33:26 (0x70000b001000): Using framework path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+11:33:26 (0x70000b001000): Using resources path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+11:33:26 (0x70000b001000): Process os_name: 'macos'
+11:33:26 (0x70000b001000): gpu_mode: '0'
+11:33:26 (0x70000b001000): Launching Main process ' --browser-subprocess-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:33:26 (0x70000b001000): Process os_name: 'macos'
+11:33:26 (0x70000b001000): gpu_mode: '0'
+11:33:26 (0x70000b001000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,16085404254365040158,5197343953885016429,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:33:26 (0x70000b001000): Cef context initialized
+11:33:26 (0x70000b001000): Registering custom scheme for rendering raw html
+11:33:26 (0x70000b001000): Cef initialization succeeded
+11:33:26 (0x70000b001000): Generating PDF from HTML '
+<html>
+<head>
+</head>
+<body>
+                <table class="table table-clear">
+                <tbody>
+                <tr>
+                <td class="left">
+                <strong>Total Price</strong>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+</body>
+</html>
+                '
+11:33:26 (0x70000b001000): BROWSER SETTINGS:
+View Width: 1024
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+11:33:26 (0x70000b001000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 1
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 25
+Margin Right: 25
+Margin Bottom: 25
+Margin Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0
+Autosize PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+11:33:26 (0x700011ecf000): Creating new browser
+11:33:26 (0x700011ecf000): Waited for 0s to create a browser
+11:33:26 (0x70000b001000): Process os_name: 'macos'
+11:33:26 (0x70000b001000): gpu_mode: '0'
+11:33:26 (0x70000b001000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,16085404254365040158,5197343953885016429,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:33:26 (0x70000b001000): Created browser 1
+11:33:26 (0x70000b001000): Processing job for content '
+<html>
+<head>
+</head>
+<body>
+                <table class="table table-clear">
+                <tbody>
+                <tr>
+                <td class="left">
+                <strong>Total Price</strong>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+</body>
+</html>
+                '
+11:33:26 (0x70000b001000): Process os_name: 'macos'
+11:33:26 (0x70000b001000): gpu_mode: '0'
+11:33:26 (0x70000b001000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:33:26 (0x70000b001000): Process os_name: 'macos'
+11:33:26 (0x70000b001000): gpu_mode: '0'
+11:33:26 (0x70000b001000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:33:26 (0x70000deb7000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+11:33:26 (0x70000deb7000): Resolved resource request using default handler
+11:33:26 (0x70000deb7000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+11:33:27 (0x70000b001000): Browser process received message: 'OnBrowserCreated'
+11:33:27 (0x70000b001000): Received message from render process with values '' (0)
+11:33:27 (0x70000b001000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+11:33:27 (0x70000b001000): Browser 1 status: 
+11:33:27 (0x70000b001000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+11:33:27 (0x70000b001000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+11:33:27 (0x70000b001000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+11:33:27 (0x70000b001000): Finished dev tools method on browser 1 (message ID: 1)
+11:33:27 (0x70000b001000): Sending DOM-visit process message for browser 1 (job ID: 0)
+11:33:27 (0x70000b001000): Browser process received message: 'OnDomVisited'
+11:33:27 (0x70000b001000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+11:33:27 (0x70000b001000): Printing from browser to '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfqkHEtB'
+11:33:27 (0x70000b001000): Received browser print callback for path '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfqkHEtB' (1)
+11:33:27 (0x70000b001000): Print finished for browser 1(success: 1)
+11:33:27 (0x70000b001000): No document title found
+11:33:27 (0x70000b001000): Retrieve Html title: 
+11:33:27 (0x70000b001000): Generating form fields
+11:33:27 (0x70000b001000): Adding default font for form fields
+11:33:27 (0x70000b001000): Initializing forms for page 0
+11:33:27 (0x70000b001000): Retrieving document bytes
+11:33:27 (0x70000b001000): Pdf document factory is generating bytes using document pointer 0x600000468dd0
+11:33:27 (0x70000b001000): Pdf document factory succesfully generated bytes 0x600000468dd0
+11:33:27 (0x70000b001000): Successfully generated 8604 bytes from Pdf document factory writer
+11:33:27 (0x70000b001000): Closing browser 1
+11:33:27 (0x70000b001000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+11:33:27 (0x70000b001000): Destroying browser (id:1)
+11:33:27 (0x70000b001000): Finished job 0
+11:33:27 (0x70000b001000): Job group finished
+11:33:27 (0x70000b001000): Job group 0 finished
+11:33:27 (0x70000b001000): CefProxyController::QuitMessageLoop()
+11:33:27 (0x70000b001000): CefMessagePumpStd::Quit()
+11:33:27 (0x70000b001000): CefMessagePumpStd::DoQuit()
+11:33:27 (0x70000b001000): Retrieving 8604 bytes from job 0
+11:34:08 (0x70000a3f3000): ~ Chrome renderer v2021.12.0.4391~
+11:34:09 (0x70000a3f3000): Initializing Cef proxy controller
+11:34:09 (0x70000a3f3000): CefProxy()
+11:34:09 (0x70000a3f3000): CefInterface()
+11:34:09 (0x70000a3f3000): Assigning Cef proxy controller events...
+11:34:09 (0x70000a3f3000): Assigning Cef proxy controller stream provider...
+11:34:09 (0x70000a3f3000): Successful first-time initialization of Chrome renderer
+11:34:09 (0x70000a3f3000): Initializing Cef proxy controller
+11:34:09 (0x70000a3f3000): Using subprocess path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess'
+11:34:09 (0x70000a3f3000): Using framework path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+11:34:09 (0x70000a3f3000): Using resources path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+11:34:09 (0x70000a3f3000): Process os_name: 'macos'
+11:34:09 (0x70000a3f3000): gpu_mode: '0'
+11:34:09 (0x70000a3f3000): Launching Main process ' --browser-subprocess-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:34:09 (0x70000a3f3000): Process os_name: 'macos'
+11:34:09 (0x70000a3f3000): gpu_mode: '0'
+11:34:09 (0x70000a3f3000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,12444514063889678693,8145717510742097322,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:34:09 (0x70000a3f3000): Cef context initialized
+11:34:09 (0x70000a3f3000): Registering custom scheme for rendering raw html
+11:34:09 (0x70000a3f3000): Cef initialization succeeded
+11:34:09 (0x70000a3f3000): Generating PDF from HTML '
+<html>
+<head>
+</head>
+<body>
+                <table class="table table-clear">
+                <tbody>
+                <tr>
+                <td class="left">
+                <strong>Total Price</strong>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+</body>
+</html>
+                '
+11:34:09 (0x70000a3f3000): BROWSER SETTINGS:
+View Width: 1024
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+11:34:09 (0x70000a3f3000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 1
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 25
+Margin Right: 25
+Margin Bottom: 25
+Margin Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0
+Autosize PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+11:34:09 (0x700010c9d000): Creating new browser
+11:34:09 (0x700010c9d000): Waited for 0s to create a browser
+11:34:09 (0x70000a3f3000): Process os_name: 'macos'
+11:34:09 (0x70000a3f3000): gpu_mode: '0'
+11:34:09 (0x70000a3f3000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,12444514063889678693,8145717510742097322,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:34:09 (0x70000a3f3000): Created browser 1
+11:34:09 (0x70000a3f3000): Processing job for content '
+<html>
+<head>
+</head>
+<body>
+                <table class="table table-clear">
+                <tbody>
+                <tr>
+                <td class="left">
+                <strong>Total Price</strong>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+</body>
+</html>
+                '
+11:34:09 (0x70000a3f3000): Process os_name: 'macos'
+11:34:09 (0x70000a3f3000): gpu_mode: '0'
+11:34:09 (0x70000a3f3000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:34:09 (0x70000a3f3000): Process os_name: 'macos'
+11:34:09 (0x70000a3f3000): gpu_mode: '0'
+11:34:09 (0x70000a3f3000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:34:09 (0x70000cc85000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+11:34:09 (0x70000cc85000): Resolved resource request using default handler
+11:34:09 (0x70000cc85000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+11:34:09 (0x70000a3f3000): Browser process received message: 'OnBrowserCreated'
+11:34:09 (0x70000a3f3000): Received message from render process with values '' (0)
+11:34:09 (0x70000a3f3000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+11:34:09 (0x70000a3f3000): Browser 1 status: 
+11:34:09 (0x70000a3f3000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+11:34:09 (0x70000a3f3000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+11:34:09 (0x70000a3f3000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+11:34:09 (0x70000a3f3000): Finished dev tools method on browser 1 (message ID: 1)
+11:34:09 (0x70000a3f3000): Sending DOM-visit process message for browser 1 (job ID: 0)
+11:34:09 (0x70000a3f3000): Browser process received message: 'OnDomVisited'
+11:34:09 (0x70000a3f3000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+11:34:09 (0x70000a3f3000): Printing from browser to '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfq0XmxI'
+11:34:09 (0x70000a3f3000): Received browser print callback for path '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfq0XmxI' (1)
+11:34:09 (0x70000a3f3000): Print finished for browser 1(success: 1)
+11:34:09 (0x70000a3f3000): No document title found
+11:34:09 (0x70000a3f3000): Retrieve Html title: 
+11:34:09 (0x70000a3f3000): Generating form fields
+11:34:09 (0x70000a3f3000): Adding default font for form fields
+11:34:09 (0x70000a3f3000): Initializing forms for page 0
+11:34:09 (0x70000a3f3000): Retrieving document bytes
+11:34:09 (0x70000a3f3000): Pdf document factory is generating bytes using document pointer 0x600001b57670
+11:34:09 (0x70000a3f3000): Pdf document factory succesfully generated bytes 0x600001b57670
+11:34:09 (0x70000a3f3000): Successfully generated 8604 bytes from Pdf document factory writer
+11:34:09 (0x70000a3f3000): Closing browser 1
+11:34:09 (0x70000a3f3000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+11:34:09 (0x70000a3f3000): Destroying browser (id:1)
+11:34:09 (0x70000a3f3000): Finished job 0
+11:34:09 (0x70000a3f3000): Job group finished
+11:34:09 (0x70000a3f3000): Job group 0 finished
+11:34:09 (0x70000a3f3000): CefProxyController::QuitMessageLoop()
+11:34:09 (0x70000a3f3000): CefMessagePumpStd::Quit()
+11:34:09 (0x70000a3f3000): CefMessagePumpStd::DoQuit()
+11:34:09 (0x70000a3f3000): Retrieving 8604 bytes from job 0
+11:34:37 (0x7000055b3000): ~ Chrome renderer v2021.12.0.4391~
+11:34:37 (0x7000055b3000): Initializing Cef proxy controller
+11:34:37 (0x7000055b3000): CefProxy()
+11:34:37 (0x7000055b3000): CefInterface()
+11:34:37 (0x7000055b3000): Assigning Cef proxy controller events...
+11:34:37 (0x7000055b3000): Assigning Cef proxy controller stream provider...
+11:34:37 (0x7000055b3000): Successful first-time initialization of Chrome renderer
+11:34:37 (0x7000055b3000): Initializing Cef proxy controller
+11:34:37 (0x7000055b3000): Using subprocess path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess'
+11:34:37 (0x7000055b3000): Using framework path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+11:34:37 (0x7000055b3000): Using resources path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+11:34:37 (0x7000055b3000): Process os_name: 'macos'
+11:34:37 (0x7000055b3000): gpu_mode: '0'
+11:34:37 (0x7000055b3000): Launching Main process ' --browser-subprocess-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:34:38 (0x7000055b3000): Process os_name: 'macos'
+11:34:38 (0x7000055b3000): gpu_mode: '0'
+11:34:38 (0x7000055b3000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,5008198120775431241,3100729510335787554,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:34:38 (0x7000055b3000): Cef context initialized
+11:34:38 (0x7000055b3000): Registering custom scheme for rendering raw html
+11:34:38 (0x7000055b3000): Cef initialization succeeded
+11:34:38 (0x7000055b3000): Generating PDF from HTML '
+<html>
+<head>
+</head>
+<body>
+                <table class="table table-clear">
+                <tbody>
+                <tr>
+                <td class="left">
+                <strong>Total Price</strong>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+</body>
+</html>
+                '
+11:34:38 (0x7000055b3000): BROWSER SETTINGS:
+View Width: 1024
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+11:34:38 (0x7000055b3000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 1
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 25
+Margin Right: 25
+Margin Bottom: 25
+Margin Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0
+Autosize PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+11:34:38 (0x70000bee0000): Creating new browser
+11:34:38 (0x70000bee0000): Waited for 0s to create a browser
+11:34:38 (0x7000055b3000): Process os_name: 'macos'
+11:34:38 (0x7000055b3000): gpu_mode: '0'
+11:34:38 (0x7000055b3000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,5008198120775431241,3100729510335787554,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:34:38 (0x7000055b3000): Created browser 1
+11:34:38 (0x7000055b3000): Processing job for content '
+<html>
+<head>
+</head>
+<body>
+                <table class="table table-clear">
+                <tbody>
+                <tr>
+                <td class="left">
+                <strong>Total Price</strong>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+</body>
+</html>
+                '
+11:34:38 (0x7000055b3000): Process os_name: 'macos'
+11:34:38 (0x7000055b3000): gpu_mode: '0'
+11:34:38 (0x7000055b3000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:34:38 (0x7000055b3000): Process os_name: 'macos'
+11:34:38 (0x7000055b3000): gpu_mode: '0'
+11:34:38 (0x7000055b3000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:34:38 (0x700007ec8000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+11:34:38 (0x700007ec8000): Resolved resource request using default handler
+11:34:38 (0x700007ec8000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+11:34:38 (0x7000055b3000): Browser process received message: 'OnBrowserCreated'
+11:34:38 (0x7000055b3000): Received message from render process with values '' (0)
+11:34:38 (0x7000055b3000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+11:34:38 (0x7000055b3000): Browser 1 status: 
+11:34:38 (0x7000055b3000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+11:34:38 (0x7000055b3000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+11:34:38 (0x7000055b3000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+11:34:38 (0x7000055b3000): Finished dev tools method on browser 1 (message ID: 1)
+11:34:38 (0x7000055b3000): Sending DOM-visit process message for browser 1 (job ID: 0)
+11:34:38 (0x7000055b3000): Browser process received message: 'OnDomVisited'
+11:34:38 (0x7000055b3000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+11:34:38 (0x7000055b3000): Printing from browser to '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfLEWqQ5'
+11:34:38 (0x7000055b3000): Received browser print callback for path '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfLEWqQ5' (1)
+11:34:38 (0x7000055b3000): Print finished for browser 1(success: 1)
+11:34:38 (0x7000055b3000): No document title found
+11:34:38 (0x7000055b3000): Retrieve Html title: 
+11:34:38 (0x7000055b3000): Generating form fields
+11:34:38 (0x7000055b3000): Adding default font for form fields
+11:34:38 (0x7000055b3000): Initializing forms for page 0
+11:34:38 (0x7000055b3000): Retrieving document bytes
+11:34:38 (0x7000055b3000): Pdf document factory is generating bytes using document pointer 0x600002633b50
+11:34:38 (0x7000055b3000): Pdf document factory succesfully generated bytes 0x600002633b50
+11:34:38 (0x7000055b3000): Successfully generated 8604 bytes from Pdf document factory writer
+11:34:38 (0x7000055b3000): Closing browser 1
+11:34:38 (0x7000055b3000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+11:34:38 (0x7000055b3000): Destroying browser (id:1)
+11:34:38 (0x7000055b3000): Finished job 0
+11:34:38 (0x7000055b3000): Job group finished
+11:34:38 (0x7000055b3000): Job group 0 finished
+11:34:38 (0x7000055b3000): CefProxyController::QuitMessageLoop()
+11:34:38 (0x7000055b3000): CefMessagePumpStd::Quit()
+11:34:38 (0x7000055b3000): CefMessagePumpStd::DoQuit()
+11:34:38 (0x7000055b3000): Retrieving 8604 bytes from job 0
+11:36:31 (0x700003458000): ~ Chrome renderer v2021.12.0.4391~
+11:36:31 (0x700003458000): Initializing Cef proxy controller
+11:36:31 (0x700003458000): CefProxy()
+11:36:31 (0x700003458000): CefInterface()
+11:36:31 (0x700003458000): Assigning Cef proxy controller events...
+11:36:31 (0x700003458000): Assigning Cef proxy controller stream provider...
+11:36:31 (0x700003458000): Successful first-time initialization of Chrome renderer
+11:36:31 (0x700003458000): Initializing Cef proxy controller
+11:36:31 (0x700003458000): Using subprocess path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess'
+11:36:31 (0x700003458000): Using framework path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+11:36:31 (0x700003458000): Using resources path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+11:36:31 (0x700003458000): Process os_name: 'macos'
+11:36:31 (0x700003458000): gpu_mode: '0'
+11:36:31 (0x700003458000): Launching Main process ' --browser-subprocess-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:36:31 (0x700003458000): Process os_name: 'macos'
+11:36:31 (0x700003458000): gpu_mode: '0'
+11:36:31 (0x700003458000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,18150561134265172832,1513300597559980005,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:36:31 (0x700003458000): Cef context initialized
+11:36:31 (0x700003458000): Registering custom scheme for rendering raw html
+11:36:31 (0x700003458000): Cef initialization succeeded
+11:36:31 (0x700003458000): Generating PDF from HTML '
+<html>
+<head>
+</head>
+<body>
+                <table class="table table-clear">
+                <tbody>
+                <tr>
+                <td class="left">
+                <strong>Total Price</strong>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+</body>
+</html>
+                '
+11:36:31 (0x700003458000): BROWSER SETTINGS:
+View Width: 1024
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+11:36:31 (0x700003458000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 1
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 25
+Margin Right: 25
+Margin Bottom: 25
+Margin Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0
+Autosize PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+11:36:31 (0x70000a6be000): Creating new browser
+11:36:31 (0x70000a6be000): Waited for 0s to create a browser
+11:36:31 (0x700003458000): Process os_name: 'macos'
+11:36:31 (0x700003458000): gpu_mode: '0'
+11:36:31 (0x700003458000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,18150561134265172832,1513300597559980005,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:36:31 (0x700003458000): Created browser 1
+11:36:31 (0x700003458000): Processing job for content '
+<html>
+<head>
+</head>
+<body>
+                <table class="table table-clear">
+                <tbody>
+                <tr>
+                <td class="left">
+                <strong>Total Price</strong>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+</body>
+</html>
+                '
+11:36:31 (0x700003458000): Process os_name: 'macos'
+11:36:31 (0x700003458000): gpu_mode: '0'
+11:36:31 (0x700003458000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:36:31 (0x700003458000): Process os_name: 'macos'
+11:36:31 (0x700003458000): gpu_mode: '0'
+11:36:31 (0x700003458000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:36:31 (0x7000066a6000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+11:36:31 (0x7000066a6000): Resolved resource request using default handler
+11:36:31 (0x7000066a6000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+11:36:31 (0x700003458000): Browser process received message: 'OnBrowserCreated'
+11:36:31 (0x700003458000): Received message from render process with values '' (0)
+11:36:31 (0x700003458000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+11:36:31 (0x700003458000): Browser 1 status: 
+11:36:31 (0x700003458000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+11:36:31 (0x700003458000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+11:36:31 (0x700003458000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+11:36:31 (0x700003458000): Finished dev tools method on browser 1 (message ID: 1)
+11:36:31 (0x700003458000): Sending DOM-visit process message for browser 1 (job ID: 0)
+11:36:31 (0x700003458000): Browser process received message: 'OnDomVisited'
+11:36:31 (0x700003458000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+11:36:31 (0x700003458000): Printing from browser to '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdflS3Hba'
+11:36:31 (0x700003458000): Received browser print callback for path '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdflS3Hba' (1)
+11:36:31 (0x700003458000): Print finished for browser 1(success: 1)
+11:36:31 (0x700003458000): No document title found
+11:36:31 (0x700003458000): Retrieve Html title: 
+11:36:31 (0x700003458000): Generating form fields
+11:36:31 (0x700003458000): Adding default font for form fields
+11:36:32 (0x700003458000): Initializing forms for page 0
+11:36:32 (0x700003458000): Retrieving document bytes
+11:36:32 (0x700003458000): Pdf document factory is generating bytes using document pointer 0x600002b93330
+11:36:32 (0x700003458000): Pdf document factory succesfully generated bytes 0x600002b93330
+11:36:32 (0x700003458000): Successfully generated 8604 bytes from Pdf document factory writer
+11:36:32 (0x700003458000): Closing browser 1
+11:36:32 (0x700003458000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+11:36:32 (0x700003458000): Destroying browser (id:1)
+11:36:32 (0x700003458000): Finished job 0
+11:36:32 (0x700003458000): Job group finished
+11:36:32 (0x700003458000): Job group 0 finished
+11:36:32 (0x700003458000): CefProxyController::QuitMessageLoop()
+11:36:32 (0x700003458000): CefMessagePumpStd::Quit()
+11:36:32 (0x700003458000): CefMessagePumpStd::DoQuit()
+11:36:32 (0x700003458000): Retrieving 8604 bytes from job 0
