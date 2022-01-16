@@ -6,13 +6,12 @@
     ViewData["Title"] = filename;
 
 }
-<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
 <section class="container-fluid ">
     <div id="ui-view" data-select2-id="ui-view">
         <div>
             <div class="card">
                 <div class="card-header">
-                    @filename
+                    <h4 class="float-left">@filename</h4>
                     <div class="float-right d-print-none">
                         <a class="btn btn-sm btn-secondary " 
                            href="#" onclick="window.print();" data-abc="true">

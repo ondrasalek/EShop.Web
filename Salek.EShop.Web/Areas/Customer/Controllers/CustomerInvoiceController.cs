@@ -29,20 +29,18 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
 
         public static MemoryStream RenderInvoiceFile(Order? order)
         {
+            
             var htmlPage = new StringBuilder();
             htmlPage.Append(
                 $@"
-            <html lang=""en"">
-            <head>
-                <link rel=""stylesheet"" href=""https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"" integrity=""sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"" crossorigin=""anonymous"">
-            </head>
-            <body>
+            <html>
+            <body style=""margin:1rem"">
                 <section class=""container-fluid"">
                     <div id=""ui-view"" data-select2-id=""ui-view"">
                         <div>
                             <div class=""card"">
                                 <div class=""card-header"">
-                                    Invoice #{order.ID}
+                                    <h4 class=""float-left"">Invoice #{order.ID}</h4>
                                 </div>
                                 <div class=""card-body"">
                                     <div class=""row mb-4"">
@@ -80,7 +78,7 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
                                         </tr>
                                         </thead>
                                         <tbody>
-                ");
+            ");
             int i = 0;
             foreach (var item in order.OrderItems)
             {
@@ -118,7 +116,7 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
                     </div>
                 </div>
                 <div class=""card-footer"">
-                    <div>Thanks for Buying this items from us.</div>
+                    <div>Thanks for ordering from us.</div>
                 </div>
             </div>
         </div>
@@ -126,18 +124,29 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
 </section>
 </body>
 </html>
-                    ");
+            ");
             
             Installation.DefaultRenderingEngine = IronPdf.Rendering.PdfRenderingEngine.Chrome;
             var renderer = new ChromePdfRenderer();
-            
-            renderer.RenderingOptions.CssMediaType = IronPdf.Rendering.PdfCssMediaType.Print; //Screen
             renderer.RenderingOptions.PrintHtmlBackgrounds = true;
+            renderer.RenderingOptions.CssMediaType = IronPdf.Rendering.PdfCssMediaType.Screen;
+            renderer.RenderingOptions.CustomCssUrl = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css";
+            renderer.RenderingOptions.ViewPortWidth = 1280;
+            renderer.RenderingOptions.MarginTop = 0;
+            renderer.RenderingOptions.MarginBottom = 0;
+            renderer.RenderingOptions.MarginLeft = 0;
+            renderer.RenderingOptions.MarginRight = 0;
+            renderer.RenderingOptions.Title = $"Invoice #{order.ID}";
+            renderer.RenderingOptions.FitToPaperWidth = true;
+            renderer.RenderingOptions.FitToPaper = true;
             renderer.RenderingOptions.CreatePdfFormsFromHtml = false;
-            renderer.RenderingOptions.FitToPaper = false;
             
-            return renderer.RenderHtmlAsPdf(htmlPage.ToString()).Stream;
+            var file = renderer.RenderHtmlAsPdf(htmlPage.ToString());
+
+            Console.WriteLine("PDF was created");
+            return file.Stream;
         }
+        
         public static async Task  MailSender(MemoryStream file , int id, User currentUser)
         {
             var userName = currentUser.FirstName + " " + currentUser.LastName;
@@ -155,7 +164,7 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
 <body>
 <div class=""card"">
                        <div class=""card-header"">Hello {userName}.<div>
-                       <div class=""card-body"">Your order war successful, you can find your Invoice #{id} at our website in section My Orders</div>
+                       <div class=""card-body"">Your order war successful.</div>
                        <div class=""card-footer"">Thank you for ordering from Robots.Eshop</div>
 </div>
 </body>
@@ -170,7 +179,7 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
             mail.Subject = subject;
             mail.Body = body;
             mail.IsBodyHtml = true;
-            mail.Attachments.Add(new Attachment(file, "Invoice.pdf", MediaTypeNames.Application.Pdf));
+            mail.Attachments.Add(new Attachment(file, $"Invoice #{id}.pdf", MediaTypeNames.Application.Pdf));
 
             SmtpClient client = new SmtpClient(server, port)
             {
