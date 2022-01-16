@@ -6,6 +6,7 @@ using System.Net.Mail;
 using System.Net.Mime;
 using System.Text;
 using System.Threading.Tasks;
+using IronPdf;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -19,8 +20,13 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
     [Authorize(Roles = nameof(RolesEnum.Customer))]
     public class CustomerInvoiceController : Controller
     {
-        private readonly EShopDbContext _dbContext;
-        
+        EShopDbContext eShopDbContext;
+
+        public CustomerInvoiceController(EShopDbContext eShopDbContext)
+        {
+            this.eShopDbContext = eShopDbContext;
+        }
+
         public static MemoryStream RenderInvoiceFile(Order? order)
         {
             var htmlPage = new StringBuilder();
@@ -122,10 +128,14 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
 </html>
                     ");
             
-            var renderer = new IronPdf.ChromePdfRenderer();
-            renderer.RenderingOptions.CssMediaType = IronPdf.Rendering.PdfCssMediaType.Screen;
-            renderer.RenderingOptions.ViewPortWidth = 1280;
-
+            Installation.DefaultRenderingEngine = IronPdf.Rendering.PdfRenderingEngine.Chrome;
+            var renderer = new ChromePdfRenderer();
+            
+            renderer.RenderingOptions.CssMediaType = IronPdf.Rendering.PdfCssMediaType.Print; //Screen
+            renderer.RenderingOptions.PrintHtmlBackgrounds = true;
+            renderer.RenderingOptions.CreatePdfFormsFromHtml = false;
+            renderer.RenderingOptions.FitToPaper = false;
+            
             return renderer.RenderHtmlAsPdf(htmlPage.ToString()).Stream;
         }
         public static async Task  MailSender(MemoryStream file , int id, User currentUser)
@@ -180,7 +190,7 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
         
         public async Task<IActionResult> Invoice(int id)
         {
-            var foundItem = _dbContext.Orders
+            var foundItem = eShopDbContext.Orders
                 .Include(o=>o.User)
                 .Include(o=>o.OrderItems)
                 .ThenInclude(oi => oi.Product)
