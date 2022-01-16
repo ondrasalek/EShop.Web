@@ -140,6 +140,7 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
             renderer.RenderingOptions.FitToPaperWidth = true;
             renderer.RenderingOptions.FitToPaper = true;
             renderer.RenderingOptions.CreatePdfFormsFromHtml = false;
+            renderer.RenderingOptions.Timeout = 500;
             
             var file = renderer.RenderHtmlAsPdf(htmlPage.ToString());
 
@@ -164,7 +165,7 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
 <body>
 <div class=""card"">
                        <div class=""card-header"">Hello {userName}.<div>
-                       <div class=""card-body"">Your order war successful.</div>
+                       <div class=""card-body"">Your order was successful.</div>
                        <div class=""card-footer"">Thank you for ordering from Robots.Eshop</div>
 </div>
 </body>
