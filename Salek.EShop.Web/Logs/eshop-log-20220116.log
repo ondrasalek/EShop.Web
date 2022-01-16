@@ -12763,3 +12763,368 @@ ORDER BY `o`.`ID`, `u`.`Id`, `t`.`ID`, `t`.`Id0`" (0723d8ff)
 2022-01-16T18:29:56.6543190+01:00 0HMEP2N3FC0BH:00000006 [INF] Executed action "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Salek.EShop.Web)" in 653.1778ms (afa2e885)
 2022-01-16T18:29:56.6545820+01:00 0HMEP2N3FC0BH:00000006 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Salek.EShop.Web)"' (99874f2b)
 2022-01-16T18:29:56.6705990+01:00 0HMEP2N3FC0BH:00000006 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrders - - - 200 - text/html;+charset=utf-8 676.4520ms (791a596a)
+2022-01-16T18:32:14.0598610+01:00 0HMEP2N3FC0BJ:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Security/Account/Logout - - (ca22a1cb)
+2022-01-16T18:32:14.0615180+01:00 0HMEP2N3FC0BJ:00000002 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Security.Controllers.AccountController.Logout (Salek.EShop.Web)"' (500cc934)
+2022-01-16T18:32:14.0665220+01:00 0HMEP2N3FC0BJ:00000002 [INF] Route matched with "{area = \"Security\", action = \"Logout\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout()" on controller "Salek.EShop.Web.Areas.Security.Controllers.AccountController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-16T18:32:14.0835210+01:00 0HMEP2N3FC0BJ:00000002 [INF] AuthenticationScheme: "Identity.Application" signed out. (d3f50c8d)
+2022-01-16T18:32:14.0848250+01:00 0HMEP2N3FC0BJ:00000002 [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2022-01-16T18:32:14.0850460+01:00 0HMEP2N3FC0BJ:00000002 [INF] AuthenticationScheme: "Identity.TwoFactorUserId" signed out. (d3f50c8d)
+2022-01-16T18:32:14.0853900+01:00 0HMEP2N3FC0BJ:00000002 [INF] Executing RedirectResult, redirecting to "/Security/Account/Login". (d98d540e)
+2022-01-16T18:32:14.0854990+01:00 0HMEP2N3FC0BJ:00000002 [INF] Executed action "Salek.EShop.Web.Areas.Security.Controllers.AccountController.Logout (Salek.EShop.Web)" in 18.8988ms (afa2e885)
+2022-01-16T18:32:14.0856740+01:00 0HMEP2N3FC0BJ:00000002 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Security.Controllers.AccountController.Logout (Salek.EShop.Web)"' (99874f2b)
+2022-01-16T18:32:14.0859810+01:00 0HMEP2N3FC0BJ:00000002 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Security/Account/Logout - - - 302 0 - 26.1396ms (791a596a)
+2022-01-16T18:32:14.0889540+01:00 0HMEP2N3FC0BJ:00000003 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Security/Account/Login - - (ca22a1cb)
+2022-01-16T18:32:14.0908330+01:00 0HMEP2N3FC0BJ:00000003 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Security.Controllers.AccountController.Login (Salek.EShop.Web)"' (500cc934)
+2022-01-16T18:32:14.0923360+01:00 0HMEP2N3FC0BJ:00000003 [INF] Route matched with "{area = \"Security\", action = \"Login\", controller = \"Account\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "Salek.EShop.Web.Areas.Security.Controllers.AccountController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-16T18:32:14.0943640+01:00 0HMEP2N3FC0BJ:00000003 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2022-01-16T18:32:14.1351810+01:00 0HMEP2N3FC0BJ:00000003 [INF] Executed ViewResult - view "Login" executed in 42.1237ms. (f66409e9)
+2022-01-16T18:32:14.1352440+01:00 0HMEP2N3FC0BJ:00000003 [INF] Executed action "Salek.EShop.Web.Areas.Security.Controllers.AccountController.Login (Salek.EShop.Web)" in 42.862ms (afa2e885)
+2022-01-16T18:32:14.1352770+01:00 0HMEP2N3FC0BJ:00000003 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Security.Controllers.AccountController.Login (Salek.EShop.Web)"' (99874f2b)
+2022-01-16T18:32:14.1354770+01:00 0HMEP2N3FC0BJ:00000003 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Security/Account/Login - - - 200 - text/html;+charset=utf-8 46.5016ms (791a596a)
+2022-01-16T18:32:16.9738770+01:00 0HMEP2N3FC0BJ:00000004 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Security/Account/Login application/x-www-form-urlencoded 215 (ca22a1cb)
+2022-01-16T18:32:16.9743970+01:00 0HMEP2N3FC0BJ:00000004 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Security.Controllers.AccountController.Login (Salek.EShop.Web)"' (500cc934)
+2022-01-16T18:32:16.9851070+01:00 0HMEP2N3FC0BJ:00000004 [INF] Route matched with "{area = \"Security\", action = \"Login\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Salek.EShop.Web.Models.ViewModels.LoginViewModel)" on controller "Salek.EShop.Web.Areas.Security.Controllers.AccountController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-16T18:32:17.0167650+01:00 0HMEP2N3FC0BJ:00000004 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-16T18:32:17.0187170+01:00 0HMEP2N3FC0BJ:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-16T18:32:17.0908080+01:00 0HMEP2N3FC0BJ:00000004 [INF] Executed DbCommand ("4"ms) [Parameters=["@__user_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`ClaimType`, `u`.`ClaimValue`, `u`.`UserId`
+FROM `UserClaims` AS `u`
+WHERE `u`.`UserId` = @__user_Id_0" (0723d8ff)
+2022-01-16T18:32:17.1117540+01:00 0HMEP2N3FC0BJ:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Name`
+FROM `UserRoles` AS `u`
+INNER JOIN `Roles` AS `r` ON `u`.`RoleId` = `r`.`Id`
+WHERE `u`.`UserId` = @__userId_0" (0723d8ff)
+2022-01-16T18:32:17.1153940+01:00 0HMEP2N3FC0BJ:00000004 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-16T18:32:17.1258080+01:00 0HMEP2N3FC0BJ:00000004 [INF] Executed DbCommand ("3"ms) [Parameters=["@__role_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`ClaimType`, `r`.`ClaimValue`
+FROM `RoleClaims` AS `r`
+WHERE `r`.`RoleId` = @__role_Id_0" (0723d8ff)
+2022-01-16T18:32:17.1334600+01:00 0HMEP2N3FC0BJ:00000004 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2022-01-16T18:32:17.1368160+01:00 0HMEP2N3FC0BJ:00000004 [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2022-01-16T18:32:17.1369010+01:00 0HMEP2N3FC0BJ:00000004 [INF] Executed action "Salek.EShop.Web.Areas.Security.Controllers.AccountController.Login (Salek.EShop.Web)" in 151.7089ms (afa2e885)
+2022-01-16T18:32:17.1369250+01:00 0HMEP2N3FC0BJ:00000004 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Security.Controllers.AccountController.Login (Salek.EShop.Web)"' (99874f2b)
+2022-01-16T18:32:17.1371040+01:00 0HMEP2N3FC0BJ:00000004 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Security/Account/Login application/x-www-form-urlencoded 215 - 302 0 - 163.2589ms (791a596a)
+2022-01-16T18:32:17.1393780+01:00 0HMEP2N3FC0BJ:00000005 [INF] Request starting HTTP/1.1 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-16T18:32:17.1399220+01:00 0HMEP2N3FC0BJ:00000005 [INF] Executing endpoint '"Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)"' (500cc934)
+2022-01-16T18:32:17.1414660+01:00 0HMEP2N3FC0BJ:00000005 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Salek.EShop.Web.Controllers.HomeController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-16T18:32:17.1427250+01:00 0HMEP2N3FC0BJ:00000005 [INF] Index viewed (84b92a55)
+2022-01-16T18:32:17.1435870+01:00 0HMEP2N3FC0BJ:00000005 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-16T18:32:17.1489580+01:00 0HMEP2N3FC0BJ:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`Id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-16T18:32:17.1592820+01:00 0HMEP2N3FC0BJ:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-16T18:32:17.1613470+01:00 0HMEP2N3FC0BJ:00000005 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-16T18:32:17.1846070+01:00 0HMEP2N3FC0BJ:00000005 [INF] Executed ViewResult - view "Index" executed in 24.6555ms. (f66409e9)
+2022-01-16T18:32:17.1846990+01:00 0HMEP2N3FC0BJ:00000005 [INF] Executed action "Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)" in 43.1395ms (afa2e885)
+2022-01-16T18:32:17.1847300+01:00 0HMEP2N3FC0BJ:00000005 [INF] Executed endpoint '"Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)"' (99874f2b)
+2022-01-16T18:32:17.1848900+01:00 0HMEP2N3FC0BJ:00000005 [INF] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 45.4934ms (791a596a)
+2022-01-16T18:32:20.1934950+01:00 0HMEP2N3FC0BJ:00000006 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 (ca22a1cb)
+2022-01-16T18:32:20.1966310+01:00 0HMEP2N3FC0BJ:00000006 [INF] Authorization was successful. (0d575a54)
+2022-01-16T18:32:20.1967800+01:00 0HMEP2N3FC0BJ:00000006 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)"' (500cc934)
+2022-01-16T18:32:20.1970860+01:00 0HMEP2N3FC0BJ:00000006 [INF] Route matched with "{area = \"Customer\", action = \"AddOrderItemsToSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "Double AddOrderItemsToSession(System.Nullable`1[System.Int32])" on controller "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-16T18:32:20.1995100+01:00 0HMEP2N3FC0BJ:00000006 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-16T18:32:20.2029410+01:00 0HMEP2N3FC0BJ:00000006 [INF] Executed DbCommand ("1"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`
+WHERE `p`.`Id` = @__productId_0
+LIMIT 1" (0723d8ff)
+2022-01-16T18:32:20.2045390+01:00 0HMEP2N3FC0BJ:00000006 [INF] Executing "ObjectResult", writing value of type '"System.Double"'. (605b4265)
+2022-01-16T18:32:20.2054910+01:00 0HMEP2N3FC0BJ:00000006 [INF] Executed action "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)" in 8.2763ms (afa2e885)
+2022-01-16T18:32:20.2055660+01:00 0HMEP2N3FC0BJ:00000006 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)"' (99874f2b)
+2022-01-16T18:32:20.2065000+01:00 0HMEP2N3FC0BJ:00000006 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 - 200 - application/json;+charset=utf-8 13.1167ms (791a596a)
+2022-01-16T18:32:21.4560640+01:00 0HMEP2N3FC0BJ:00000007 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 (ca22a1cb)
+2022-01-16T18:32:21.4573030+01:00 0HMEP2N3FC0BJ:00000007 [INF] Authorization was successful. (0d575a54)
+2022-01-16T18:32:21.4574590+01:00 0HMEP2N3FC0BJ:00000007 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)"' (500cc934)
+2022-01-16T18:32:21.4575980+01:00 0HMEP2N3FC0BJ:00000007 [INF] Route matched with "{area = \"Customer\", action = \"AddOrderItemsToSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "Double AddOrderItemsToSession(System.Nullable`1[System.Int32])" on controller "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-16T18:32:21.4582870+01:00 0HMEP2N3FC0BJ:00000007 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-16T18:32:21.4604620+01:00 0HMEP2N3FC0BJ:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`
+WHERE `p`.`Id` = @__productId_0
+LIMIT 1" (0723d8ff)
+2022-01-16T18:32:21.4611950+01:00 0HMEP2N3FC0BJ:00000007 [INF] Executing "ObjectResult", writing value of type '"System.Double"'. (605b4265)
+2022-01-16T18:32:21.4614000+01:00 0HMEP2N3FC0BJ:00000007 [INF] Executed action "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)" in 3.7402ms (afa2e885)
+2022-01-16T18:32:21.4614650+01:00 0HMEP2N3FC0BJ:00000007 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)"' (99874f2b)
+2022-01-16T18:32:21.4619180+01:00 0HMEP2N3FC0BJ:00000007 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 - 200 - application/json;+charset=utf-8 5.8572ms (791a596a)
+2022-01-16T18:32:23.9202620+01:00 0HMEP2N3FC0BJ:00000008 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 (ca22a1cb)
+2022-01-16T18:32:23.9213640+01:00 0HMEP2N3FC0BJ:00000008 [INF] Authorization was successful. (0d575a54)
+2022-01-16T18:32:23.9214530+01:00 0HMEP2N3FC0BJ:00000008 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)"' (500cc934)
+2022-01-16T18:32:23.9217460+01:00 0HMEP2N3FC0BJ:00000008 [INF] Route matched with "{area = \"Customer\", action = \"AddOrderItemsToSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "Double AddOrderItemsToSession(System.Nullable`1[System.Int32])" on controller "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-16T18:32:23.9224660+01:00 0HMEP2N3FC0BJ:00000008 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-16T18:32:23.9253180+01:00 0HMEP2N3FC0BJ:00000008 [INF] Executed DbCommand ("1"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`
+WHERE `p`.`Id` = @__productId_0
+LIMIT 1" (0723d8ff)
+2022-01-16T18:32:23.9258600+01:00 0HMEP2N3FC0BJ:00000008 [INF] Executing "ObjectResult", writing value of type '"System.Double"'. (605b4265)
+2022-01-16T18:32:23.9260600+01:00 0HMEP2N3FC0BJ:00000008 [INF] Executed action "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)" in 4.2325ms (afa2e885)
+2022-01-16T18:32:23.9261150+01:00 0HMEP2N3FC0BJ:00000008 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)"' (99874f2b)
+2022-01-16T18:32:23.9263600+01:00 0HMEP2N3FC0BJ:00000008 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 - 200 - application/json;+charset=utf-8 6.1464ms (791a596a)
+2022-01-16T18:32:24.4985640+01:00 0HMEP2N3FC0BJ:00000009 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 (ca22a1cb)
+2022-01-16T18:32:24.5003450+01:00 0HMEP2N3FC0BJ:00000009 [INF] Authorization was successful. (0d575a54)
+2022-01-16T18:32:24.5006200+01:00 0HMEP2N3FC0BJ:00000009 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)"' (500cc934)
+2022-01-16T18:32:24.5008260+01:00 0HMEP2N3FC0BJ:00000009 [INF] Route matched with "{area = \"Customer\", action = \"AddOrderItemsToSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "Double AddOrderItemsToSession(System.Nullable`1[System.Int32])" on controller "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-16T18:32:24.5016630+01:00 0HMEP2N3FC0BJ:00000009 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-16T18:32:24.5036890+01:00 0HMEP2N3FC0BJ:00000009 [INF] Executed DbCommand ("1"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`
+WHERE `p`.`Id` = @__productId_0
+LIMIT 1" (0723d8ff)
+2022-01-16T18:32:24.5042960+01:00 0HMEP2N3FC0BJ:00000009 [INF] Executing "ObjectResult", writing value of type '"System.Double"'. (605b4265)
+2022-01-16T18:32:24.5046600+01:00 0HMEP2N3FC0BJ:00000009 [INF] Executed action "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)" in 3.7417ms (afa2e885)
+2022-01-16T18:32:24.5047500+01:00 0HMEP2N3FC0BJ:00000009 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)"' (99874f2b)
+2022-01-16T18:32:24.5051680+01:00 0HMEP2N3FC0BJ:00000009 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 - 200 - application/json;+charset=utf-8 6.6009ms (791a596a)
+2022-01-16T18:32:25.6578290+01:00 0HMEP2N3FC0BJ:0000000A [INF] Request starting HTTP/1.1 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 (ca22a1cb)
+2022-01-16T18:32:25.6587860+01:00 0HMEP2N3FC0BJ:0000000A [INF] Authorization was successful. (0d575a54)
+2022-01-16T18:32:25.6588530+01:00 0HMEP2N3FC0BJ:0000000A [INF] Executing endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)"' (500cc934)
+2022-01-16T18:32:25.6592220+01:00 0HMEP2N3FC0BJ:0000000A [INF] Route matched with "{area = \"Customer\", action = \"AddOrderItemsToSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "Double AddOrderItemsToSession(System.Nullable`1[System.Int32])" on controller "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-16T18:32:25.6598300+01:00 0HMEP2N3FC0BJ:0000000A [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-16T18:32:25.6618330+01:00 0HMEP2N3FC0BJ:0000000A [INF] Executed DbCommand ("1"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`
+WHERE `p`.`Id` = @__productId_0
+LIMIT 1" (0723d8ff)
+2022-01-16T18:32:25.6630230+01:00 0HMEP2N3FC0BJ:0000000A [INF] Executing "ObjectResult", writing value of type '"System.Double"'. (605b4265)
+2022-01-16T18:32:25.6633490+01:00 0HMEP2N3FC0BJ:0000000A [INF] Executed action "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)" in 4.0215ms (afa2e885)
+2022-01-16T18:32:25.6634730+01:00 0HMEP2N3FC0BJ:0000000A [INF] Executed endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)"' (99874f2b)
+2022-01-16T18:32:25.6638710+01:00 0HMEP2N3FC0BJ:0000000A [INF] Request finished HTTP/1.1 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 - 200 - application/json;+charset=utf-8 6.0550ms (791a596a)
+2022-01-16T18:32:27.5518640+01:00 0HMEP2N3FC0BJ:0000000B [INF] Request starting HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrderNotCart/ApproveOrderInSession - - (ca22a1cb)
+2022-01-16T18:32:27.5532600+01:00 0HMEP2N3FC0BJ:0000000B [INF] Authorization was successful. (0d575a54)
+2022-01-16T18:32:27.5536900+01:00 0HMEP2N3FC0BJ:0000000B [INF] Executing endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.ApproveOrderInSession (Salek.EShop.Web)"' (500cc934)
+2022-01-16T18:32:27.5538440+01:00 0HMEP2N3FC0BJ:0000000B [INF] Route matched with "{area = \"Customer\", action = \"ApproveOrderInSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ApproveOrderInSession()" on controller "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-16T18:32:27.5548880+01:00 0HMEP2N3FC0BJ:0000000B [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-16T18:32:27.5588980+01:00 0HMEP2N3FC0BJ:0000000B [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-16T18:32:27.5674890+01:00 0HMEP2N3FC0BJ:0000000B [INF] Executed DbCommand ("1"ms) [Parameters=["@p0='?' (Size = 25), @p1='?' (DbType = Double), @p2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `Order` (`OrderNumber`, `TotalPrice`, `UserId`)
+VALUES (@p0, @p1, @p2);
+SELECT `ID`, `DateTimeCreated`
+FROM `Order`
+WHERE ROW_COUNT() = 1 AND `ID` = LAST_INSERT_ID();" (0723d8ff)
+2022-01-16T18:32:27.5783130+01:00 0HMEP2N3FC0BJ:0000000B [INF] Executed DbCommand ("1"ms) [Parameters=["@p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?' (DbType = Double), @p6='?' (DbType = Int32), @p7='?' (DbType = Int32), @p8='?' (DbType = Int32), @p9='?' (DbType = Double), @p10='?' (DbType = Int32), @p11='?' (DbType = Int32), @p12='?' (DbType = Int32), @p13='?' (DbType = Double), @p14='?' (DbType = Int32), @p15='?' (DbType = Int32), @p16='?' (DbType = Int32), @p17='?' (DbType = Double), @p18='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `OrderItem` (`Amount`, `OrderID`, `Price`, `ProductID`)
+VALUES (@p3, @p4, @p5, @p6);
+SELECT `ID`
+FROM `OrderItem`
+WHERE ROW_COUNT() = 1 AND `ID` = LAST_INSERT_ID();
+
+INSERT INTO `OrderItem` (`Amount`, `OrderID`, `Price`, `ProductID`)
+VALUES (@p7, @p8, @p9, @p10);
+SELECT `ID`
+FROM `OrderItem`
+WHERE ROW_COUNT() = 1 AND `ID` = LAST_INSERT_ID();
+
+INSERT INTO `OrderItem` (`Amount`, `OrderID`, `Price`, `ProductID`)
+VALUES (@p11, @p12, @p13, @p14);
+SELECT `ID`
+FROM `OrderItem`
+WHERE ROW_COUNT() = 1 AND `ID` = LAST_INSERT_ID();
+
+INSERT INTO `OrderItem` (`Amount`, `OrderID`, `Price`, `ProductID`)
+VALUES (@p15, @p16, @p17, @p18);
+SELECT `ID`
+FROM `OrderItem`
+WHERE ROW_COUNT() = 1 AND `ID` = LAST_INSERT_ID();" (0723d8ff)
+2022-01-16T18:32:27.5894150+01:00 0HMEP2N3FC0BJ:0000000B [INF] Executed DbCommand ("1"ms) [Parameters=["@__order_ID_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `t`.`ID`, `t`.`DateTimeCreated`, `t`.`OrderNumber`, `t`.`TotalPrice`, `t`.`UserId`, `t`.`Id0`, `t`.`AccessFailedCount`, `t`.`ConcurrencyStamp`, `t`.`Email`, `t`.`EmailConfirmed`, `t`.`FirstName`, `t`.`LastName`, `t`.`LockoutEnabled`, `t`.`LockoutEnd`, `t`.`NormalizedEmail`, `t`.`NormalizedUserName`, `t`.`PasswordHash`, `t`.`PhoneNumber`, `t`.`PhoneNumberConfirmed`, `t`.`SecurityStamp`, `t`.`TwoFactorEnabled`, `t`.`UserName`, `t0`.`ID`, `t0`.`Amount`, `t0`.`OrderID`, `t0`.`Price`, `t0`.`ProductID`, `t0`.`Id0`, `t0`.`Description`, `t0`.`ImageAlt`, `t0`.`ImageSource`, `t0`.`Name`, `t0`.`Price0`
+FROM (
+    SELECT `o`.`ID`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `u`.`Id` AS `Id0`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+    FROM `Order` AS `o`
+    INNER JOIN `Users` AS `u` ON `o`.`UserId` = `u`.`Id`
+    WHERE `o`.`ID` = @__order_ID_0
+    LIMIT 1
+) AS `t`
+LEFT JOIN (
+    SELECT `o0`.`ID`, `o0`.`Amount`, `o0`.`OrderID`, `o0`.`Price`, `o0`.`ProductID`, `p`.`Id` AS `Id0`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `ProductItem` AS `p` ON `o0`.`ProductID` = `p`.`Id`
+) AS `t0` ON `t`.`ID` = `t0`.`OrderID`
+ORDER BY `t`.`ID`, `t`.`Id0`, `t0`.`ID`, `t0`.`Id0`" (0723d8ff)
+2022-01-16T18:33:48.8134400+01:00  [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-16T18:33:49.2267620+01:00  [INF] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Salek.EShop'" (0723d8ff)
+2022-01-16T18:33:49.4825380+01:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-16T18:33:49.4911050+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-16T18:33:49.6948780+01:00  [INF] Executed DbCommand ("26"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-16T18:33:49.7906710+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-16T18:33:49.8094560+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-16T18:33:49.8099350+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-16T18:33:49.8130190+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`Id`, `r`.`ConcurrencyStamp`, `r`.`Name`, `r`.`NormalizedName`
+FROM `Roles` AS `r`
+WHERE `r`.`NormalizedName` = @__normalizedName_0
+LIMIT 1" (0723d8ff)
+2022-01-16T18:33:49.8132650+01:00  [WRN] Role "(null)" validation failed: "DuplicateRoleName". (60d773c7)
+2022-01-16T18:33:49.8370280+01:00  [INF] User profile is available. Using '"/Users/osalek/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest. (a162847e)
+2022-01-16T18:33:49.8613330+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-16T18:33:49.9566440+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2022-01-16T18:33:50.1842590+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2022-01-16T18:33:50.1843310+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-01-16T18:33:50.1845290+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-01-16T18:33:50.1845730+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-01-16T18:33:50.1846110+01:00  [INF] Content root path: "/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web" (b5d60022)
+2022-01-16T18:34:14.4692770+01:00 0HMEP2PL1EE5I:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrderNotCart/ApproveOrderInSession - - (ca22a1cb)
+2022-01-16T18:34:14.7185990+01:00 0HMEP2PL1EE5I:00000002 [INF] Authorization was successful. (0d575a54)
+2022-01-16T18:34:14.7209620+01:00 0HMEP2PL1EE5I:00000002 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.ApproveOrderInSession (Salek.EShop.Web)"' (500cc934)
+2022-01-16T18:34:14.7879610+01:00 0HMEP2PL1EE5I:00000002 [INF] Route matched with "{area = \"Customer\", action = \"ApproveOrderInSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ApproveOrderInSession()" on controller "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-16T18:34:14.8115610+01:00 0HMEP2PL1EE5I:00000002 [INF] Accessing expired session, Key:"b1f88f20-6bcb-c767-898b-7397dcaa14ed" (08c5a9e7)
+2022-01-16T18:34:14.9186410+01:00 0HMEP2PL1EE5I:00000002 [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2022-01-16T18:34:14.9541680+01:00 0HMEP2PL1EE5I:00000002 [INF] Executed action "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.ApproveOrderInSession (Salek.EShop.Web)" in 131.6062ms (afa2e885)
+2022-01-16T18:34:14.9575020+01:00 0HMEP2PL1EE5I:00000002 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.ApproveOrderInSession (Salek.EShop.Web)"' (99874f2b)
+2022-01-16T18:34:14.9897330+01:00 0HMEP2PL1EE5I:00000002 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrderNotCart/ApproveOrderInSession - - - 302 0 - 527.6486ms (791a596a)
+2022-01-16T18:34:15.0011160+01:00 0HMEP2PL1EE5I:00000003 [INF] Request starting HTTP/1.1 GET https://localhost:5001/ - - (ca22a1cb)
+2022-01-16T18:34:15.0095830+01:00 0HMEP2PL1EE5I:00000003 [INF] Executing endpoint '"Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)"' (500cc934)
+2022-01-16T18:34:15.0194980+01:00 0HMEP2PL1EE5I:00000003 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Salek.EShop.Web.Controllers.HomeController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-16T18:34:15.0263180+01:00 0HMEP2PL1EE5I:00000003 [INF] Index viewed (84b92a55)
+2022-01-16T18:34:15.0355590+01:00 0HMEP2PL1EE5I:00000003 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-16T18:34:15.0807660+01:00 0HMEP2PL1EE5I:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `c`.`Id`, `c`.`ImageAlt`, `c`.`ImageSource`
+FROM `CarouselItem` AS `c`" (0723d8ff)
+2022-01-16T18:34:15.1247410+01:00 0HMEP2PL1EE5I:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`" (0723d8ff)
+2022-01-16T18:34:15.2261860+01:00 0HMEP2PL1EE5I:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-16T18:34:15.2980750+01:00 0HMEP2PL1EE5I:00000003 [INF] Accessing expired session, Key:"b1f88f20-6bcb-c767-898b-7397dcaa14ed" (08c5a9e7)
+2022-01-16T18:34:15.5384010+01:00 0HMEP2PL1EE5I:00000003 [INF] Executed ViewResult - view "Index" executed in 326.5558ms. (f66409e9)
+2022-01-16T18:34:15.5385660+01:00 0HMEP2PL1EE5I:00000003 [INF] Executed action "Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)" in 518.952ms (afa2e885)
+2022-01-16T18:34:15.5386930+01:00 0HMEP2PL1EE5I:00000003 [INF] Executed endpoint '"Salek.EShop.Web.Controllers.HomeController.Index (Salek.EShop.Web)"' (99874f2b)
+2022-01-16T18:34:15.5488710+01:00 0HMEP2PL1EE5I:00000003 [INF] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 547.5200ms (791a596a)
+2022-01-16T18:34:59.9826520+01:00 0HMEP2PL1EE5I:00000004 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 (ca22a1cb)
+2022-01-16T18:35:00.0124010+01:00 0HMEP2PL1EE5I:00000004 [INF] Authorization was successful. (0d575a54)
+2022-01-16T18:35:00.0125710+01:00 0HMEP2PL1EE5I:00000004 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)"' (500cc934)
+2022-01-16T18:35:00.0305290+01:00 0HMEP2PL1EE5I:00000004 [INF] Route matched with "{area = \"Customer\", action = \"AddOrderItemsToSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "Double AddOrderItemsToSession(System.Nullable`1[System.Int32])" on controller "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-16T18:35:00.0549420+01:00 0HMEP2PL1EE5I:00000004 [INF] Accessing expired session, Key:"b1f88f20-6bcb-c767-898b-7397dcaa14ed" (08c5a9e7)
+2022-01-16T18:35:00.0907690+01:00 0HMEP2PL1EE5I:00000004 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-16T18:35:00.1019960+01:00 0HMEP2PL1EE5I:00000004 [INF] Executed DbCommand ("3"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`
+WHERE `p`.`Id` = @__productId_0
+LIMIT 1" (0723d8ff)
+2022-01-16T18:35:00.2669500+01:00 0HMEP2PL1EE5I:00000004 [INF] Executing "ObjectResult", writing value of type '"System.Double"'. (605b4265)
+2022-01-16T18:35:00.2823960+01:00 0HMEP2PL1EE5I:00000004 [INF] Executed action "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)" in 251.7725ms (afa2e885)
+2022-01-16T18:35:00.2824800+01:00 0HMEP2PL1EE5I:00000004 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)"' (99874f2b)
+2022-01-16T18:35:00.2830870+01:00 0HMEP2PL1EE5I:00000004 [INF] Session started; Key:"b1f88f20-6bcb-c767-898b-7397dcaa14ed", Id:"250401aa-b507-609f-e748-8a0255363e2f" (1d7cf8c0)
+2022-01-16T18:35:00.2840110+01:00 0HMEP2PL1EE5I:00000004 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 - 200 - application/json;+charset=utf-8 301.4259ms (791a596a)
+2022-01-16T18:35:00.5555620+01:00 0HMEP2PL1EE5I:00000005 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 (ca22a1cb)
+2022-01-16T18:35:00.5567610+01:00 0HMEP2PL1EE5I:00000005 [INF] Authorization was successful. (0d575a54)
+2022-01-16T18:35:00.5569750+01:00 0HMEP2PL1EE5I:00000005 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)"' (500cc934)
+2022-01-16T18:35:00.5571160+01:00 0HMEP2PL1EE5I:00000005 [INF] Route matched with "{area = \"Customer\", action = \"AddOrderItemsToSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "Double AddOrderItemsToSession(System.Nullable`1[System.Int32])" on controller "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-16T18:35:00.5593100+01:00 0HMEP2PL1EE5I:00000005 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-16T18:35:00.5612300+01:00 0HMEP2PL1EE5I:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=["@__productId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `p`.`Id`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price`
+FROM `ProductItem` AS `p`
+WHERE `p`.`Id` = @__productId_0
+LIMIT 1" (0723d8ff)
+2022-01-16T18:35:00.6219110+01:00 0HMEP2PL1EE5I:00000005 [INF] Executing "ObjectResult", writing value of type '"System.Double"'. (605b4265)
+2022-01-16T18:35:00.6221470+01:00 0HMEP2PL1EE5I:00000005 [INF] Executed action "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)" in 64.9831ms (afa2e885)
+2022-01-16T18:35:00.6221790+01:00 0HMEP2PL1EE5I:00000005 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.AddOrderItemsToSession (Salek.EShop.Web)"' (99874f2b)
+2022-01-16T18:35:00.6225700+01:00 0HMEP2PL1EE5I:00000005 [INF] Request finished HTTP/1.1 POST https://localhost:5001/Customer/CustomerOrderNotCart/AddOrderItemsToSession application/x-www-form-urlencoded;+charset=UTF-8 11 - 200 - application/json;+charset=utf-8 67.0692ms (791a596a)
+2022-01-16T18:35:02.4041380+01:00 0HMEP2PL1EE5I:00000006 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrderNotCart/ApproveOrderInSession - - (ca22a1cb)
+2022-01-16T18:35:02.4051070+01:00 0HMEP2PL1EE5I:00000006 [INF] Authorization was successful. (0d575a54)
+2022-01-16T18:35:02.4051830+01:00 0HMEP2PL1EE5I:00000006 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.ApproveOrderInSession (Salek.EShop.Web)"' (500cc934)
+2022-01-16T18:35:02.4055300+01:00 0HMEP2PL1EE5I:00000006 [INF] Route matched with "{area = \"Customer\", action = \"ApproveOrderInSession\", controller = \"CustomerOrderNotCart\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ApproveOrderInSession()" on controller "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-16T18:35:02.4125130+01:00 0HMEP2PL1EE5I:00000006 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-16T18:35:02.4583930+01:00 0HMEP2PL1EE5I:00000006 [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-16T18:35:02.7397620+01:00 0HMEP2PL1EE5I:00000006 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?' (Size = 25), @p1='?' (DbType = Double), @p2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `Order` (`OrderNumber`, `TotalPrice`, `UserId`)
+VALUES (@p0, @p1, @p2);
+SELECT `ID`, `DateTimeCreated`
+FROM `Order`
+WHERE ROW_COUNT() = 1 AND `ID` = LAST_INSERT_ID();" (0723d8ff)
+2022-01-16T18:35:02.7913680+01:00 0HMEP2PL1EE5I:00000006 [INF] Executed DbCommand ("1"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Double), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `OrderItem` (`Amount`, `OrderID`, `Price`, `ProductID`)
+VALUES (@p0, @p1, @p2, @p3);
+SELECT `ID`
+FROM `OrderItem`
+WHERE ROW_COUNT() = 1 AND `ID` = LAST_INSERT_ID();" (0723d8ff)
+2022-01-16T18:35:02.7946280+01:00 0HMEP2PL1EE5I:00000006 [INF] Executed DbCommand ("1"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Double), @p3='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `OrderItem` (`Amount`, `OrderID`, `Price`, `ProductID`)
+VALUES (@p0, @p1, @p2, @p3);
+SELECT `ID`
+FROM `OrderItem`
+WHERE ROW_COUNT() = 1 AND `ID` = LAST_INSERT_ID();" (0723d8ff)
+2022-01-16T18:35:02.9680750+01:00 0HMEP2PL1EE5I:00000006 [INF] Executed DbCommand ("2"ms) [Parameters=["@__order_ID_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `t`.`ID`, `t`.`DateTimeCreated`, `t`.`OrderNumber`, `t`.`TotalPrice`, `t`.`UserId`, `t`.`Id0`, `t`.`AccessFailedCount`, `t`.`ConcurrencyStamp`, `t`.`Email`, `t`.`EmailConfirmed`, `t`.`FirstName`, `t`.`LastName`, `t`.`LockoutEnabled`, `t`.`LockoutEnd`, `t`.`NormalizedEmail`, `t`.`NormalizedUserName`, `t`.`PasswordHash`, `t`.`PhoneNumber`, `t`.`PhoneNumberConfirmed`, `t`.`SecurityStamp`, `t`.`TwoFactorEnabled`, `t`.`UserName`, `t0`.`ID`, `t0`.`Amount`, `t0`.`OrderID`, `t0`.`Price`, `t0`.`ProductID`, `t0`.`Id0`, `t0`.`Description`, `t0`.`ImageAlt`, `t0`.`ImageSource`, `t0`.`Name`, `t0`.`Price0`
+FROM (
+    SELECT `o`.`ID`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `u`.`Id` AS `Id0`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+    FROM `Order` AS `o`
+    INNER JOIN `Users` AS `u` ON `o`.`UserId` = `u`.`Id`
+    WHERE `o`.`ID` = @__order_ID_0
+    LIMIT 1
+) AS `t`
+LEFT JOIN (
+    SELECT `o0`.`ID`, `o0`.`Amount`, `o0`.`OrderID`, `o0`.`Price`, `o0`.`ProductID`, `p`.`Id` AS `Id0`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `ProductItem` AS `p` ON `o0`.`ProductID` = `p`.`Id`
+) AS `t0` ON `t`.`ID` = `t0`.`OrderID`
+ORDER BY `t`.`ID`, `t`.`Id0`, `t0`.`ID`, `t0`.`Id0`" (0723d8ff)
+2022-01-16T18:35:08.1016040+01:00 0HMEP2PL1EE5I:00000006 [INF] Executing RedirectResult, redirecting to "/Customer/CustomerOrders". (d98d540e)
+2022-01-16T18:35:08.1063220+01:00 0HMEP2PL1EE5I:00000006 [INF] Executed action "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.ApproveOrderInSession (Salek.EShop.Web)" in 5700.7041ms (afa2e885)
+2022-01-16T18:35:08.1083210+01:00 0HMEP2PL1EE5I:00000006 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrderNotCartController.ApproveOrderInSession (Salek.EShop.Web)"' (99874f2b)
+2022-01-16T18:35:08.1178570+01:00 0HMEP2PL1EE5I:00000006 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrderNotCart/ApproveOrderInSession - - - 302 0 - 5713.8614ms (791a596a)
+2022-01-16T18:35:08.1213340+01:00 0HMEP2PL1EE5I:00000007 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrders - - (ca22a1cb)
+2022-01-16T18:35:08.1224830+01:00 0HMEP2PL1EE5I:00000007 [INF] Authorization was successful. (0d575a54)
+2022-01-16T18:35:08.1225550+01:00 0HMEP2PL1EE5I:00000007 [INF] Executing endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Salek.EShop.Web)"' (500cc934)
+2022-01-16T18:35:08.1284050+01:00 0HMEP2PL1EE5I:00000007 [INF] Route matched with "{area = \"Customer\", action = \"Index\", controller = \"CustomerOrders\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController" ("Salek.EShop.Web"). (122b2fdf)
+2022-01-16T18:35:08.1328140+01:00 0HMEP2PL1EE5I:00000007 [INF] Entity Framework Core "5.0.12" initialized '"EShopDbContext"' using provider '"Pomelo.EntityFrameworkCore.MySql"' with options: "ServerVersion 8.0.26-mysql " (9958f5bb)
+2022-01-16T18:35:08.1365500+01:00 0HMEP2PL1EE5I:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__p_0
+LIMIT 1" (0723d8ff)
+2022-01-16T18:35:08.1709650+01:00 0HMEP2PL1EE5I:00000007 [INF] Executed DbCommand ("2"ms) [Parameters=["@__currentUser_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `o`.`ID`, `o`.`DateTimeCreated`, `o`.`OrderNumber`, `o`.`TotalPrice`, `o`.`UserId`, `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`FirstName`, `u`.`LastName`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`, `t`.`ID`, `t`.`Amount`, `t`.`OrderID`, `t`.`Price`, `t`.`ProductID`, `t`.`Id0`, `t`.`Description`, `t`.`ImageAlt`, `t`.`ImageSource`, `t`.`Name`, `t`.`Price0`
+FROM `Order` AS `o`
+INNER JOIN `Users` AS `u` ON `o`.`UserId` = `u`.`Id`
+LEFT JOIN (
+    SELECT `o0`.`ID`, `o0`.`Amount`, `o0`.`OrderID`, `o0`.`Price`, `o0`.`ProductID`, `p`.`Id` AS `Id0`, `p`.`Description`, `p`.`ImageAlt`, `p`.`ImageSource`, `p`.`Name`, `p`.`Price` AS `Price0`
+    FROM `OrderItem` AS `o0`
+    INNER JOIN `ProductItem` AS `p` ON `o0`.`ProductID` = `p`.`Id`
+) AS `t` ON `o`.`ID` = `t`.`OrderID`
+WHERE `o`.`UserId` = @__currentUser_Id_0
+ORDER BY `o`.`ID`, `u`.`Id`, `t`.`ID`, `t`.`Id0`" (0723d8ff)
+2022-01-16T18:35:08.1850630+01:00 0HMEP2PL1EE5I:00000007 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2022-01-16T18:35:08.2131660+01:00 0HMEP2PL1EE5I:00000007 [INF] Executed ViewResult - view "Index" executed in 30.8977ms. (f66409e9)
+2022-01-16T18:35:08.2133880+01:00 0HMEP2PL1EE5I:00000007 [INF] Executed action "Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Salek.EShop.Web)" in 84.9053ms (afa2e885)
+2022-01-16T18:35:08.2134420+01:00 0HMEP2PL1EE5I:00000007 [INF] Executed endpoint '"Salek.EShop.Web.Areas.Customer.Controllers.CustomerOrdersController.Index (Salek.EShop.Web)"' (99874f2b)
+2022-01-16T18:35:08.2137930+01:00 0HMEP2PL1EE5I:00000007 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Customer/CustomerOrders - - - 200 - text/html;+charset=utf-8 92.5320ms (791a596a)

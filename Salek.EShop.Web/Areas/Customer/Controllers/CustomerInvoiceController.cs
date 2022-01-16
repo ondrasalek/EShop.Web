@@ -140,7 +140,7 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
             renderer.RenderingOptions.FitToPaperWidth = true;
             renderer.RenderingOptions.FitToPaper = true;
             renderer.RenderingOptions.CreatePdfFormsFromHtml = false;
-            renderer.RenderingOptions.Timeout = 500;
+            renderer.RenderingOptions.RenderDelay = 500;
             
             var file = renderer.RenderHtmlAsPdf(htmlPage.ToString());
 
