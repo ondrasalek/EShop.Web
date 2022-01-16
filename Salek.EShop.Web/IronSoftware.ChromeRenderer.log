@@ -13057,3 +13057,490 @@ Max Footer Height: 200
 17:51:38 (0x70000a4ff000): CefMessagePumpStd::Quit()
 17:51:38 (0x70000a4ff000): CefMessagePumpStd::DoQuit()
 17:51:38 (0x70000a4ff000): Retrieving 100267 bytes from job 0
+18:26:37 (0x7000032ab000): ~ Chrome renderer v2021.12.0.4391~
+18:26:37 (0x7000032ab000): Initializing Cef proxy controller
+18:26:37 (0x7000032ab000): CefProxy()
+18:26:37 (0x7000032ab000): CefInterface()
+18:26:37 (0x7000032ab000): Assigning Cef proxy controller events...
+18:26:37 (0x7000032ab000): Assigning Cef proxy controller stream provider...
+18:26:37 (0x7000032ab000): Successful first-time initialization of Chrome renderer
+18:26:37 (0x7000032ab000): Initializing Cef proxy controller
+18:26:37 (0x7000032ab000): Using subprocess path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess'
+18:26:37 (0x7000032ab000): Using framework path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+18:26:37 (0x7000032ab000): Using resources path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+18:26:37 (0x7000032ab000): Process os_name: 'macos'
+18:26:37 (0x7000032ab000): gpu_mode: '0'
+18:26:37 (0x7000032ab000): Launching Main process ' --browser-subprocess-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+18:26:38 (0x7000032ab000): Process os_name: 'macos'
+18:26:38 (0x7000032ab000): gpu_mode: '0'
+18:26:38 (0x7000032ab000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,12882221086475544739,4244508192631178589,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+18:26:38 (0x7000032ab000): Cef context initialized
+18:26:38 (0x7000032ab000): Registering custom scheme for rendering raw html
+18:26:38 (0x7000032ab000): Cef initialization succeeded
+18:26:38 (0x7000032ab000): Generating PDF from HTML '
+            <html>
+            <body style="margin:1rem">
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="float-left">Invoice #155</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>lucie lucie</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: luckahilbertova@seznam.cz</div>
+                                            <div>Phone: 456376985</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #155</strong></div>
+                                            <div>Date: 16.01.2022 18:26:36</div>
+                                            <div>Account: lucie</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+            
+                            <tr>
+                                <td>1</td>
+                                <td>Roborock tyčový vysavač H7, Space silver</td>
+                                <td>1</td>
+                                <td>10 489,00 CZK</td>
+                                <td>10 489,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>2</td>
+                                <td>Xiaomi Roidmi EVE Plus</td>
+                                <td>1</td>
+                                <td>11 990,00 CZK</td>
+                                <td>11 990,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>3</td>
+                                <td>ETA Raggio, robotický vysavač</td>
+                                <td>1</td>
+                                <td>9 999,00 CZK</td>
+                                <td>9 999,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>4</td>
+                                <td>iRobot Roomba s9+</td>
+                                <td>1</td>
+                                <td>39 999,00 CZK</td>
+                                <td>39 999,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>5</td>
+                                <td>Roborock S7 White, robotický vysavač s mopem</td>
+                                <td>1</td>
+                                <td>13 990,00 CZK</td>
+                                <td>13 990,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>6</td>
+                                <td>Concept VR1000 Robotický vysavač s mopem RoboCross Space Aqua</td>
+                                <td>3</td>
+                                <td>3 999,00 CZK</td>
+                                <td>11 997,00 CZK</td>
+                            </tr>
+                        
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>98 464,00 CZK</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for ordering from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></body>
+</html>
+            '
+18:26:38 (0x7000032ab000): BROWSER SETTINGS:
+View Width: 1280
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+18:26:38 (0x7000032ab000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 0
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 0
+Margin Right: 0
+Margin Bottom: 0
+Margin Left: 0
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 1
+Autosize PPI: 96
+Title: Invoice #155
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+18:26:38 (0x700009ff0000): Creating new browser
+18:26:38 (0x700009ff0000): Waited for 0s to create a browser
+18:26:38 (0x7000032ab000): Process os_name: 'macos'
+18:26:38 (0x7000032ab000): gpu_mode: '0'
+18:26:38 (0x7000032ab000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,12882221086475544739,4244508192631178589,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+18:26:38 (0x7000032ab000): Created browser 1
+18:26:38 (0x7000032ab000): Processing job for content '
+            <html>
+            <body style="margin:1rem">
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="float-left">Invoice #155</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>lucie lucie</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: luckahilbertova@seznam.cz</div>
+                                            <div>Phone: 456376985</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #155</strong></div>
+                                            <div>Date: 16.01.2022 18:26:36</div>
+                                            <div>Account: lucie</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+            
+                            <tr>
+                                <td>1</td>
+                                <td>Roborock tyčový vysavač H7, Space silver</td>
+                                <td>1</td>
+                                <td>10 489,00 CZK</td>
+                                <td>10 489,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>2</td>
+                                <td>Xiaomi Roidmi EVE Plus</td>
+                                <td>1</td>
+                                <td>11 990,00 CZK</td>
+                                <td>11 990,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>3</td>
+                                <td>ETA Raggio, robotický vysavač</td>
+                                <td>1</td>
+                                <td>9 999,00 CZK</td>
+                                <td>9 999,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>4</td>
+                                <td>iRobot Roomba s9+</td>
+                                <td>1</td>
+                                <td>39 999,00 CZK</td>
+                                <td>39 999,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>5</td>
+                                <td>Roborock S7 White, robotický vysavač s mopem</td>
+                                <td>1</td>
+                                <td>13 990,00 CZK</td>
+                                <td>13 990,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>6</td>
+                                <td>Concept VR1000 Robotický vysavač s mopem RoboCross Space Aqua</td>
+                                <td>3</td>
+                                <td>3 999,00 CZK</td>
+                                <td>11 997,00 CZK</td>
+                            </tr>
+                        
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>98 464,00 CZK</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for ordering from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></body>
+</html>
+            '
+18:26:38 (0x7000032ab000): Process os_name: 'macos'
+18:26:38 (0x7000032ab000): gpu_mode: '0'
+18:26:38 (0x7000032ab000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+18:26:38 (0x7000032ab000): Process os_name: 'macos'
+18:26:38 (0x7000032ab000): gpu_mode: '0'
+18:26:38 (0x7000032ab000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+18:26:38 (0x700005f55000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+18:26:38 (0x700005f55000): Resolved resource request using default handler
+18:26:38 (0x700005f55000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+18:26:38 (0x7000032ab000): Browser process received message: 'OnBrowserCreated'
+18:26:38 (0x7000032ab000): Received message from render process with values '' (0)
+18:26:38 (0x7000032ab000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+18:26:38 (0x7000032ab000): Browser 1 status: 
+18:26:38 (0x700005f55000): Received resource request from https://ironsoftwarescheme.com for https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css on browser 1 (nav: 0, dl: 0)
+18:26:38 (0x700005f55000): Resolved resource request using default handler
+18:26:38 (0x7000032ab000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+18:26:38 (0x7000032ab000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+18:26:38 (0x7000032ab000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+18:26:38 (0x7000032ab000): Finished dev tools method on browser 1 (message ID: 1)
+18:26:38 (0x7000032ab000): Sending DOM-visit process message for browser 1 (job ID: 0)
+18:26:38 (0x7000032ab000): Browser process received message: 'OnDomVisited'
+18:26:38 (0x7000032ab000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+18:26:38 (0x7000032ab000): Autosizing screen to paper using scale factor of 62
+18:26:38 (0x7000032ab000): Printing from browser to '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfY3VQ8R'
+18:26:38 (0x7000032ab000): Received browser print callback for path '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfY3VQ8R' (1)
+18:26:38 (0x7000032ab000): Print finished for browser 1(success: 1)
+18:26:38 (0x7000032ab000): Retrieved document title from render settings: Invoice #155
+18:26:38 (0x7000032ab000): Retrieve Html title: 
+18:26:38 (0x7000032ab000): Skipping form field generation
+18:26:38 (0x7000032ab000): Retrieving document bytes
+18:26:38 (0x7000032ab000): Pdf document factory is generating bytes using document pointer 0x6000022bf5a0
+18:26:38 (0x7000032ab000): Pdf document factory succesfully generated bytes 0x6000022bf5a0
+18:26:38 (0x7000032ab000): Successfully generated 101614 bytes from Pdf document factory writer
+18:26:38 (0x7000032ab000): Closing browser 1
+18:26:38 (0x7000032ab000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+18:26:38 (0x7000032ab000): Destroying browser (id:1)
+18:26:38 (0x7000032ab000): Finished job 0
+18:26:38 (0x7000032ab000): Job group finished
+18:26:38 (0x7000032ab000): Job group 0 finished
+18:26:38 (0x7000032ab000): CefProxyController::QuitMessageLoop()
+18:26:38 (0x7000032ab000): CefMessagePumpStd::Quit()
+18:26:38 (0x7000032ab000): CefMessagePumpStd::DoQuit()
+18:26:38 (0x7000032ab000): Retrieving 101614 bytes from job 0
+18:27:20 (0x70000332e000): Generating PDF from HTML '
+            <html>
+            <body style="margin:1rem">
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="float-left">Invoice #156</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>jmeno prijmeni</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: robotseshop@gmail.com</div>
+                                            <div>Phone: </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #156</strong></div>
+                                            <div>Date: 16.01.2022 18:27:20</div>
+                                            <div>Account: admin</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+            
+                            <tr>
+                                <td>1</td>
+                                <td>ETA Raggio, robotický vysavač</td>
+                                <td>1</td>
+                                <td>9 999,00 CZK</td>
+                                <td>9 999,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>2</td>
+                                <td>Roborock tyčový vysavač H7, Space silver</td>
+                                <td>2</td>
+                                <td>10 489,00 CZK</td>
+                                <td>20 978,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>3</td>
+                                <td>Xiaomi Roidmi EVE Plus</td>
+                                <td>1</td>
+                                <td>11 990,00 CZK</td>
+                                <td>11 990,00 CZK</td>
+                            </tr>
+                        
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>42 967,00 CZK</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for ordering from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></body>
+</html>
+            '
+18:27:20 (0x70000332e000): BROWSER SETTINGS:
+View Width: 1280
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+18:27:20 (0x70000332e000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 0
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 0
+Margin Right: 0
+Margin Bottom: 0
+Margin Left: 0
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 1
+Autosize PPI: 96
+Title: Invoice #156
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+18:27:20 (0x700009ff0000): Creating new browser
+18:27:20 (0x700009ff0000): Waited for 0s to create a browser
