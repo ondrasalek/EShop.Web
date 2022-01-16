@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using Salek.EShop.Web.Models.Extensions;
 using Salek.EShop.Web.Controllers;
 using Salek.EShop.Web.Models.ApplicationServices.Abstraction;
@@ -102,7 +103,14 @@ namespace Salek.EShop.Web.Areas.Customer.Controllers
                     await EshopDbContext.AddAsync(order);
                     await EshopDbContext.SaveChangesAsync();
 
-                    await CustomerInvoiceController.MailSender(order);
+                    var foundItem = EshopDbContext.Orders
+                        .Include(o=>o.User)
+                        .Include(o=>o.OrderItems)
+                        .ThenInclude(oi => oi.Product)
+                        .FirstOrDefault(o => o.ID == order.ID);
+                    
+                    var file = CustomerInvoiceController.RenderInvoiceFile(foundItem);
+                    await CustomerInvoiceController.MailSender(file, order.ID, currentUser);
                     
                     HttpContext.Session.Remove(orderItemsString);
                     HttpContext.Session.Remove(totalPriceString);

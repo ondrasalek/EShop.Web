@@ -782,3 +782,2582 @@ Max Footer Height: 200
 11:36:32 (0x700003458000): CefMessagePumpStd::Quit()
 11:36:32 (0x700003458000): CefMessagePumpStd::DoQuit()
 11:36:32 (0x700003458000): Retrieving 8604 bytes from job 0
+08:31:53 (0x70000a3ef000): ~ Chrome renderer v2021.12.0.4391~
+08:31:53 (0x70000a3ef000): Initializing Cef proxy controller
+08:31:53 (0x70000a3ef000): CefProxy()
+08:31:53 (0x70000a3ef000): CefInterface()
+08:31:53 (0x70000a3ef000): Assigning Cef proxy controller events...
+08:31:53 (0x70000a3ef000): Assigning Cef proxy controller stream provider...
+08:31:53 (0x70000a3ef000): Successful first-time initialization of Chrome renderer
+08:31:53 (0x70000a3ef000): Initializing Cef proxy controller
+08:31:53 (0x70000a3ef000): Using subprocess path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess'
+08:31:53 (0x70000a3ef000): Using framework path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+08:31:53 (0x70000a3ef000): Using resources path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+08:31:53 (0x70000a3ef000): Process os_name: 'macos'
+08:31:53 (0x70000a3ef000): gpu_mode: '0'
+08:31:53 (0x70000a3ef000): Launching Main process ' --browser-subprocess-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+08:31:54 (0x70000a3ef000): Process os_name: 'macos'
+08:31:54 (0x70000a3ef000): gpu_mode: '0'
+08:31:54 (0x70000a3ef000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,4819366043649109552,12444940752423011012,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+08:31:54 (0x70000a3ef000): Cef context initialized
+08:31:54 (0x70000a3ef000): Registering custom scheme for rendering raw html
+08:31:54 (0x70000a3ef000): Cef initialization succeeded
+08:31:54 (0x70000a3ef000): Generating PDF from HTML '
+<html>
+<head>
+</head>
+<body>
+                <table class="table table-clear">
+                <tbody>
+                <tr>
+                <td class="left">
+                <strong>Total Price</strong>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+</body>
+</html>
+                '
+08:31:54 (0x70000a3ef000): BROWSER SETTINGS:
+View Width: 1024
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+08:31:54 (0x70000a3ef000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 1
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 25
+Margin Right: 25
+Margin Bottom: 25
+Margin Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0
+Autosize PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+08:31:54 (0x7000121aa000): Creating new browser
+08:31:54 (0x7000121aa000): Waited for 0s to create a browser
+08:31:54 (0x70000a3ef000): Process os_name: 'macos'
+08:31:54 (0x70000a3ef000): gpu_mode: '0'
+08:31:54 (0x70000a3ef000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,4819366043649109552,12444940752423011012,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+08:31:54 (0x70000a3ef000): Created browser 1
+08:31:54 (0x70000a3ef000): Processing job for content '
+<html>
+<head>
+</head>
+<body>
+                <table class="table table-clear">
+                <tbody>
+                <tr>
+                <td class="left">
+                <strong>Total Price</strong>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+</body>
+</html>
+                '
+08:31:54 (0x70000a3ef000): Process os_name: 'macos'
+08:31:54 (0x70000a3ef000): gpu_mode: '0'
+08:31:54 (0x70000a3ef000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+08:31:54 (0x70000a3ef000): Process os_name: 'macos'
+08:31:54 (0x70000a3ef000): gpu_mode: '0'
+08:31:54 (0x70000a3ef000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+08:31:54 (0x70000d98f000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+08:31:54 (0x70000d98f000): Resolved resource request using default handler
+08:31:54 (0x70000d98f000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+08:31:55 (0x70000a3ef000): Browser process received message: 'OnBrowserCreated'
+08:31:55 (0x70000a3ef000): Received message from render process with values '' (0)
+08:31:55 (0x70000a3ef000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+08:31:55 (0x70000a3ef000): Browser 1 status: 
+08:31:55 (0x70000a3ef000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+08:31:55 (0x70000a3ef000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+08:31:55 (0x70000a3ef000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+08:31:55 (0x70000a3ef000): Finished dev tools method on browser 1 (message ID: 1)
+08:31:55 (0x70000a3ef000): Sending DOM-visit process message for browser 1 (job ID: 0)
+08:31:55 (0x70000a3ef000): Browser process received message: 'OnDomVisited'
+08:31:55 (0x70000a3ef000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+08:31:55 (0x70000a3ef000): Printing from browser to '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfoRSIdU'
+08:31:55 (0x70000a3ef000): Received browser print callback for path '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfoRSIdU' (1)
+08:31:55 (0x70000a3ef000): Print finished for browser 1(success: 1)
+08:31:55 (0x70000a3ef000): No document title found
+08:31:55 (0x70000a3ef000): Retrieve Html title: 
+08:31:55 (0x70000a3ef000): Generating form fields
+08:31:55 (0x70000a3ef000): Adding default font for form fields
+08:31:56 (0x70000a3ef000): Initializing forms for page 0
+08:31:56 (0x70000a3ef000): Retrieving document bytes
+08:31:56 (0x70000a3ef000): Pdf document factory is generating bytes using document pointer 0x600002801860
+08:31:56 (0x70000a3ef000): Pdf document factory succesfully generated bytes 0x600002801860
+08:31:56 (0x70000a3ef000): Successfully generated 8604 bytes from Pdf document factory writer
+08:31:56 (0x70000a3ef000): Closing browser 1
+08:31:56 (0x70000a3ef000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+08:31:56 (0x70000a3ef000): Destroying browser (id:1)
+08:31:56 (0x70000a3ef000): Finished job 0
+08:31:56 (0x70000a3ef000): Job group finished
+08:31:56 (0x70000a3ef000): Job group 0 finished
+08:31:56 (0x70000a3ef000): CefProxyController::QuitMessageLoop()
+08:31:56 (0x70000a3ef000): CefMessagePumpStd::Quit()
+08:31:56 (0x70000a3ef000): CefMessagePumpStd::DoQuit()
+08:31:56 (0x70000a3ef000): Retrieving 8604 bytes from job 0
+11:56:41 (0x70000b788000): ~ Chrome renderer v2021.12.0.4391~
+11:56:41 (0x70000b788000): Initializing Cef proxy controller
+11:56:41 (0x70000b788000): CefProxy()
+11:56:41 (0x70000b788000): CefInterface()
+11:56:41 (0x70000b788000): Assigning Cef proxy controller events...
+11:56:41 (0x70000b788000): Assigning Cef proxy controller stream provider...
+11:56:41 (0x70000b788000): Successful first-time initialization of Chrome renderer
+11:56:41 (0x70000b788000): Initializing Cef proxy controller
+11:56:41 (0x70000b788000): Using subprocess path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess'
+11:56:41 (0x70000b788000): Using framework path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+11:56:41 (0x70000b788000): Using resources path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+11:56:41 (0x70000b788000): Process os_name: 'macos'
+11:56:41 (0x70000b788000): gpu_mode: '0'
+11:56:41 (0x70000b788000): Launching Main process ' --browser-subprocess-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:56:42 (0x70000b788000): Process os_name: 'macos'
+11:56:42 (0x70000b788000): gpu_mode: '0'
+11:56:42 (0x70000b788000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,14433256703241950181,16097105336153903368,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:56:42 (0x70000b788000): Cef context initialized
+11:56:42 (0x70000b788000): Registering custom scheme for rendering raw html
+11:56:42 (0x70000b788000): Cef initialization succeeded
+11:56:42 (0x70000b788000): Generating PDF from HTML '
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #94
+                                    <div class="float-right d-print-none">
+                                        <a class="btn btn-sm btn-secondary" href="#" onclick="window.print();" data-abc="true">
+                                            Print / Save
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #94</strong></div>
+                                            <div>Date: 16.01.2022 11:56:40</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>71986</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                    '
+11:56:42 (0x70000b788000): BROWSER SETTINGS:
+View Width: 1024
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+11:56:42 (0x70000b788000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 1
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 25
+Margin Right: 25
+Margin Bottom: 25
+Margin Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0
+Autosize PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+11:56:42 (0x700012ac4000): Creating new browser
+11:56:42 (0x700012ac4000): Waited for 0s to create a browser
+11:56:42 (0x70000b788000): Process os_name: 'macos'
+11:56:42 (0x70000b788000): gpu_mode: '0'
+11:56:42 (0x70000b788000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,14433256703241950181,16097105336153903368,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:56:42 (0x70000b788000): Created browser 1
+11:56:42 (0x70000b788000): Processing job for content '
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #94
+                                    <div class="float-right d-print-none">
+                                        <a class="btn btn-sm btn-secondary" href="#" onclick="window.print();" data-abc="true">
+                                            Print / Save
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #94</strong></div>
+                                            <div>Date: 16.01.2022 11:56:40</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>71986</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                    '
+11:56:42 (0x70000b788000): Process os_name: 'macos'
+11:56:42 (0x70000b788000): gpu_mode: '0'
+11:56:42 (0x70000b788000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:56:42 (0x70000b788000): Process os_name: 'macos'
+11:56:42 (0x70000b788000): gpu_mode: '0'
+11:56:42 (0x70000b788000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+11:56:42 (0x70000e2a9000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+11:56:42 (0x70000e2a9000): Resolved resource request using default handler
+11:56:42 (0x70000e2a9000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+11:56:42 (0x70000b788000): Browser process received message: 'OnBrowserCreated'
+11:56:42 (0x70000b788000): Received message from render process with values '' (0)
+11:56:42 (0x70000b788000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+11:56:42 (0x70000b788000): Browser 1 status: 
+11:56:43 (0x70000b788000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+11:56:43 (0x70000b788000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+11:56:43 (0x70000b788000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+11:56:43 (0x70000b788000): Finished dev tools method on browser 1 (message ID: 1)
+11:56:43 (0x70000b788000): Sending DOM-visit process message for browser 1 (job ID: 0)
+11:56:43 (0x70000b788000): Browser process received message: 'OnDomVisited'
+11:56:43 (0x70000b788000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+11:56:43 (0x70000b788000): Printing from browser to '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfRFRINO'
+11:56:43 (0x70000b788000): Received browser print callback for path '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfRFRINO' (1)
+11:56:43 (0x70000b788000): Print finished for browser 1(success: 1)
+11:56:43 (0x70000b788000): No document title found
+11:56:43 (0x70000b788000): Retrieve Html title: 
+11:56:43 (0x70000b788000): Generating form fields
+11:56:43 (0x70000b788000): Adding default font for form fields
+11:56:44 (0x70000b788000): Initializing forms for page 0
+11:56:44 (0x70000b788000): Retrieving document bytes
+11:56:44 (0x70000b788000): Pdf document factory is generating bytes using document pointer 0x6000033f0340
+11:56:44 (0x70000b788000): Pdf document factory succesfully generated bytes 0x6000033f0340
+11:56:44 (0x70000b788000): Successfully generated 40308 bytes from Pdf document factory writer
+11:56:44 (0x70000b788000): Closing browser 1
+11:56:44 (0x70000b788000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+11:56:44 (0x70000b788000): Destroying browser (id:1)
+11:56:44 (0x70000b788000): Finished job 0
+11:56:44 (0x70000b788000): Job group finished
+11:56:44 (0x70000b788000): Job group 0 finished
+11:56:44 (0x70000b788000): CefProxyController::QuitMessageLoop()
+11:56:44 (0x70000b788000): CefMessagePumpStd::Quit()
+11:56:44 (0x70000b788000): CefMessagePumpStd::DoQuit()
+11:56:44 (0x70000b788000): Retrieving 40308 bytes from job 0
+12:02:41 (0x70000a9ed000): ~ Chrome renderer v2021.12.0.4391~
+12:02:41 (0x70000a9ed000): Initializing Cef proxy controller
+12:02:41 (0x70000a9ed000): CefProxy()
+12:02:41 (0x70000a9ed000): CefInterface()
+12:02:41 (0x70000a9ed000): Assigning Cef proxy controller events...
+12:02:41 (0x70000a9ed000): Assigning Cef proxy controller stream provider...
+12:02:41 (0x70000a9ed000): Successful first-time initialization of Chrome renderer
+12:02:41 (0x70000a9ed000): Initializing Cef proxy controller
+12:02:41 (0x70000a9ed000): Using subprocess path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess'
+12:02:41 (0x70000a9ed000): Using framework path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+12:02:41 (0x70000a9ed000): Using resources path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+12:02:41 (0x70000a9ed000): Process os_name: 'macos'
+12:02:41 (0x70000a9ed000): gpu_mode: '0'
+12:02:41 (0x70000a9ed000): Launching Main process ' --browser-subprocess-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:02:41 (0x70000a9ed000): Process os_name: 'macos'
+12:02:41 (0x70000a9ed000): gpu_mode: '0'
+12:02:41 (0x70000a9ed000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,4475075877459165773,13959227083573077872,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:02:41 (0x70000a9ed000): Cef context initialized
+12:02:41 (0x70000a9ed000): Registering custom scheme for rendering raw html
+12:02:41 (0x70000a9ed000): Cef initialization succeeded
+12:02:41 (0x70000a9ed000): Generating PDF from HTML '
+            <html lang="en">
+            <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            </head>
+            <body>
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #95
+                                    <div class="float-right d-print-none">
+                                        <a class="btn btn-sm btn-secondary" href="#" onclick="window.print();" data-abc="true">
+                                            Print / Save
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #95</strong></div>
+                                            <div>Date: 16.01.2022 12:02:39</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>98955</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+                    '
+12:02:41 (0x70000a9ed000): BROWSER SETTINGS:
+View Width: 1024
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+12:02:41 (0x70000a9ed000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 1
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 25
+Margin Right: 25
+Margin Bottom: 25
+Margin Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0
+Autosize PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+12:02:41 (0x700011b1d000): Creating new browser
+12:02:41 (0x700011b1d000): Waited for 0s to create a browser
+12:02:41 (0x70000a9ed000): Process os_name: 'macos'
+12:02:41 (0x70000a9ed000): gpu_mode: '0'
+12:02:41 (0x70000a9ed000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,4475075877459165773,13959227083573077872,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:02:41 (0x70000a9ed000): Created browser 1
+12:02:41 (0x70000a9ed000): Processing job for content '
+            <html lang="en">
+            <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            </head>
+            <body>
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #95
+                                    <div class="float-right d-print-none">
+                                        <a class="btn btn-sm btn-secondary" href="#" onclick="window.print();" data-abc="true">
+                                            Print / Save
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #95</strong></div>
+                                            <div>Date: 16.01.2022 12:02:39</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>98955</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+                    '
+12:02:41 (0x70000a9ed000): Process os_name: 'macos'
+12:02:41 (0x70000a9ed000): gpu_mode: '0'
+12:02:41 (0x70000a9ed000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:02:41 (0x70000a9ed000): Process os_name: 'macos'
+12:02:41 (0x70000a9ed000): gpu_mode: '0'
+12:02:41 (0x70000a9ed000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:02:41 (0x70000d1fc000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+12:02:41 (0x70000d1fc000): Resolved resource request using default handler
+12:02:42 (0x70000d1fc000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+12:02:42 (0x70000a9ed000): Browser process received message: 'OnBrowserCreated'
+12:02:42 (0x70000a9ed000): Received message from render process with values '' (0)
+12:02:42 (0x70000a9ed000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+12:02:42 (0x70000a9ed000): Browser 1 status: 
+12:02:42 (0x70000d1fc000): Received resource request from https://ironsoftwarescheme.com for https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css on browser 1 (nav: 0, dl: 0)
+12:02:42 (0x70000d1fc000): Resolved resource request using default handler
+12:02:42 (0x70000a9ed000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+12:02:42 (0x70000a9ed000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+12:02:42 (0x70000a9ed000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+12:02:42 (0x70000a9ed000): Finished dev tools method on browser 1 (message ID: 1)
+12:02:42 (0x70000a9ed000): Sending DOM-visit process message for browser 1 (job ID: 0)
+12:02:42 (0x70000a9ed000): Browser process received message: 'OnDomVisited'
+12:02:42 (0x70000a9ed000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+12:02:42 (0x70000a9ed000): Printing from browser to '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfRJr1WZ'
+12:02:43 (0x70000a9ed000): Received browser print callback for path '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfRJr1WZ' (1)
+12:02:43 (0x70000a9ed000): Print finished for browser 1(success: 1)
+12:02:43 (0x70000a9ed000): No document title found
+12:02:43 (0x70000a9ed000): Retrieve Html title: 
+12:02:43 (0x70000a9ed000): Generating form fields
+12:02:43 (0x70000a9ed000): Adding default font for form fields
+12:02:43 (0x70000a9ed000): Initializing forms for page 0
+12:02:43 (0x70000a9ed000): Retrieving document bytes
+12:02:43 (0x70000a9ed000): Pdf document factory is generating bytes using document pointer 0x600001486be0
+12:02:43 (0x70000a9ed000): Pdf document factory succesfully generated bytes 0x600001486be0
+12:02:43 (0x70000a9ed000): Successfully generated 93652 bytes from Pdf document factory writer
+12:02:43 (0x70000a9ed000): Closing browser 1
+12:02:43 (0x70000a9ed000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+12:02:43 (0x70000a9ed000): Destroying browser (id:1)
+12:02:43 (0x70000a9ed000): Finished job 0
+12:02:43 (0x70000a9ed000): Job group finished
+12:02:43 (0x70000a9ed000): Job group 0 finished
+12:02:43 (0x70000a9ed000): CefProxyController::QuitMessageLoop()
+12:02:43 (0x70000a9ed000): CefMessagePumpStd::Quit()
+12:02:43 (0x70000a9ed000): CefMessagePumpStd::DoQuit()
+12:02:43 (0x70000a9ed000): Retrieving 93652 bytes from job 0
+12:09:58 (0x7000036a1000): ~ Chrome renderer v2021.12.0.4391~
+12:09:58 (0x7000036a1000): Initializing Cef proxy controller
+12:09:58 (0x7000036a1000): CefProxy()
+12:09:58 (0x7000036a1000): CefInterface()
+12:09:58 (0x7000036a1000): Assigning Cef proxy controller events...
+12:09:58 (0x7000036a1000): Assigning Cef proxy controller stream provider...
+12:09:58 (0x7000036a1000): Successful first-time initialization of Chrome renderer
+12:09:58 (0x7000036a1000): Initializing Cef proxy controller
+12:09:58 (0x7000036a1000): Using subprocess path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess'
+12:09:58 (0x7000036a1000): Using framework path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+12:09:58 (0x7000036a1000): Using resources path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+12:09:58 (0x7000036a1000): Process os_name: 'macos'
+12:09:58 (0x7000036a1000): gpu_mode: '0'
+12:09:58 (0x7000036a1000): Launching Main process ' --browser-subprocess-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:09:59 (0x7000036a1000): Process os_name: 'macos'
+12:09:59 (0x7000036a1000): gpu_mode: '0'
+12:09:59 (0x7000036a1000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,1130630730187075941,4565309808392934318,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:09:59 (0x7000036a1000): Cef context initialized
+12:09:59 (0x7000036a1000): Registering custom scheme for rendering raw html
+12:09:59 (0x7000036a1000): Cef initialization succeeded
+12:09:59 (0x7000036a1000): Generating PDF from HTML '
+            <html lang="en">
+            <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            </head>
+            <body style="background-color=white">
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #96
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #96</strong></div>
+                                            <div>Date: 16.01.2022 12:09:57</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>49998</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+                    '
+12:09:59 (0x7000036a1000): BROWSER SETTINGS:
+View Width: 1280
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+12:09:59 (0x7000036a1000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 1
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 25
+Margin Right: 25
+Margin Bottom: 25
+Margin Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0
+Autosize PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+12:09:59 (0x70000a74e000): Creating new browser
+12:09:59 (0x70000a74e000): Waited for 0s to create a browser
+12:09:59 (0x7000036a1000): Process os_name: 'macos'
+12:09:59 (0x7000036a1000): gpu_mode: '0'
+12:09:59 (0x7000036a1000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,1130630730187075941,4565309808392934318,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:09:59 (0x7000036a1000): Created browser 1
+12:09:59 (0x7000036a1000): Processing job for content '
+            <html lang="en">
+            <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            </head>
+            <body style="background-color=white">
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #96
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #96</strong></div>
+                                            <div>Date: 16.01.2022 12:09:57</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>49998</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+                    '
+12:09:59 (0x7000036a1000): Process os_name: 'macos'
+12:09:59 (0x7000036a1000): gpu_mode: '0'
+12:09:59 (0x7000036a1000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:09:59 (0x7000036a1000): Process os_name: 'macos'
+12:09:59 (0x7000036a1000): gpu_mode: '0'
+12:09:59 (0x7000036a1000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:09:59 (0x700005eb0000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+12:09:59 (0x700005eb0000): Resolved resource request using default handler
+12:09:59 (0x700005eb0000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+12:10:00 (0x7000036a1000): Browser process received message: 'OnBrowserCreated'
+12:10:00 (0x7000036a1000): Received message from render process with values '' (0)
+12:10:00 (0x7000036a1000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+12:10:00 (0x7000036a1000): Browser 1 status: 
+12:10:00 (0x700005eb0000): Received resource request from https://ironsoftwarescheme.com for https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css on browser 1 (nav: 0, dl: 0)
+12:10:00 (0x700005eb0000): Resolved resource request using default handler
+12:10:00 (0x7000036a1000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+12:10:00 (0x7000036a1000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+12:10:00 (0x7000036a1000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+12:10:00 (0x7000036a1000): Finished dev tools method on browser 1 (message ID: 1)
+12:10:00 (0x7000036a1000): Sending DOM-visit process message for browser 1 (job ID: 0)
+12:10:00 (0x7000036a1000): Browser process received message: 'OnDomVisited'
+12:10:00 (0x7000036a1000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+12:10:00 (0x7000036a1000): Printing from browser to '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfYhdOLh'
+12:10:00 (0x7000036a1000): Received browser print callback for path '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfYhdOLh' (1)
+12:10:00 (0x7000036a1000): Print finished for browser 1(success: 1)
+12:10:00 (0x7000036a1000): No document title found
+12:10:00 (0x7000036a1000): Retrieve Html title: 
+12:10:00 (0x7000036a1000): Generating form fields
+12:10:00 (0x7000036a1000): Adding default font for form fields
+12:10:00 (0x7000036a1000): Initializing forms for page 0
+12:10:00 (0x7000036a1000): Retrieving document bytes
+12:10:00 (0x7000036a1000): Pdf document factory is generating bytes using document pointer 0x6000026f4d00
+12:10:00 (0x7000036a1000): Pdf document factory succesfully generated bytes 0x6000026f4d00
+12:10:00 (0x7000036a1000): Successfully generated 81259 bytes from Pdf document factory writer
+12:10:00 (0x7000036a1000): Closing browser 1
+12:10:00 (0x7000036a1000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+12:10:00 (0x7000036a1000): Destroying browser (id:1)
+12:10:00 (0x7000036a1000): Finished job 0
+12:10:00 (0x7000036a1000): Job group finished
+12:10:00 (0x7000036a1000): Job group 0 finished
+12:10:00 (0x7000036a1000): CefProxyController::QuitMessageLoop()
+12:10:00 (0x7000036a1000): CefMessagePumpStd::Quit()
+12:10:00 (0x7000036a1000): CefMessagePumpStd::DoQuit()
+12:10:00 (0x7000036a1000): Retrieving 81259 bytes from job 0
+12:11:25 (0x7000092c3000): ~ Chrome renderer v2021.12.0.4391~
+12:11:25 (0x7000092c3000): Initializing Cef proxy controller
+12:11:25 (0x7000092c3000): CefProxy()
+12:11:25 (0x7000092c3000): CefInterface()
+12:11:25 (0x7000092c3000): Assigning Cef proxy controller events...
+12:11:25 (0x7000092c3000): Assigning Cef proxy controller stream provider...
+12:11:25 (0x7000092c3000): Successful first-time initialization of Chrome renderer
+12:11:25 (0x7000092c3000): Initializing Cef proxy controller
+12:11:25 (0x7000092c3000): Using subprocess path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess'
+12:11:25 (0x7000092c3000): Using framework path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+12:11:25 (0x7000092c3000): Using resources path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+12:11:25 (0x7000092c3000): Process os_name: 'macos'
+12:11:25 (0x7000092c3000): gpu_mode: '0'
+12:11:25 (0x7000092c3000): Launching Main process ' --browser-subprocess-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:11:25 (0x7000092c3000): Process os_name: 'macos'
+12:11:25 (0x7000092c3000): gpu_mode: '0'
+12:11:25 (0x7000092c3000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,3282922396533471997,6905700443965155187,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:11:25 (0x7000092c3000): Cef context initialized
+12:11:25 (0x7000092c3000): Registering custom scheme for rendering raw html
+12:11:25 (0x7000092c3000): Cef initialization succeeded
+12:11:25 (0x7000092c3000): Generating PDF from HTML '
+            <html lang="en">
+            <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            </head>
+            <body style="background-color=white">
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #97
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #97</strong></div>
+                                            <div>Date: 16.01.2022 12:11:23</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>9999</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+                    '
+12:11:25 (0x7000092c3000): BROWSER SETTINGS:
+View Width: 1280
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+12:11:25 (0x7000092c3000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 1
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 25
+Margin Right: 25
+Margin Bottom: 25
+Margin Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0
+Autosize PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+12:11:25 (0x70001008b000): Creating new browser
+12:11:25 (0x70001008b000): Waited for 0s to create a browser
+12:11:25 (0x7000092c3000): Process os_name: 'macos'
+12:11:25 (0x7000092c3000): gpu_mode: '0'
+12:11:25 (0x7000092c3000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,3282922396533471997,6905700443965155187,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:11:25 (0x7000092c3000): Created browser 1
+12:11:25 (0x7000092c3000): Processing job for content '
+            <html lang="en">
+            <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            </head>
+            <body style="background-color=white">
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #97
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #97</strong></div>
+                                            <div>Date: 16.01.2022 12:11:23</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>9999</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+                    '
+12:11:25 (0x7000092c3000): Process os_name: 'macos'
+12:11:25 (0x7000092c3000): gpu_mode: '0'
+12:11:25 (0x7000092c3000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:11:25 (0x7000092c3000): Process os_name: 'macos'
+12:11:25 (0x7000092c3000): gpu_mode: '0'
+12:11:25 (0x7000092c3000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:11:25 (0x70000c073000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+12:11:25 (0x70000c073000): Resolved resource request using default handler
+12:11:25 (0x70000c073000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+12:11:25 (0x7000092c3000): Browser process received message: 'OnBrowserCreated'
+12:11:25 (0x7000092c3000): Received message from render process with values '' (0)
+12:11:25 (0x7000092c3000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+12:11:25 (0x7000092c3000): Browser 1 status: 
+12:11:25 (0x70000c073000): Received resource request from https://ironsoftwarescheme.com for https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css on browser 1 (nav: 0, dl: 0)
+12:11:25 (0x70000c073000): Resolved resource request using default handler
+12:11:25 (0x7000092c3000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+12:11:25 (0x7000092c3000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+12:11:25 (0x7000092c3000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+12:11:25 (0x7000092c3000): Finished dev tools method on browser 1 (message ID: 1)
+12:11:25 (0x7000092c3000): Sending DOM-visit process message for browser 1 (job ID: 0)
+12:11:25 (0x7000092c3000): Browser process received message: 'OnDomVisited'
+12:11:25 (0x7000092c3000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+12:11:25 (0x7000092c3000): Printing from browser to '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfjd4nG4'
+12:11:25 (0x7000092c3000): Received browser print callback for path '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfjd4nG4' (1)
+12:11:25 (0x7000092c3000): Print finished for browser 1(success: 1)
+12:11:26 (0x7000092c3000): No document title found
+12:11:26 (0x7000092c3000): Retrieve Html title: 
+12:11:26 (0x7000092c3000): Generating form fields
+12:11:26 (0x7000092c3000): Adding default font for form fields
+12:11:26 (0x7000092c3000): Initializing forms for page 0
+12:11:26 (0x7000092c3000): Retrieving document bytes
+12:11:26 (0x7000092c3000): Pdf document factory is generating bytes using document pointer 0x600002480a90
+12:11:26 (0x7000092c3000): Pdf document factory succesfully generated bytes 0x600002480a90
+12:11:26 (0x7000092c3000): Successfully generated 79145 bytes from Pdf document factory writer
+12:11:26 (0x7000092c3000): Closing browser 1
+12:11:26 (0x7000092c3000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+12:11:26 (0x7000092c3000): Destroying browser (id:1)
+12:11:26 (0x7000092c3000): Finished job 0
+12:11:26 (0x7000092c3000): Job group finished
+12:11:26 (0x7000092c3000): Job group 0 finished
+12:11:26 (0x7000092c3000): CefProxyController::QuitMessageLoop()
+12:11:26 (0x7000092c3000): CefMessagePumpStd::Quit()
+12:11:26 (0x7000092c3000): CefMessagePumpStd::DoQuit()
+12:11:26 (0x7000092c3000): Retrieving 79145 bytes from job 0
+12:22:57 (0x700007281000): ~ Chrome renderer v2021.12.0.4391~
+12:22:57 (0x700007281000): Initializing Cef proxy controller
+12:22:57 (0x700007281000): CefProxy()
+12:22:57 (0x700007281000): CefInterface()
+12:22:57 (0x700007281000): Assigning Cef proxy controller events...
+12:22:57 (0x700007281000): Assigning Cef proxy controller stream provider...
+12:22:57 (0x700007281000): Successful first-time initialization of Chrome renderer
+12:22:57 (0x700007281000): Initializing Cef proxy controller
+12:22:57 (0x700007281000): Using subprocess path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess'
+12:22:57 (0x700007281000): Using framework path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+12:22:57 (0x700007281000): Using resources path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+12:22:57 (0x700007281000): Process os_name: 'macos'
+12:22:57 (0x700007281000): gpu_mode: '0'
+12:22:57 (0x700007281000): Launching Main process ' --browser-subprocess-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:22:57 (0x700007281000): Process os_name: 'macos'
+12:22:57 (0x700007281000): gpu_mode: '0'
+12:22:57 (0x700007281000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,3771312977302135031,1137981112855622270,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:22:57 (0x700007281000): Cef context initialized
+12:22:57 (0x700007281000): Registering custom scheme for rendering raw html
+12:22:57 (0x700007281000): Cef initialization succeeded
+12:22:57 (0x700007281000): Generating PDF from HTML '
+            <html lang="en">
+            <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            </head>
+            <body style="background-color=white">
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #98
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #98</strong></div>
+                                            <div>Date: 16.01.2022 12:22:55</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>31979</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+                    '
+12:22:57 (0x700007281000): BROWSER SETTINGS:
+View Width: 1280
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+12:22:57 (0x700007281000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 1
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 25
+Margin Right: 25
+Margin Bottom: 25
+Margin Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0
+Autosize PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+12:22:57 (0x70000e746000): Creating new browser
+12:22:57 (0x70000e746000): Waited for 0s to create a browser
+12:22:58 (0x700007281000): Process os_name: 'macos'
+12:22:58 (0x700007281000): gpu_mode: '0'
+12:22:58 (0x700007281000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,3771312977302135031,1137981112855622270,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:22:58 (0x700007281000): Created browser 1
+12:22:58 (0x700007281000): Processing job for content '
+            <html lang="en">
+            <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            </head>
+            <body style="background-color=white">
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #98
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #98</strong></div>
+                                            <div>Date: 16.01.2022 12:22:55</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>31979</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+                    '
+12:22:58 (0x700007281000): Process os_name: 'macos'
+12:22:58 (0x700007281000): gpu_mode: '0'
+12:22:58 (0x700007281000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:22:58 (0x700007281000): Process os_name: 'macos'
+12:22:58 (0x700007281000): gpu_mode: '0'
+12:22:58 (0x700007281000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:22:58 (0x700009e25000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+12:22:58 (0x700009e25000): Resolved resource request using default handler
+12:22:58 (0x700009e25000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+12:22:58 (0x700007281000): Browser process received message: 'OnBrowserCreated'
+12:22:58 (0x700007281000): Received message from render process with values '' (0)
+12:22:58 (0x700007281000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+12:22:58 (0x700007281000): Browser 1 status: 
+12:22:58 (0x700009e25000): Received resource request from https://ironsoftwarescheme.com for https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css on browser 1 (nav: 0, dl: 0)
+12:22:58 (0x700009e25000): Resolved resource request using default handler
+12:22:58 (0x700007281000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+12:22:58 (0x700007281000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+12:22:58 (0x700007281000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+12:22:58 (0x700007281000): Finished dev tools method on browser 1 (message ID: 1)
+12:22:58 (0x700007281000): Sending DOM-visit process message for browser 1 (job ID: 0)
+12:22:58 (0x700007281000): Browser process received message: 'OnDomVisited'
+12:22:58 (0x700007281000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+12:22:58 (0x700007281000): Printing from browser to '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfCuW0KW'
+12:22:59 (0x700007281000): Received browser print callback for path '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfCuW0KW' (1)
+12:22:59 (0x700007281000): Print finished for browser 1(success: 1)
+12:22:59 (0x700007281000): No document title found
+12:22:59 (0x700007281000): Retrieve Html title: 
+12:22:59 (0x700007281000): Generating form fields
+12:22:59 (0x700007281000): Adding default font for form fields
+12:22:59 (0x700007281000): Initializing forms for page 0
+12:22:59 (0x700007281000): Retrieving document bytes
+12:22:59 (0x700007281000): Pdf document factory is generating bytes using document pointer 0x60000120e970
+12:22:59 (0x700007281000): Pdf document factory succesfully generated bytes 0x60000120e970
+12:22:59 (0x700007281000): Successfully generated 81832 bytes from Pdf document factory writer
+12:22:59 (0x700007281000): Closing browser 1
+12:22:59 (0x700007281000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+12:22:59 (0x700007281000): Destroying browser (id:1)
+12:22:59 (0x700007281000): Finished job 0
+12:22:59 (0x700007281000): Job group finished
+12:22:59 (0x700007281000): Job group 0 finished
+12:22:59 (0x700007281000): CefProxyController::QuitMessageLoop()
+12:22:59 (0x700007281000): CefMessagePumpStd::Quit()
+12:22:59 (0x700007281000): CefMessagePumpStd::DoQuit()
+12:22:59 (0x700007281000): Retrieving 81832 bytes from job 0
+12:24:44 (0x7000040f6000): ~ Chrome renderer v2021.12.0.4391~
+12:24:44 (0x7000040f6000): Initializing Cef proxy controller
+12:24:44 (0x7000040f6000): CefProxy()
+12:24:44 (0x7000040f6000): CefInterface()
+12:24:44 (0x7000040f6000): Assigning Cef proxy controller events...
+12:24:44 (0x7000040f6000): Assigning Cef proxy controller stream provider...
+12:24:44 (0x7000040f6000): Successful first-time initialization of Chrome renderer
+12:24:44 (0x7000040f6000): Initializing Cef proxy controller
+12:24:44 (0x7000040f6000): Using subprocess path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess'
+12:24:44 (0x7000040f6000): Using framework path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+12:24:44 (0x7000040f6000): Using resources path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+12:24:44 (0x7000040f6000): Process os_name: 'macos'
+12:24:44 (0x7000040f6000): gpu_mode: '0'
+12:24:44 (0x7000040f6000): Launching Main process ' --browser-subprocess-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:24:44 (0x7000040f6000): Process os_name: 'macos'
+12:24:44 (0x7000040f6000): gpu_mode: '0'
+12:24:44 (0x7000040f6000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,12126449978481826057,9116133882891445193,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:24:44 (0x7000040f6000): Cef context initialized
+12:24:44 (0x7000040f6000): Registering custom scheme for rendering raw html
+12:24:44 (0x7000040f6000): Cef initialization succeeded
+12:24:45 (0x7000040f6000): Generating PDF from HTML '
+            <html lang="en">
+            <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            </head>
+            <body style="background-color=white">
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #99
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #99</strong></div>
+                                            <div>Date: 16.01.2022 12:24:43</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>10489</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+                    '
+12:24:45 (0x7000040f6000): BROWSER SETTINGS:
+View Width: 1280
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+12:24:45 (0x7000040f6000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 1
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 25
+Margin Right: 25
+Margin Bottom: 25
+Margin Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0
+Autosize PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+12:24:45 (0x70000ae3b000): Creating new browser
+12:24:45 (0x70000ae3b000): Waited for 0s to create a browser
+12:24:45 (0x7000040f6000): Process os_name: 'macos'
+12:24:45 (0x7000040f6000): gpu_mode: '0'
+12:24:45 (0x7000040f6000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,12126449978481826057,9116133882891445193,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:24:45 (0x7000040f6000): Created browser 1
+12:24:45 (0x7000040f6000): Processing job for content '
+            <html lang="en">
+            <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            </head>
+            <body style="background-color=white">
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #99
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #99</strong></div>
+                                            <div>Date: 16.01.2022 12:24:43</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>10489</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+                    '
+12:24:45 (0x7000040f6000): Process os_name: 'macos'
+12:24:45 (0x7000040f6000): gpu_mode: '0'
+12:24:45 (0x7000040f6000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:24:45 (0x7000040f6000): Process os_name: 'macos'
+12:24:45 (0x7000040f6000): gpu_mode: '0'
+12:24:45 (0x7000040f6000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+12:24:45 (0x700006e23000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+12:24:45 (0x700006e23000): Resolved resource request using default handler
+12:24:45 (0x700006e23000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+12:24:45 (0x7000040f6000): Browser process received message: 'OnBrowserCreated'
+12:24:45 (0x7000040f6000): Received message from render process with values '' (0)
+12:24:45 (0x7000040f6000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+12:24:45 (0x7000040f6000): Browser 1 status: 
+12:24:45 (0x700006e23000): Received resource request from https://ironsoftwarescheme.com for https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css on browser 1 (nav: 0, dl: 0)
+12:24:45 (0x700006e23000): Resolved resource request using default handler
+12:24:45 (0x7000040f6000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+12:24:45 (0x7000040f6000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+12:24:45 (0x7000040f6000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+12:24:45 (0x7000040f6000): Finished dev tools method on browser 1 (message ID: 1)
+12:24:45 (0x7000040f6000): Sending DOM-visit process message for browser 1 (job ID: 0)
+12:24:45 (0x7000040f6000): Browser process received message: 'OnDomVisited'
+12:24:45 (0x7000040f6000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+12:24:45 (0x7000040f6000): Printing from browser to '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfuqjckt'
+12:24:46 (0x7000040f6000): Received browser print callback for path '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfuqjckt' (1)
+12:24:46 (0x7000040f6000): Print finished for browser 1(success: 1)
+12:24:46 (0x7000040f6000): No document title found
+12:24:46 (0x7000040f6000): Retrieve Html title: 
+12:24:46 (0x7000040f6000): Generating form fields
+12:24:46 (0x7000040f6000): Adding default font for form fields
+12:24:46 (0x7000040f6000): Initializing forms for page 0
+12:24:46 (0x7000040f6000): Retrieving document bytes
+12:24:46 (0x7000040f6000): Pdf document factory is generating bytes using document pointer 0x60000262c1a0
+12:24:46 (0x7000040f6000): Pdf document factory succesfully generated bytes 0x60000262c1a0
+12:24:46 (0x7000040f6000): Successfully generated 81413 bytes from Pdf document factory writer
+12:24:46 (0x7000040f6000): Closing browser 1
+12:24:46 (0x7000040f6000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+12:24:46 (0x7000040f6000): Destroying browser (id:1)
+12:24:46 (0x7000040f6000): Finished job 0
+12:24:46 (0x7000040f6000): Job group finished
+12:24:46 (0x7000040f6000): Job group 0 finished
+12:24:46 (0x7000040f6000): CefProxyController::QuitMessageLoop()
+12:24:46 (0x7000040f6000): CefMessagePumpStd::Quit()
+12:24:46 (0x7000040f6000): CefMessagePumpStd::DoQuit()
+12:24:46 (0x7000040f6000): Retrieving 81413 bytes from job 0
+14:15:05 (0x700009932000): ~ Chrome renderer v2021.12.0.4391~
+14:15:05 (0x700009932000): Initializing Cef proxy controller
+14:15:05 (0x700009932000): CefProxy()
+14:15:05 (0x700009932000): CefInterface()
+14:15:05 (0x700009932000): Assigning Cef proxy controller events...
+14:15:05 (0x700009932000): Assigning Cef proxy controller stream provider...
+14:15:05 (0x700009932000): Successful first-time initialization of Chrome renderer
+14:15:05 (0x700009932000): Initializing Cef proxy controller
+14:15:05 (0x700009932000): Using subprocess path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess'
+14:15:05 (0x700009932000): Using framework path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+14:15:05 (0x700009932000): Using resources path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+14:15:05 (0x700009932000): Process os_name: 'macos'
+14:15:05 (0x700009932000): gpu_mode: '0'
+14:15:05 (0x700009932000): Launching Main process ' --browser-subprocess-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+14:15:05 (0x700009932000): Process os_name: 'macos'
+14:15:05 (0x700009932000): gpu_mode: '0'
+14:15:05 (0x700009932000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,1009640597526325448,919743999650079623,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+14:15:05 (0x700009932000): Cef context initialized
+14:15:05 (0x700009932000): Registering custom scheme for rendering raw html
+14:15:05 (0x700009932000): Cef initialization succeeded
+14:15:06 (0x700009932000): Generating PDF from HTML '
+            <html lang="en">
+            <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            </head>
+            <body>
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #111
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #111</strong></div>
+                                            <div>Date: 16.01.2022 14:15:03</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>17997</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+                    '
+14:15:06 (0x700009932000): BROWSER SETTINGS:
+View Width: 1280
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+14:15:06 (0x700009932000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 1
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 25
+Margin Right: 25
+Margin Bottom: 25
+Margin Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0
+Autosize PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+14:15:06 (0x700010f80000): Creating new browser
+14:15:06 (0x700010f80000): Waited for 0s to create a browser
+14:15:06 (0x700009932000): Process os_name: 'macos'
+14:15:06 (0x700009932000): gpu_mode: '0'
+14:15:06 (0x700009932000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,1009640597526325448,919743999650079623,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+14:15:06 (0x700009932000): Created browser 1
+14:15:06 (0x700009932000): Processing job for content '
+            <html lang="en">
+            <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            </head>
+            <body>
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #111
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #111</strong></div>
+                                            <div>Date: 16.01.2022 14:15:03</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>17997</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+                    '
+14:15:06 (0x700009932000): Process os_name: 'macos'
+14:15:06 (0x700009932000): gpu_mode: '0'
+14:15:06 (0x700009932000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+14:15:06 (0x700009932000): Process os_name: 'macos'
+14:15:06 (0x700009932000): gpu_mode: '0'
+14:15:06 (0x700009932000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+14:15:06 (0x70000c765000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+14:15:06 (0x70000c765000): Resolved resource request using default handler
+14:15:06 (0x70000c765000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+14:15:06 (0x700009932000): Browser process received message: 'OnBrowserCreated'
+14:15:06 (0x700009932000): Received message from render process with values '' (0)
+14:15:06 (0x700009932000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+14:15:06 (0x700009932000): Browser 1 status: 
+14:15:06 (0x70000c765000): Received resource request from https://ironsoftwarescheme.com for https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css on browser 1 (nav: 0, dl: 0)
+14:15:06 (0x70000c765000): Resolved resource request using default handler
+14:15:06 (0x700009932000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+14:15:06 (0x700009932000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+14:15:06 (0x700009932000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+14:15:06 (0x700009932000): Finished dev tools method on browser 1 (message ID: 1)
+14:15:06 (0x700009932000): Sending DOM-visit process message for browser 1 (job ID: 0)
+14:15:06 (0x700009932000): Browser process received message: 'OnDomVisited'
+14:15:06 (0x700009932000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+14:15:06 (0x700009932000): Printing from browser to '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfJ7qCFH'
+14:15:07 (0x700009932000): Received browser print callback for path '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfJ7qCFH' (1)
+14:15:07 (0x700009932000): Print finished for browser 1(success: 1)
+14:15:07 (0x700009932000): No document title found
+14:15:07 (0x700009932000): Retrieve Html title: 
+14:15:07 (0x700009932000): Generating form fields
+14:15:07 (0x700009932000): Adding default font for form fields
+14:15:07 (0x700009932000): Initializing forms for page 0
+14:15:07 (0x700009932000): Retrieving document bytes
+14:15:07 (0x700009932000): Pdf document factory is generating bytes using document pointer 0x6000004e7330
+14:15:07 (0x700009932000): Pdf document factory succesfully generated bytes 0x6000004e7330
+14:15:07 (0x700009932000): Successfully generated 79331 bytes from Pdf document factory writer
+14:15:07 (0x700009932000): Closing browser 1
+14:15:07 (0x700009932000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+14:15:07 (0x700009932000): Destroying browser (id:1)
+14:15:07 (0x700009932000): Finished job 0
+14:15:07 (0x700009932000): Job group finished
+14:15:07 (0x700009932000): Job group 0 finished
+14:15:07 (0x700009932000): CefProxyController::QuitMessageLoop()
+14:15:07 (0x700009932000): CefMessagePumpStd::Quit()
+14:15:07 (0x700009932000): CefMessagePumpStd::DoQuit()
+14:15:07 (0x700009932000): Retrieving 79331 bytes from job 0
+14:46:02 (0x700001e5e000): ~ Chrome renderer v2021.12.0.4391~
+14:46:02 (0x700001e5e000): Initializing Cef proxy controller
+14:46:02 (0x700001e5e000): CefProxy()
+14:46:02 (0x700001e5e000): CefInterface()
+14:46:02 (0x700001e5e000): Assigning Cef proxy controller events...
+14:46:02 (0x700001e5e000): Assigning Cef proxy controller stream provider...
+14:46:02 (0x700001e5e000): Successful first-time initialization of Chrome renderer
+14:46:02 (0x700001e5e000): Initializing Cef proxy controller
+14:46:02 (0x700001e5e000): Using subprocess path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess'
+14:46:02 (0x700001e5e000): Using framework path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+14:46:02 (0x700001e5e000): Using resources path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+14:46:02 (0x700001e5e000): Process os_name: 'macos'
+14:46:02 (0x700001e5e000): gpu_mode: '0'
+14:46:02 (0x700001e5e000): Launching Main process ' --browser-subprocess-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+14:46:03 (0x700001e5e000): Process os_name: 'macos'
+14:46:03 (0x700001e5e000): gpu_mode: '0'
+14:46:03 (0x700001e5e000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,2354879399514345137,4879437781077361626,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+14:46:03 (0x700001e5e000): Cef context initialized
+14:46:03 (0x700001e5e000): Registering custom scheme for rendering raw html
+14:46:03 (0x700001e5e000): Cef initialization succeeded
+14:46:03 (0x700001e5e000): Generating PDF from HTML '
+            <html lang="en">
+            <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            </head>
+            <body>
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #119
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #119</strong></div>
+                                            <div>Date: 16.01.2022 14:46:00</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+                            <tr>
+                                <td>1</td>
+                                <td>ETA Raggio, robotický vysavač</td>
+                                <td>1</td>
+                                <td>9999</td>
+                                <td>9999</td>
+                            </tr>
+                        
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>9999</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+                    '
+14:46:03 (0x700001e5e000): BROWSER SETTINGS:
+View Width: 1280
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+14:46:03 (0x700001e5e000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 1
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 25
+Margin Right: 25
+Margin Bottom: 25
+Margin Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0
+Autosize PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+14:46:03 (0x700008e88000): Creating new browser
+14:46:03 (0x700008e88000): Waited for 0s to create a browser
+14:46:03 (0x700001e5e000): Process os_name: 'macos'
+14:46:03 (0x700001e5e000): gpu_mode: '0'
+14:46:03 (0x700001e5e000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,2354879399514345137,4879437781077361626,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+14:46:03 (0x700001e5e000): Created browser 1
+14:46:03 (0x700001e5e000): Processing job for content '
+            <html lang="en">
+            <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            </head>
+            <body>
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #119
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #119</strong></div>
+                                            <div>Date: 16.01.2022 14:46:00</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+                            <tr>
+                                <td>1</td>
+                                <td>ETA Raggio, robotický vysavač</td>
+                                <td>1</td>
+                                <td>9999</td>
+                                <td>9999</td>
+                            </tr>
+                        
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>9999</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+                    '
+14:46:03 (0x700001e5e000): Process os_name: 'macos'
+14:46:03 (0x700001e5e000): gpu_mode: '0'
+14:46:03 (0x700001e5e000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+14:46:03 (0x700001e5e000): Process os_name: 'macos'
+14:46:03 (0x700001e5e000): gpu_mode: '0'
+14:46:03 (0x700001e5e000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+14:46:03 (0x70000466d000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+14:46:03 (0x70000466d000): Resolved resource request using default handler
+14:46:03 (0x70000466d000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+14:46:03 (0x700001e5e000): Browser process received message: 'OnBrowserCreated'
+14:46:03 (0x700001e5e000): Received message from render process with values '' (0)
+14:46:03 (0x700001e5e000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+14:46:03 (0x700001e5e000): Browser 1 status: 
+14:46:03 (0x70000466d000): Received resource request from https://ironsoftwarescheme.com for https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css on browser 1 (nav: 0, dl: 0)
+14:46:03 (0x70000466d000): Resolved resource request using default handler
+14:46:04 (0x700001e5e000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+14:46:04 (0x700001e5e000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+14:46:04 (0x700001e5e000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+14:46:04 (0x700001e5e000): Finished dev tools method on browser 1 (message ID: 1)
+14:46:04 (0x700001e5e000): Sending DOM-visit process message for browser 1 (job ID: 0)
+14:46:04 (0x700001e5e000): Browser process received message: 'OnDomVisited'
+14:46:04 (0x700001e5e000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+14:46:04 (0x700001e5e000): Printing from browser to '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfhMSThX'
+14:46:04 (0x700001e5e000): Received browser print callback for path '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfhMSThX' (1)
+14:46:04 (0x700001e5e000): Print finished for browser 1(success: 1)
+14:46:04 (0x700001e5e000): No document title found
+14:46:04 (0x700001e5e000): Retrieve Html title: 
+14:46:04 (0x700001e5e000): Generating form fields
+14:46:04 (0x700001e5e000): Adding default font for form fields
+14:46:04 (0x700001e5e000): Initializing forms for page 0
+14:46:04 (0x700001e5e000): Retrieving document bytes
+14:46:04 (0x700001e5e000): Pdf document factory is generating bytes using document pointer 0x600001f7e2f0
+14:46:04 (0x700001e5e000): Pdf document factory succesfully generated bytes 0x600001f7e2f0
+14:46:04 (0x700001e5e000): Successfully generated 80459 bytes from Pdf document factory writer
+14:46:04 (0x700001e5e000): Closing browser 1
+14:46:04 (0x700001e5e000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+14:46:04 (0x700001e5e000): Destroying browser (id:1)
+14:46:04 (0x700001e5e000): Finished job 0
+14:46:04 (0x700001e5e000): Job group finished
+14:46:04 (0x700001e5e000): Job group 0 finished
+14:46:04 (0x700001e5e000): CefProxyController::QuitMessageLoop()
+14:46:04 (0x700001e5e000): CefMessagePumpStd::Quit()
+14:46:04 (0x700001e5e000): CefMessagePumpStd::DoQuit()
+14:46:04 (0x700001e5e000): Retrieving 80459 bytes from job 0
+14:49:54 (0x70000920e000): ~ Chrome renderer v2021.12.0.4391~
+14:49:54 (0x70000920e000): Initializing Cef proxy controller
+14:49:54 (0x70000920e000): CefProxy()
+14:49:54 (0x70000920e000): CefInterface()
+14:49:54 (0x70000920e000): Assigning Cef proxy controller events...
+14:49:54 (0x70000920e000): Assigning Cef proxy controller stream provider...
+14:49:54 (0x70000920e000): Successful first-time initialization of Chrome renderer
+14:49:54 (0x70000920e000): Initializing Cef proxy controller
+14:49:54 (0x70000920e000): Using subprocess path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess'
+14:49:54 (0x70000920e000): Using framework path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+14:49:54 (0x70000920e000): Using resources path '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+14:49:54 (0x70000920e000): Process os_name: 'macos'
+14:49:54 (0x70000920e000): gpu_mode: '0'
+14:49:54 (0x70000920e000): Launching Main process ' --browser-subprocess-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+14:49:54 (0x70000920e000): Process os_name: 'macos'
+14:49:54 (0x70000920e000): gpu_mode: '0'
+14:49:54 (0x70000920e000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,885449973411167467,16460854203822847089,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+14:49:54 (0x70000920e000): Cef context initialized
+14:49:54 (0x70000920e000): Registering custom scheme for rendering raw html
+14:49:54 (0x70000920e000): Cef initialization succeeded
+14:49:54 (0x70000920e000): Generating PDF from HTML '
+            <html lang="en">
+            <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            </head>
+            <body>
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #120
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #120</strong></div>
+                                            <div>Date: 16.01.2022 14:49:52</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+                            <tr>
+                                <td>1</td>
+                                <td>iRobot Roomba s9+</td>
+                                <td>1</td>
+                                <td>39 999,00 CZK</td>
+                                <td>39 999,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>2</td>
+                                <td>ETA Raggio, robotický vysavač</td>
+                                <td>1</td>
+                                <td>9 999,00 CZK</td>
+                                <td>9 999,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>3</td>
+                                <td>Concept VR1000 Robotický vysavač s mopem RoboCross Space Aqua</td>
+                                <td>2</td>
+                                <td>3 999,00 CZK</td>
+                                <td>7 998,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>4</td>
+                                <td>Roborock S7 White, robotický vysavač s mopem</td>
+                                <td>1</td>
+                                <td>13 990,00 CZK</td>
+                                <td>13 990,00 CZK</td>
+                            </tr>
+                        
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>71 986,00 CZK</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+                    '
+14:49:54 (0x70000920e000): BROWSER SETTINGS:
+View Width: 1280
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+14:49:54 (0x70000920e000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 1
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 25
+Margin Right: 25
+Margin Bottom: 25
+Margin Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0
+Autosize PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+14:49:54 (0x700010238000): Creating new browser
+14:49:54 (0x700010238000): Waited for 0s to create a browser
+14:49:54 (0x70000920e000): Process os_name: 'macos'
+14:49:54 (0x70000920e000): gpu_mode: '0'
+14:49:54 (0x70000920e000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,885449973411167467,16460854203822847089,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+14:49:54 (0x70000920e000): Created browser 1
+14:49:54 (0x70000920e000): Processing job for content '
+            <html lang="en">
+            <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            </head>
+            <body>
+                <section class="container-fluid">
+                    <div id="ui-view" data-select2-id="ui-view">
+                        <div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Invoice #120
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">From:</h6>
+                                            <div>
+                                                <strong>Robots.EShop</strong>
+                                            </div>
+                                            <div>Address: ...</div>
+                                            <div>Email: <a href="mailto:robotseshop@gmail.com">robotseshop@gmail.com</a></div>
+                                            <div>Phone: ...</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">To:</h6>
+                                            <strong>Ondřej Šálek</strong>
+                                            <div>Address: ...</div>
+                                            <div>Email: o_salek@utb.cz</div>
+                                            <div>Phone: 00001111</div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-3">Details:</h6>
+                                            <div>Invoice:<strong> #120</strong></div>
+                                            <div>Date: 16.01.2022 14:49:52</div>
+                                            <div>Account: ondrej</div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Amount</th>
+                                            <th>Base Price</th>
+                                            <th>Total Price</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                
+                            <tr>
+                                <td>1</td>
+                                <td>iRobot Roomba s9+</td>
+                                <td>1</td>
+                                <td>39 999,00 CZK</td>
+                                <td>39 999,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>2</td>
+                                <td>ETA Raggio, robotický vysavač</td>
+                                <td>1</td>
+                                <td>9 999,00 CZK</td>
+                                <td>9 999,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>3</td>
+                                <td>Concept VR1000 Robotický vysavač s mopem RoboCross Space Aqua</td>
+                                <td>2</td>
+                                <td>3 999,00 CZK</td>
+                                <td>7 998,00 CZK</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>4</td>
+                                <td>Roborock S7 White, robotický vysavač s mopem</td>
+                                <td>1</td>
+                                <td>13 990,00 CZK</td>
+                                <td>13 990,00 CZK</td>
+                            </tr>
+                        
+            </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-5 ml-auto">
+                            <table class="table table-clear">
+                                <tbody>
+                                <tr>
+                                    <td class="left">
+                                        <strong>Total Price</strong>
+                                    </td>
+                                    <td class="right">
+                                        <strong>71 986,00 CZK</strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div>Thanks for Buying this items from us.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+                    '
+14:49:54 (0x70000920e000): Process os_name: 'macos'
+14:49:54 (0x70000920e000): gpu_mode: '0'
+14:49:54 (0x70000920e000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+14:49:54 (0x70000920e000): Process os_name: 'macos'
+14:49:54 (0x70000920e000): gpu_mode: '0'
+14:49:54 (0x70000920e000): Launching child process '/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/osalek/Projects/Salek.EShop.Web/Salek.EShop.Web/bin/Debug/net5.0/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/osalek/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+14:49:54 (0x70000ba1d000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+14:49:54 (0x70000ba1d000): Resolved resource request using default handler
+14:49:54 (0x70000ba1d000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+14:49:55 (0x70000920e000): Browser process received message: 'OnBrowserCreated'
+14:49:55 (0x70000920e000): Received message from render process with values '' (0)
+14:49:55 (0x70000920e000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+14:49:55 (0x70000920e000): Browser 1 status: 
+14:49:55 (0x70000ba1d000): Received resource request from https://ironsoftwarescheme.com for https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css on browser 1 (nav: 0, dl: 0)
+14:49:55 (0x70000ba1d000): Resolved resource request using default handler
+14:49:55 (0x70000920e000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+14:49:55 (0x70000920e000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+14:49:55 (0x70000920e000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+14:49:55 (0x70000920e000): Finished dev tools method on browser 1 (message ID: 1)
+14:49:55 (0x70000920e000): Sending DOM-visit process message for browser 1 (job ID: 0)
+14:49:55 (0x70000920e000): Browser process received message: 'OnDomVisited'
+14:49:55 (0x70000920e000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+14:49:55 (0x70000920e000): Printing from browser to '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfoIWpEE'
+14:49:55 (0x70000920e000): Received browser print callback for path '/var/folders/3g/nwqwb1pn663688nd836_lbr80000gn/T/pdfoIWpEE' (1)
+14:49:55 (0x70000920e000): Print finished for browser 1(success: 1)
+14:49:55 (0x70000920e000): No document title found
+14:49:55 (0x70000920e000): Retrieve Html title: 
+14:49:55 (0x70000920e000): Generating form fields
+14:49:55 (0x70000920e000): Adding default font for form fields
+14:49:56 (0x70000920e000): Initializing forms for page 0
+14:49:56 (0x70000920e000): Initializing forms for page 1
+14:49:56 (0x70000920e000): Retrieving document bytes
+14:49:56 (0x70000920e000): Pdf document factory is generating bytes using document pointer 0x600003038d00
+14:49:56 (0x70000920e000): Pdf document factory succesfully generated bytes 0x600003038d00
+14:49:56 (0x70000920e000): Successfully generated 95990 bytes from Pdf document factory writer
+14:49:56 (0x70000920e000): Closing browser 1
+14:49:56 (0x70000920e000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+14:49:56 (0x70000920e000): Destroying browser (id:1)
+14:49:56 (0x70000920e000): Finished job 0
+14:49:56 (0x70000920e000): Job group finished
+14:49:56 (0x70000920e000): Job group 0 finished
+14:49:56 (0x70000920e000): CefProxyController::QuitMessageLoop()
+14:49:56 (0x70000920e000): CefMessagePumpStd::Quit()
+14:49:56 (0x70000920e000): CefMessagePumpStd::DoQuit()
+14:49:56 (0x70000920e000): Retrieving 95990 bytes from job 0

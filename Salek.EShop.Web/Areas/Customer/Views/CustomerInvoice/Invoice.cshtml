@@ -3,8 +3,9 @@
 
 @{
     var filename = $"Invoice #{Model.ID}";
+    ViewData["Title"] = filename;
+
 }
-<title>@filename</title>
 <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
 <section class="container-fluid ">
     <div id="ui-view" data-select2-id="ui-view">
@@ -49,7 +50,6 @@
                         <tr>
                             <th>#</th>
                             <th>@nameof(ProductItem.Name)</th>
-                            @* <th>@nameof(ProductItem.Description)</th> *@
                             <th>@nameof(OrderItem.Amount)</th>
                             <th>Base @nameof(OrderItem.Product.Price)</th>
                             <th>Total @nameof(OrderItem.Price)</th>
@@ -64,7 +64,6 @@
                                     @{i++;}
                                     <td>@i</td>
                                     <td>@item.Product.Name</td>
-                                    @* <td class="">@item.Product.Description</td> *@
                                     <td>@item.Amount</td>
                                     @{
                                         double price = item.Product.Price;
